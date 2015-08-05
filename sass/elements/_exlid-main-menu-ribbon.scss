@@ -1,0 +1,204 @@
+
+#exlidMainMenuTile {
+    @include reset-margins;
+    @include span-columns(8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    vertical-align: middle;
+    height: auto;
+    clear: none;
+}
+
+#exlidMainMenuTile div.EXLMainMenuContainer {
+    display: block;
+    width: auto;
+    @include clearfix;
+}
+
+#exlidMainMenuTile div.EXLMainMenuContainer ul {
+    list-style-type: none;
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer {
+    @include reset-margins;
+    font-family: sans-serif;
+    font-size: $xsmall-font-size;
+    z-index: 100;
+    height: auto;
+    width: 80px;
+    float: left;
+    position: relative;
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
+    float: left;
+    text-align: left;
+    color: $gray;
+    display: none;
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer div.EXLLanguagesMenu {
+    float: left;
+    width: auto;
+    position: absolute;
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow {
+    float: right;
+    clear: left;
+    border: 1px solid $base-color-light;
+    display: inline;
+    padding: 2px 10px 2px 10px;
+    background-color: #FFFFFF;
+    list-style-type: none;
+    margin: 0px;
+    position: relative;
+    top: -2px;
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide {
+    border: 0px;
+    background-color: transparent
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow li.EXLLanguageLink {
+    list-style: none;
+    float: left;
+    white-space: nowrap;
+    background-color: #ffffff;
+    z-index: 100;
+    display: inline;
+    clear: left;
+    cursor: pointer;
+    vertical-align: text-top;
+    font-size: $small-font-size;
+    margin-bottom: 0;
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide li.EXLLanguageLinkHide {
+    display: none
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer li.EXLLanguageLinkHide {
+    line-height: 150%
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer li {
+    color: $gray;
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer li a {
+    width: auto;
+    cursor: pointer;
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer li img {
+    width: 8px;
+    height: 5px;
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
+
+#exlidMainMenuTile div.EXLLanguagesContainer li#exlidSelectedLanguage a {
+    color: $black;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+
+#exlidMainMenuRibbon {
+    @include reset-margins;
+    float: left;
+    display: block;
+    list-style: none;
+    width: auto;
+}
+
+#exlidMainMenuRibbon li {
+    @include reset-margins;
+    font-family: sans-serif;
+    font-size: $small-font-size;
+    font-weight: normal;
+    float: left;
+    list-style: none;
+    width: auto;
+    height: 20px;
+    border-left: 1px solid $gray;
+    overflow: visible;
+
+    a {
+        font-family: sans-serif;
+        color: $gray-dark-secondary;
+        text-decoration: none;
+        margin: 0 ($spacing-small / 2);
+        width: auto;
+    }
+
+    &:first-child {
+      border-left: none;
+
+      a {
+          margin-left: 0;
+      }
+    }
+}
+
+#exlidMainMenuRibbon li a:hover {
+    color: $black-secondary;
+    text-decoration: underline
+}
+
+#exlidMainMenuRibbon li span {
+  @include reset-margins;
+  display: block;
+  border-right: none;
+  float: left;
+}
+
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span {
+
+}
+
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span a {
+    @include reset-margins;
+    padding: 0 ($spacing-small / 4);
+    margin: 0 ($spacing-small / 4);
+    background: $base-color;
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    border-right: none;
+    white-space: nowrap;
+    color: $white;
+    font-weight: normal;
+    @include prefixer(text-shadow, 0 1px 2px rgba($black, .5), webkit moz spec);
+    @include prefixer(border-radius, 3px, webkit moz spec);
+}
+
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected span a.EXLMainMenuITEMATOZClose {
+    border-left: medium none;
+    border-right: 1px solid $base-color;
+    display: none;
+}
+
+#exlidMainMenuRibbon li span.EXLMainMenuItemSelectedClose {
+    color: #555555;
+    border: none;
+    padding-left: 0em;
+    padding-right: 0em;
+    // background-image: url(../images/icon_close_tab.png);
+    width: 16px;
+    height: 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-left: 0em;
+    margin-top: 1px;
+}
+
+#exlidMainMenuRibbon li.EXLMainMenuItemSelected a:hover {
+    text-decoration: none;
+}

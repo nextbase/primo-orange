@@ -1,0 +1,18 @@
+.EXLResultsList p.EXLResultSnippet {
+    display: none;
+}
+
+#exlidSuggestedList {
+	display: none;
+}
+
+#google {
+	@include reset-margins;
+	@include outer-container;
+	padding: 5px 0;
+	border-top: 1px solid $gray-light;
+	border-bottom: 1px solid $gray-light;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: $small-font-size - 2px;
+}

@@ -1,0 +1,59 @@
+// Variables
+@import 'variables/colors';
+@import 'variables/results-list';
+
+// Neat & Bourbon
+@import "bourbon/bourbon";
+@import "neat/neat";
+@import 'variables/grid-settings';
+
+// The original Primo design
+@import 'base/original-design';
+
+// Functions
+@import 'functions/prefixer';
+@import 'functions/resets';
+@import 'functions/font-feature-settings';
+
+// Base Styles
+@import 'base/typography';
+@import 'base/layout';
+@import 'base/fonts';
+@import 'base/forms';
+
+// Website Elements
+@import 'elements/calendar';
+@import 'elements/header';
+@import 'elements/navigation';
+@import 'elements/exlid-home-container';
+@import 'elements/exlid-user-area-ribbon';
+@import 'elements/exlid-search-tile';
+@import 'elements/exlid-search-ribbon';
+@import 'elements/exlid-search-banner';
+@import 'elements/exlid-main-menu-ribbon';
+@import 'elements/exlid-facets';
+@import 'elements/exlid-system-feedback';
+@import 'elements/exlid_advanced_search_tile';
+@import 'elements/exlid-citation-linker';
+@import 'elements/exli-overlay';
+@import 'elements/exl-results';
+@import 'elements/exl-results-list';
+@import 'elements/exl-results-browse';
+@import 'elements/exl-result';
+@import 'elements/exl-refinement';
+@import 'elements/exl-full-view';
+@import 'elements/exl-search-tab';
+@import 'elements/exl-content-blocks';
+@import 'elements/exl-result-media-types';
+@import 'elements/exl-result-tabs-ribbon';
+@import 'elements/exl-result-tab-content';
+@import 'elements/exl-no-results';
+@import 'elements/exl-footer';
+@import 'elements/exl-my-account-tabs-ribbon';
+@import 'elements/exl-my-account';
+@import 'elements/tabs';
+@import 'elements/my-shelf';
+@import 'elements/temporary';
+
+// Responsive Design
+@import 'base/responsive-rules';

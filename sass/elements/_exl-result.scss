@@ -1,0 +1,61 @@
+.EXLFullDisplay .EXLResultsList  {
+
+	div.EXLResult {
+		@include reset-margins;
+
+		.EXLTabsRibbon {
+			@include reset-margins;
+			width: 100%;
+		}
+	}
+
+	div.EXLSummaryContainer {
+		padding-top: 0;
+
+		div.EXLSummaryFields {
+			@include reset-margins;
+			padding-left: 0;
+		}
+	}
+
+}
+
+body.EXLFullView .EXLFullDisplay div.EXLResultTabContainer {
+	@include reset-margins;
+	width: 100%;
+}
+
+.EXLFullDisplay .EXLResultsFooter {
+	@include outer-container;
+
+	.EXLBackToResults,
+	.EXLResultsNavigation {
+		@include span-columns(6);
+	}
+
+	.EXLPrevious {
+		margin-right: 10px;
+
+		img {
+			margin-right: 5px;
+		}
+	}
+
+	.EXLNext {
+		margin-left: 10px;
+
+		img {
+			margin-left: 5px;
+		}
+	}
+
+	.EXLDisplayedCountTitle {
+		color: $gray;
+		font-weight: bold;
+	}
+
+	.EXLDisplayedCount {
+		color: $black;
+		font-weight: bold;
+	}
+}

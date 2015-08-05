@@ -1,0 +1,155 @@
+
+.EXLTabsRibbon {
+    @include reset-margins;
+    @include span-columns(12);
+    height: auto;
+    border-bottom: 1px solid $secondary-color;
+    @include clearfix;
+}
+
+.EXLTabsRibbon div {
+  @include reset-margins;
+  @include clearfix;
+}
+
+.EXLTabsRibbon div ul {
+    margin-left: 0;
+    margin-bottom: 0;
+
+    &.EXLResultTabs {
+      height: 33px;
+    }
+}
+
+.EXLTabsRibbon div li {
+    @include reset-margins;
+    display: inline;
+    height: auto;
+    cursor: pointer;
+}
+
+.EXLTabsRibbon div li.EXLResultTab {
+    @include reset-margins;
+    font-family: $tabs-font-family;
+    font-size: $small-font-size;
+    float: left;
+    color: $black;
+    @include clearfix;
+}
+
+.EXLTabsRibbon div li.EXLResultTab a {
+    padding: ((($tabs-height - $tabs-font-size) / 2) + 3px) ($tabs-height / 2) (($tabs-height - $tabs-font-size) / 2) ($tabs-height / 2) ;
+    font-family: sans-serif;
+    font-size: $xsmall-font-size;
+    font-weight: bold;
+    line-height: 1;
+    color: $black;
+    background: $gray-light;
+    border: 1px solid $white;
+    float: left;
+
+    &:hover {
+      background: $gray-light-secondary;
+      text-decoration: none;
+    }
+}
+
+.EXLTabsRibbon div li.EXLResultTabIconPopout {
+    background-image: url(../images/icon_popout_tab.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.EXLTabsRibbon div li.EXLResultTabIconPopout a {
+    padding-right: 6px;
+}
+
+.EXLTabsRibbon div li.EXLResultTabIconSFX {
+    background-image: url(../images/icon_sfx.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+
+.EXLTabsRibbon div li.EXLResultTabIconSFX a {
+    padding-right: 6px;
+}
+
+.EXLTabsRibbon div a:hover {
+    text-decoration: underline;
+}
+
+.EXLTabsRibbon div li.EXLResultSelectedTab {
+    border: 1px solid $secondary-color-secondary;
+    border-bottom: 1px solid $secondary-color;
+    background-color: $secondary-color;
+    color: $black-secondary;
+    height: auto;
+
+    &:hover {
+      border-color: $base-color;
+      border-bottom-width: 2px;
+      border-top-width: 0;
+      position: relative;
+      top: 1px;
+    }
+
+}
+
+.EXLTabsRibbon div li.EXLResultSelectedTab a {
+    border-color: $secondary-color;
+    color: $black-secondary;
+    background-color: $secondary-color;
+    height: auto;
+
+    &:hover {
+      border-color: $base-color;
+      color: $white;
+      background-color: $base-color;
+      outline: 0;
+    }
+}
+
+.EXLTabsRibbon div li.EXLResultFirstTab {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.EXLTabsRibbon div li.EXLFirstSelectedTab {
+    padding-left: inherit;
+}
+
+.EXLTabsRibbonClosed {
+    border-bottom: none;
+    margin-bottom: 0;
+    clear: left
+}
+
+.EXLTabsRibbonClosed div li.EXLResultFirstTab {
+    padding-left: 0em;
+}
+
+.EXLResultTabContainer {
+    height: auto;
+    border: none;
+    border-top: none;
+    margin-bottom: $spacing-medium;
+    clear: left
+}
+
+.EXLResultTabContainerClosed {
+    display: none;
+    clear: left
+}
+
+.EXLResult .EXLTabContent iframe {
+    height: 17em;
+    width: 100%;
+}
+
+.EXLFullView .EXLResult .EXLTabContent iframe {
+    height: 30em;
+}
+
+.EXLTabsRibbon div li.EXLRecommendTabDisable {
+    display: none;
+}

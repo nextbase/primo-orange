@@ -1,0 +1,81 @@
+.EXLMyAccountTabsRibbon {
+    @include reset-margins;
+    height: 30px;
+    border-bottom: 2px solid $base-color;
+    line-height: 1.2;
+    background-color: $white;
+    @include outer-container;
+}
+
+.EXLMyAccountTabsRibbon div {
+    @include reset-margins;
+    @include span-columns(12);
+    @include omega();
+}
+
+.EXLMyAccountTabsRibbon div ul {
+    margin-left: 0.8em;
+    margin-bottom: 0em;
+}
+
+.EXLMyAccountTabsRibbon div li {
+    line-height: 160%;
+    font-size: 100%;
+    display: inline;
+    width: 6em;
+}
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountTab {
+    border: 1px solid $secondary-color-secondary;
+    border-bottom: 0px;
+    height: 27px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    float: left;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-right: 4px;
+    color: $gray-dark;
+    width: auto;
+}
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountTab a {
+    color: lighten($black, 5%);
+    font-size: 80%;
+}
+
+.EXLMyAccountTabsRibbon div a:hover {
+    text-decoration: underline;
+}
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountSelectedTab {
+    border: 1px solid $base-color;
+    border-bottom: 2px solid $base-color;
+    background-color: $base-color;
+    height: 26px;
+    text-align: center;
+    font-weight: bold;
+    vertical-align: middle;
+    float: left;
+    font-weight: bold;
+    text-decoration: none;
+    padding-left: 0.8em;
+    padding-right: 0.8em;
+    margin-right: 4px;
+    color: $white;
+    background-image: url(../images/bg_strip_btn_orange.png);
+    background-repeat: repeat-x;
+}
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountSelectedTab a {
+    color: $white;
+}
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountFirstTab {
+    padding-left: 0em;
+}
+
+.EXLMyAccountTabsRibbon div li.EXLMyAccountFirstSelectedTab {
+    padding-left: 0.5em;
+}

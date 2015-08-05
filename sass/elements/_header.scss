@@ -1,0 +1,36 @@
+#exlidHeaderContainer {
+    @include reset-margins;
+    @include outer-container;
+    @include clearfix;
+    margin-bottom: $section-spacing;
+    position: relative;
+    margin-bottom: 0;
+}
+
+#exlidHeaderTile {
+    @include reset-margins;
+    display: none;
+}
+
+@include media($mobile) {
+
+	#exlidHeaderContainer div.EXLSkipToContent {
+        display: none;
+  }
+  #exlidHeaderContainer div.EXLSkipToSystemFeedback {
+      display: none;
+  }
+
+}
+
+#exlidUserAreaTile {
+    @include reset-margins;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#exlidUserAreaTile ul {
+    @include reset-margins;
+    border: none
+}

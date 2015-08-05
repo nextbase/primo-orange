@@ -1,0 +1,42 @@
+$black: #333333;
+$white: #ffffff;
+$black-secondary: $black;
+
+$base-color: #f67d50;
+$base-color-hover: #e56434;
+
+$base-color-light: lighten($base-color, 15%);
+$base-color-light-secondary: lighten($base-color, 20%);
+
+$secondary-color: #99836e;
+$secondary-color-secondary: #c7bbaf;
+
+$yellow: #ffcc00;
+$yellow-secondary: #ffd950;
+
+$gray: #cfcfcf;
+$gray-hover: darken($gray, 15%);
+
+$gray-light: #f7f7f7;
+$gray-light-secondary: #d8d8d8;
+
+$gray-dark: #888888;
+$gray-dark-secondary: #666666;
+
+$orange: #fd8000;
+$orange-secondary: #de751c;
+
+$base-font-color: #333333;
+
+$alert-red: #F5C3C4;
+$alert-red-text: #9C4144;
+$alert-green: #8BAD79;
+
+$blue: #34aacc;
+$blue-dark: darken(#2391b2, 10%);
+$blue-light: lighten(#46c3e8, 10%);
+
+$anchor-color: $base-color;
+$anchor-hover: $base-color-hover;
+
+$notification-box: #fff693;

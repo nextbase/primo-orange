@@ -1,0 +1,215 @@
+#exlidAdvancedSearchTile {
+	@include reset-margins;
+    padding: 20px;
+    clear: left;
+    border: none;
+    background-image: none;
+    font-size: $small-font-size;
+    height: auto;
+    background-color: $gray;
+    width: 100%;
+
+    #exlidSearchTabs li {
+
+	    &:first-child {
+	        margin-left: 0;
+	        
+	        a {
+	            -webkit-border-top-left-radius: 4px;
+	            -webkit-border-bottom-left-radius: 0;
+	            -moz-border-radius-topleft: 4px;
+	            -moz-border-radius-bottomleft: 0;
+	            border-top-left-radius: 4px;
+	            border-bottom-left-radius: 0;
+	        }
+	    }
+
+
+	    &:last-child {
+	        a {
+	            -webkit-border-top-right-radius: 4px;
+	            -webkit-border-bottom-right-radius: 0;
+	            -moz-border-radius-topright: 4px;
+	            -moz-border-radius-bottomright: 0;
+	            border-top-right-radius: 4px;
+	            border-bottom-right-radius: 0;
+	        }
+	    }
+
+	}
+}
+
+#exlidAdvancedSearchRibbon {
+	@include reset-margins;
+    width: 100%;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbon {
+	@include reset-margins;
+    background-color: $gray-light;
+    clear: both;
+    border: none;
+    border-top: 4px solid $gray-dark-secondary;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    @include clearfix;
+}
+
+#exlidAdvancedSearchRibbon fieldset fieldset {
+    padding-left: 0;
+    display: block
+}
+
+#exlidAdvancedSearchRibbon fieldset legend {
+    display: none
+}
+
+[id^="exlidInput_scope"] {
+	@include form-element-width("narrow");
+}
+
+#exlidAdvancedSearchRibbon select[id^="exlidInput_boolOperator"],
+[id^="exlidInput_boolOperator"] {
+	width: 90px;
+}
+
+#exlidAdvancedSearchRibbon select {
+    @include input;
+	@include input-size("default");
+	@include set-input-style("inset");
+	@include input-select;
+}
+
+#exlidAdvancedSearchRibbon .EXLSelectedDatabasesHighlight {
+    background-color: #fff899
+}
+
+#exlidAdvancedSearchRibbon input {
+    @include input;
+	@include input-size("default");
+	@include set-input-style("inset");
+	@include form-element-width("default");
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1 {
+    @include span-columns(7 of 12);
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
+    @include span-columns(5 of 12);
+    height: auto;
+    border-left: 1px solid $secondary-color;
+    margin-left: 0;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select {
+    @include input;
+	@include input-size("small");
+	@include set-input-style("inset");
+	@include form-element-width("default");
+	@include input-select;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 label {
+    width: 140px;
+    margin-left: 1em;
+    float: left;
+    display: block;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 a {
+    width: 140px;
+    margin-left: 1em;
+    float: left;
+    display: block;
+}
+
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow {
+    margin: 0em;
+    float: left;
+    width: 100%;
+    padding-bottom: 0.5em;
+    margin-left: 0.5em;
+}
+
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRowHide {
+    display: none;
+}
+
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow fieldset span.EXLAdvancedSearchFormRowInlineInput {
+    display: inline;
+}
+
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow fieldset span.EXLAdvancedSearchFormRowInlineInput label {
+    display: none;
+}
+
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormRowInlineInput a {
+    display: inline;
+    white-space: nowrap;
+    margin-left: 0.3em
+}
+
+*:first-child+html #exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormRowInlineInput a {
+    display: inline;
+    margin-left: 0.3em;
+    white-space: normal;
+}
+
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormDateRangeRow select {
+    width: 5.5em;
+    text-align: left;
+    direction: ltr;
+}
+
+#exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormDateRangeRow input {
+    @include input;
+	@include input-size("small");
+	@include set-input-style("inset");
+    width: 4em;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormLinks {
+    float: left;
+    display: block;
+    line-height: 1.4;
+    padding: 9px 0;
+
+    a,
+    a:link,
+    a:visited {
+		color: $white;
+		border-bottom: 1px dotted $white;
+    }
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormSubmitSearch {
+    float: left;
+    display: inline;
+    clear: both;
+    border: none;
+    margin-top: 0;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch {
+    clear: none;
+}
+
+#exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormClearSearch input {
+    @include button;
+	@include set-button-color($gray-dark);
+	@include set-button-size;
+	background-image: none;
+}
+
+#exlidAdvancedSearchRibbon input.submit {
+    @include button;
+	@include set-button-color($blue);
+	@include set-button-size;
+	background-image: none;
+}
+
+#exlidAdvancedSearchTile .EXLSearchFieldRibbonFormSubmitSearch {
+    width: auto;
+}
