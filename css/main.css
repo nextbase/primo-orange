@@ -6153,7 +6153,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     display: table; }
 
 #exlidSearchTile.EXLSearchEJorunals {
-  border-top: 4px solid #f67d50;
+  border-top: 4px solid #333333;
   height: auto;
   background-position: bottom;
   background-color: #595959;
