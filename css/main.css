@@ -5180,7 +5180,7 @@ ol li {
 #exlidSearchTabs {
   margin: 0;
   padding: 0;
-  width: 320px;
+  width: 0;
   float: left; }
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
@@ -5192,7 +5192,7 @@ ol li {
   width: 74.41059%;
   position: relative;
   float: left;
-  padding-left: 340px; }
+  padding-left: 20px; }
   #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
     margin-right: 0; }
 
