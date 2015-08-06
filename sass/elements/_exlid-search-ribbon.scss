@@ -27,7 +27,7 @@ $distance-to-content: 20px;
 
 #exlidSearchRibbon input.submit {
     border: none;
-    background-color: $blue;
+    background-color: $base-color;
     @include retina-image('../images/search_button_bg', 200px 50px);
     background-repeat: no-repeat;
     background-position: center center;
