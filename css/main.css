@@ -5265,7 +5265,7 @@ input[type="button"] {
   font-weight: normal;
   text-decoration: none;
   white-space: nowrap;
-  border-radius: 3px;
+  border-radius: 0px;
   border: none;
   cursor: pointer;
   margin: 0;
@@ -5489,7 +5489,7 @@ select {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -5922,7 +5922,7 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -5981,7 +5981,7 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -6029,7 +6029,7 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -6061,10 +6061,10 @@ table.jCalendar td.unselectable.dp-hover {
   background-repeat: no-repeat;
   background-position: center center;
   border-radius: 0;
-  -moz-border-top-right-radius: 3px;
-  border-top-right-radius: 3px;
-  -moz-border-bottom-right-radius: 3px;
-  border-bottom-right-radius: 3px;
+  -moz-border-top-right-radius: 0px;
+  border-top-right-radius: 0px;
+  -moz-border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px;
   width: 80px;
   max-width: 80px;
   text-indent: 160px;
@@ -7144,7 +7144,7 @@ li.EXLFacet label {
   font-weight: normal;
   text-decoration: none;
   white-space: nowrap;
-  border-radius: 3px;
+  border-radius: 0px;
   border: none;
   cursor: pointer;
   margin: 0;
@@ -7195,7 +7195,7 @@ li.EXLFacet label {
     padding: 3px 10px;
     margin-right: 14px;
     box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-    border-radius: 3px;
+    border-radius: 0px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -7496,7 +7496,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -7549,7 +7549,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -7601,7 +7601,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -7697,7 +7697,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -7752,7 +7752,7 @@ li.EXLFacet label {
   font-weight: normal;
   text-decoration: none;
   white-space: nowrap;
-  border-radius: 3px;
+  border-radius: 0px;
   border: none;
   cursor: pointer;
   margin: 0;
@@ -7790,7 +7790,7 @@ li.EXLFacet label {
   font-weight: normal;
   text-decoration: none;
   white-space: nowrap;
-  border-radius: 3px;
+  border-radius: 0px;
   border: none;
   cursor: pointer;
   margin: 0;
@@ -7991,7 +7991,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -8030,7 +8030,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -8131,7 +8131,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -8181,7 +8181,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   padding: 3px 10px;
   margin-right: 14px;
   box-shadow: 0px 1px 2px 0px rgba(51, 51, 51, 0.5);
-  border-radius: 3px;
+  border-radius: 0px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -8313,7 +8313,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   font-weight: normal;
   text-decoration: none;
   white-space: nowrap;
-  border-radius: 3px;
+  border-radius: 0px;
   border: none;
   cursor: pointer;
   margin: 0;
@@ -8350,7 +8350,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   font-weight: normal;
   text-decoration: none;
   white-space: nowrap;
-  border-radius: 3px;
+  border-radius: 0px;
   border: none;
   cursor: pointer;
   margin: 0;
@@ -12333,7 +12333,7 @@ a.EXLLoansRenewButton {
   font-weight: normal;
   text-decoration: none;
   white-space: nowrap;
-  border-radius: 3px;
+  border-radius: 0px;
   border: none;
   cursor: pointer;
   margin: 0;
