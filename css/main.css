@@ -1040,7 +1040,7 @@ pre.sourcecode {
   background-position: -80px -224px; }
 
 .ui-widget-overlay {
-  background: #666666 url(../images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat;
+  background: #595959 url(../images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat;
   opacity: .5;
   filter: Alpha(Opacity=50); }
 
@@ -1131,7 +1131,7 @@ pre.sourcecode {
   border-style: solid;
   border-color: #ffcc00;
   background-color: #ffeb99;
-  color: #666666; }
+  color: #595959; }
 
 .qtip-default .qtip-titlebar {
   background-color: #ffe066; }
@@ -1139,7 +1139,7 @@ pre.sourcecode {
 .qtip-default .qtip-icon {
   border-color: #d8d8d8;
   background: #ffffff;
-  color: #666666; }
+  color: #595959; }
 
 .qtip-default .qtip-titlebar .qtip-close {
   border-color: #AAA;
@@ -1267,7 +1267,7 @@ pre.sourcecode {
   border: 0 dashed transparent; }
 
 .qtip-jtools .qtip-icon {
-  border-color: #666666; }
+  border-color: #595959; }
 
 .qtip-jtools .qtip-titlebar .ui-state-hover {
   border-color: #333333; }
@@ -1334,7 +1334,7 @@ pre.sourcecode {
 
 .qtip-tipped .qtip-icon .ui-icon {
   background-color: #f7f7f7;
-  color: #666666; }
+  color: #595959; }
 
 .qtip-bootstrap {
   font-size: 14px;
@@ -4641,7 +4641,7 @@ table.EXLDetailsTabTOCTable tr td {
     font-weight: bold;
     text-decoration: none;
     margin-right: 0px;
-    color: #666666;
+    color: #595959;
     margin-left: 0.5em; }
   .EXLTabsRibbon div li.EXLResultFirstTab {
     padding-left: 0em;
@@ -5760,7 +5760,7 @@ table.jCalendar td.unselectable.dp-hover {
   #exlidUserAreaRibbon li .EXLUserNameDisplay,
   #exlidUserAreaRibbon li a {
     font-family: sans-serif;
-    color: #666666;
+    color: #595959;
     text-decoration: none;
     margin: 0 10px;
     width: auto; }
@@ -5879,7 +5879,7 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 5px 15px 3px 15px;
   border-bottom: 1px solid #d8d8d8;
   background-color: #f7f7f7;
-  color: #666666;
+  color: #595959;
   height: auto;
   margin-bottom: 20px; }
   #exlidHeaderSearchLimits:last-child {
@@ -5887,7 +5887,7 @@ table.jCalendar td.unselectable.dp-hover {
 
 #exlidHeaderSearchLimits fieldset {
   padding: 0;
-  color: #666666;
+  color: #595959;
   font-weight: bold;
   font-size: 14px;
   width: auto; }
@@ -5895,7 +5895,7 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidHeaderSearchLimits fieldset legend {
   float: left;
   width: auto;
-  color: #666666; }
+  color: #595959; }
 
 #exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFields {
   width: 100%;
@@ -6156,7 +6156,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   border-top: 4px solid #f67d50;
   height: auto;
   background-position: bottom;
-  background-color: #cfcfcf;
+  background-color: #595959;
   background-image: none;
   width: 100%; }
   #exlidSearchTile.EXLSearchEJorunals::after {
@@ -6702,7 +6702,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   overflow: visible; }
   #exlidMainMenuRibbon li a {
     font-family: sans-serif;
-    color: #666666;
+    color: #595959;
     text-decoration: none;
     margin: 0 10px;
     width: auto; }
@@ -7460,7 +7460,7 @@ li.EXLFacet label {
   background-color: #f7f7f7;
   clear: both;
   border: none;
-  border-top: 4px solid #666666;
+  border-top: 4px solid #595959;
   width: 100%;
   padding: 20px;
   margin-bottom: 20px; }
@@ -9244,11 +9244,11 @@ body.EXLFullView div.EXLBackToResults {
     display: block;
     float: left;
     text-align: center;
-    color: #666666;
+    color: #595959;
     padding: 9.5px 15px 11.5px 15px;
     cursor: pointer;
     background: #ffffff;
-    border: 1px solid #666666; }
+    border: 1px solid #595959; }
   #exlidSearchTabs li:first-child {
     margin-left: 0; }
     #exlidSearchTabs li:first-child a {
@@ -9284,8 +9284,8 @@ body.EXLFullView div.EXLBackToResults {
   border: 0; }
   #exlidSearchTabs li.EXLSearchTabSelected a {
     color: #ffffff;
-    background-color: #666666;
-    border: 1px solid #666666;
+    background-color: #595959;
+    border: 1px solid #595959;
     font-weight: bold; }
 
 #exlidHomeContainer div.EXLHomeBlockContainer1 {

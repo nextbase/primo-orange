@@ -125,7 +125,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     border-top: 4px solid $base-color;
     height: auto;
     background-position: bottom;
-    background-color: $gray;
+    background-color: $gray-dark-secondary;
     background-image: none;
     width: 100%;
     @include clearfix;
@@ -144,7 +144,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
                 margin-bottom: 20px;
             }
 
-            .exlidSearchTileWrapper {
+            .exlidSearchTileWrapper {  
                 @include span-columns(8);
                 @include omega();
             }
