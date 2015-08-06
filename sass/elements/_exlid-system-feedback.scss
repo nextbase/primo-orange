@@ -2,8 +2,8 @@
     @include reset-margins;
     @include outer-container;
     margin-top: -1px;
-    border-bottom: 1px solid $secondary-color-secondary;
-    border-top: 1px solid $secondary-color-secondary;
+    border-bottom: none; // 1px solid $secondary-color-secondary;
+    border-top: none; // 1px solid $secondary-color-secondary;
     background-color: rgba($secondary-color-secondary, .5);
     text-align: center;
     display: block;
