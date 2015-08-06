@@ -6036,7 +6036,7 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 3px 10px;
   clear: right;
   width: 100%;
-  padding-right: 110px;
+  padding-right: 80px;
   height: 36px; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
@@ -6065,9 +6065,9 @@ table.jCalendar td.unselectable.dp-hover {
   border-top-right-radius: 0px;
   -moz-border-bottom-right-radius: 0px;
   border-bottom-right-radius: 0px;
-  width: 80px;
-  max-width: 80px;
-  text-indent: 160px;
+  width: 50px;
+  max-width: 50px;
+  text-indent: 100px;
   overflow: hidden;
   color: #ffffff;
   font-weight: normal;
@@ -6120,7 +6120,7 @@ table.jCalendar td.unselectable.dp-hover {
 .EXLSearchFieldRibbonFormSearchClear {
   width: 30px;
   position: absolute;
-  right: 85px;
+  right: 55px;
   top: 3px;
   background-color: transparent;
   visibility: hidden; }
