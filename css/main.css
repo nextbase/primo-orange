@@ -9216,7 +9216,8 @@ body.EXLFullView div.EXLBackToResults {
   margin: 0;
   padding: 0;
   height: auto;
-  position: absolute; }
+  position: absolute;
+  display: none; }
 
 #exlidSearchTabs {
   margin: 0;
