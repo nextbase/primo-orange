@@ -7130,8 +7130,8 @@ li.EXLFacet label {
   outline: none;
   background-image: none;
   color: #ffffff;
-  background-color: #34aacc;
-  border: 2px solid #34aacc;
+  background-color: #f67d50;
+  border: 2px solid #f67d50;
   line-height: 28px;
   background-image: none; }
   #exlidAdvancedSearchRibbon input.submit::-moz-focus-inner {
@@ -7140,13 +7140,13 @@ li.EXLFacet label {
   #exlidAdvancedSearchRibbon input.submit:hover,
   #exlidAdvancedSearchRibbon input.submit:active {
     color: #ffffff;
-    background-color: #2e99b8;
-    border-color: #2b8fac; }
+    background-color: #f56b38;
+    border-color: #f46029; }
   #exlidAdvancedSearchRibbon input.submit:active {
     color: #ffffff;
-    background-color: #2b8fac;
-    border-color: #27829c;
-    box-shadow: inset 2px 2px 2px 1px rgba(39, 130, 156, 0.5); }
+    background-color: #f46029;
+    border-color: #f35216;
+    box-shadow: inset 2px 2px 2px 1px rgba(243, 82, 22, 0.5); }
 
 #exlidAdvancedSearchTile .EXLSearchFieldRibbonFormSubmitSearch {
   width: auto; }

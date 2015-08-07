@@ -210,7 +210,7 @@
 
 #exlidAdvancedSearchRibbon input.submit {
     @include button;
-	@include set-button-color($blue);
+	@include set-button-color($base-color);
 	@include set-button-size;
 	background-image: none;
 }
