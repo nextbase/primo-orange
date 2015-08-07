@@ -130,7 +130,7 @@ div.form-element {
     padding-left: $form-spacing-horizontal;
 	  outline: 0;
 
-    $shadows: 0px 1px 1px rgba($black-secondary, .3), 0px 0px 20px 0 rgba($base-color, .75);
+    $shadows: inset 0px 1px 3px rgba($black-secondary, .3);
     @include prefixer(box-shadow, $shadows, webkit moz spec);
     @include prefixer(border-top-left-radius, 0, webkit moz spec);
     @include prefixer(border-bottom-left-radius, 0, webkit moz spec);
