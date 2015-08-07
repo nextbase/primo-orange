@@ -9485,8 +9485,12 @@ body.EXLFullView div.EXLBackToResults {
   border-bottom: 1px solid #e1e1e1;
   border-left: 1px solid #e1e1e1;
   border-right: 1px solid #e1e1e1;
-  background-color: #ffffff .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li;
-    background-color-display: none; }
+  background-color: #ffffff; }
+
+.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToEasyBib,
+.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToDelicious,
+.EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li.EXLButtonSendToRefWorks {
+  display: none; }
 
 .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span {
   float: left;
