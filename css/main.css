@@ -10096,12 +10096,12 @@ body.EXLFullView div.EXLBackToResults {
   line-height: 15px;
   padding: 14px 5px; }
 
-.EXLTabHeader div.EXLTabHeaderButtons > ul > li.EXLButtonSendToEasyBib,
-.EXLTabHeader div.EXLTabHeaderButtons > ul > li.EXLButtonSendToDelicious,
-.EXLTabHeader div.EXLTabHeaderButtons > ul > li.EXLButtonSendToRefWorks,
-div.EXLTabHeaderButtons > ul > li.EXLButtonSendToEasyBib,
-div.EXLTabHeaderButtons > ul > li.EXLButtonSendToDelicious,
-div.EXLTabHeaderButtons > ul > li.EXLButtonSendToRefWorks {
+ul.EXLTabHeaderButtonSendToList .EXLButtonSendToEasyBib,
+ul.EXLTabHeaderButtonSendToList .EXLButtonSendToDelicious,
+ul.EXLTabHeaderButtonSendToList .EXLButtonSendToRefWorks,
+ol.EXLTabHeaderButtonSendToList .EXLButtonSendToEasyBib,
+ol.EXLTabHeaderButtonSendToList .EXLButtonSendToDelicious,
+ol.EXLTabHeaderButtonSendToList .EXLButtonSendToRefWorks {
   display: none; }
 
 .EXLTabHeader div.EXLTabHeaderButtons li {
