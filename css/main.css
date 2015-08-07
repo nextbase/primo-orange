@@ -13226,6 +13226,11 @@ table.main {
 .helperdiv span {
   font-weight: bold; }
 
+select#saveAs option[value='RefWorks'],
+select#saveAs option[value='Delicious'],
+select#saveAs option[value='EasyBib'] {
+  display: none !important; }
+
 .EXLMyShelfTableHeaderButtonSendTo img {
   padding-left: 0.5em; }
 
