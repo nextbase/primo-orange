@@ -4,7 +4,7 @@
     height: $thumbnail-height;
     @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
     background-repeat: no-repeat;
-    border: 1px solid $secondary-color-secondary;
+    border: 1px solid darken($base-color, 10%);
     position: relative;
 }
 
