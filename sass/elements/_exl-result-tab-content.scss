@@ -272,6 +272,10 @@
     cursor: pointer;
 }
 
+body * {
+    display: none !important;
+}
+
 .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li a:hover {
     text-decoration: underline;
 }

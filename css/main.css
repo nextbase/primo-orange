@@ -10173,6 +10173,9 @@ body.EXLFullView div.EXLBackToResults {
   color: #373737;
   cursor: pointer; }
 
+body * {
+  display: none !important; }
+
 .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li a:hover {
   text-decoration: underline; }
 
