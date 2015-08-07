@@ -10160,14 +10160,6 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #ffffff .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li;
     background-color-display: none; }
 
-ul.EXLTabHeaderButtonSendToList .EXLButtonSendToEasyBib,
-ul.EXLTabHeaderButtonSendToList .EXLButtonSendToDelicious,
-ul.EXLTabHeaderButtonSendToList .EXLButtonSendToRefWorks,
-ol.EXLTabHeaderButtonSendToList .EXLButtonSendToEasyBib,
-ol.EXLTabHeaderButtonSendToList .EXLButtonSendToDelicious,
-ol.EXLTabHeaderButtonSendToList .EXLButtonSendToRefWorks {
-  display: none; }
-
 .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span {
   float: left;
   background-image: none;
