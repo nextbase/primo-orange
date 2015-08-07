@@ -179,17 +179,6 @@
   padding: 14px 5px;
 }
 
-ul.EXLTabHeaderButtonSendToList,
-ol.EXLTabHeaderButtonSendToList {
-
-    .EXLButtonSendToEasyBib,
-    .EXLButtonSendToDelicious,
-    .EXLButtonSendToRefWorks {
-        display: none;
-    }
-
-}
-
 .EXLTabHeader div.EXLTabHeaderButtons li {
     font-size: 14px;
     line-height: 1.2;
@@ -259,6 +248,23 @@ ol.EXLTabHeaderButtonSendToList {
     border-left: 1px solid #e1e1e1;
     border-right: 1px solid #e1e1e1;
     background-color: #ffffff
+
+    &.EXLButtonSendToEasyBib,
+    &.EXLButtonSendToDelicious,
+    &.EXLButtonSendToRefWorks {
+        display: none;
+    }
+}
+
+ul.EXLTabHeaderButtonSendToList,
+ol.EXLTabHeaderButtonSendToList {
+
+    .EXLButtonSendToEasyBib,
+    .EXLButtonSendToDelicious,
+    .EXLButtonSendToRefWorks {
+        display: none;
+    }
+
 }
 
 .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span {

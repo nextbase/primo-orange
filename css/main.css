@@ -10096,14 +10096,6 @@ body.EXLFullView div.EXLBackToResults {
   line-height: 15px;
   padding: 14px 5px; }
 
-ul.EXLTabHeaderButtonSendToList .EXLButtonSendToEasyBib,
-ul.EXLTabHeaderButtonSendToList .EXLButtonSendToDelicious,
-ul.EXLTabHeaderButtonSendToList .EXLButtonSendToRefWorks,
-ol.EXLTabHeaderButtonSendToList .EXLButtonSendToEasyBib,
-ol.EXLTabHeaderButtonSendToList .EXLButtonSendToDelicious,
-ol.EXLTabHeaderButtonSendToList .EXLButtonSendToRefWorks {
-  display: none; }
-
 .EXLTabHeader div.EXLTabHeaderButtons li {
   font-size: 14px;
   line-height: 1.2;
@@ -10165,7 +10157,16 @@ ol.EXLTabHeaderButtonSendToList .EXLButtonSendToRefWorks {
   border-bottom: 1px solid #e1e1e1;
   border-left: 1px solid #e1e1e1;
   border-right: 1px solid #e1e1e1;
-  background-color: #ffffff; }
+  background-color: #ffffff .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li;
+    background-color-display: none; }
+
+ul.EXLTabHeaderButtonSendToList .EXLButtonSendToEasyBib,
+ul.EXLTabHeaderButtonSendToList .EXLButtonSendToDelicious,
+ul.EXLTabHeaderButtonSendToList .EXLButtonSendToRefWorks,
+ol.EXLTabHeaderButtonSendToList .EXLButtonSendToEasyBib,
+ol.EXLTabHeaderButtonSendToList .EXLButtonSendToDelicious,
+ol.EXLTabHeaderButtonSendToList .EXLButtonSendToRefWorks {
+  display: none; }
 
 .EXLTabHeaderButtons ol.EXLTabHeaderButtonSendToList li span {
   float: left;
