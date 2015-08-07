@@ -10096,6 +10096,11 @@ body.EXLFullView div.EXLBackToResults {
   line-height: 15px;
   padding: 14px 5px; }
 
+div.EXLTabHeaderButtons > ul > li.EXLButtonSendToEasyBib,
+div.EXLTabHeaderButtons > ul > li.EXLButtonSendToDelicious,
+div.EXLTabHeaderButtons > ul > li.EXLButtonSendToRefWorks {
+  display: none; }
+
 .EXLTabHeader div.EXLTabHeaderButtons li {
   font-size: 14px;
   line-height: 1.2;
