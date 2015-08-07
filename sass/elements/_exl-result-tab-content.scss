@@ -178,7 +178,7 @@
   line-height: 15px;
   padding: 14px 5px;
 }
-
+.EXLTabHeader div.EXLTabHeaderButtons > ul > li,
 div.EXLTabHeaderButtons > ul > li {
 
     &.EXLButtonSendToEasyBib,
@@ -186,6 +186,7 @@ div.EXLTabHeaderButtons > ul > li {
     &.EXLButtonSendToRefWorks {
         display: none;
     }
+    
 }
 
 .EXLTabHeader div.EXLTabHeaderButtons li {
