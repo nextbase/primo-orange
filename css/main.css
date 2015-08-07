@@ -6760,6 +6760,8 @@ li.EXLFacet label {
   height: auto;
   background-color: #cfcfcf;
   width: 100%; }
+  #exlidAdvancedSearchTile #exlidSearchTabs {
+    width: 100%; }
   #exlidAdvancedSearchTile #exlidSearchTabs li {
     float: left; }
     #exlidAdvancedSearchTile #exlidSearchTabs li:first-child {
