@@ -125,9 +125,7 @@ div.form-element {
   @include prefixer(appearance, none, webkit moz spec);
 
   &:focus {
-    border-color: $blue;
-    border-left-width: 5px;
-    padding-left: $form-spacing-horizontal - 4px;
+    border-color: $gray-dark;
 	  outline: 0;
 
     $shadows: 0px 1px 1px rgba($black-secondary, .3), 0px 0px 20px 0 rgba($blue, .75);

@@ -4834,9 +4834,7 @@ select {
   input[type="password"]:focus,
   textarea:focus,
   select:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -5263,9 +5261,7 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 1.5px 10px;
   width: 300px; }
   #exlidHeaderSearchLimits select:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -5324,9 +5320,7 @@ table.jCalendar td.unselectable.dp-hover {
   height: 1px;
   overflow: hidden; }
   #exlidHeaderSearchLimits input:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -5368,9 +5362,7 @@ table.jCalendar td.unselectable.dp-hover {
   height: 36px; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -6537,9 +6529,7 @@ li.EXLFacet label {
     width: 60%;
     float: left; }
     .EXLDateRangeText input[type="text"]:focus {
-      border-color: #34aacc;
-      border-left-width: 5px;
-      padding-left: 6px;
+      border-color: #888888;
       outline: 0;
       box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
       -moz-border-top-left-radius: 0;
@@ -6840,9 +6830,7 @@ li.EXLFacet label {
   background-repeat: no-repeat;
   background-position: right center; }
   #exlidAdvancedSearchRibbon select:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -6890,9 +6878,7 @@ li.EXLFacet label {
   border-color: #d8d8d8;
   width: 160px; }
   #exlidAdvancedSearchRibbon input:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -6948,9 +6934,7 @@ li.EXLFacet label {
   background-repeat: no-repeat;
   background-position: right center; }
   #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -7040,9 +7024,7 @@ li.EXLFacet label {
   border-color: #d8d8d8;
   width: 4em; }
   #exlidAdvancedSearchRibbon div.EXLAdvancedSearchFormRow span.EXLAdvancedSearchFormDateRangeRow input:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -7332,9 +7314,7 @@ li.EXLFacet label {
   border-color: #d8d8d8;
   width: 55%; }
   #exlidCitationLinkerRibbon input:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -7371,9 +7351,7 @@ li.EXLFacet label {
   border-color: #d8d8d8;
   width: 160px; }
   #exlidCitationLinkerRibbon input.EXLCitationLinkerShortInput:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -7475,9 +7453,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-repeat: no-repeat;
   background-position: right center; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 select:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
@@ -7525,9 +7501,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   background-repeat: no-repeat;
   background-position: right center; }
   #exlidCitationLinkerRibbon div.EXLCitationLinkerFieldRibbonFormFieldsGroup2 select:focus {
-    border-color: #34aacc;
-    border-left-width: 5px;
-    padding-left: 6px;
+    border-color: #888888;
     outline: 0;
     box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.3), 0px 0px 20px 0 rgba(52, 170, 204, 0.75);
     -moz-border-top-left-radius: 0;
