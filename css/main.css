@@ -8949,6 +8949,9 @@ body.EXLFullView div.EXLBackToResults {
   position: absolute;
   top: 0px;
   left: 0px; }
+  .coverImageDiv img {
+    margin-top: -1px;
+    margin-left: -1px; }
 
 .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
   background-image: url("../images/icon_article.png"); }
