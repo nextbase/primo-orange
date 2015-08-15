@@ -5002,7 +5002,8 @@ table.jCalendar td.unselectable.dp-hover {
 
 #exlidHeaderTile {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  display: block; }
 
 @media screen and (max-width: 480px) {
   #exlidHeaderContainer div.EXLSkipToContent {
