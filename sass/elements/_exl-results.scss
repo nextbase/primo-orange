@@ -192,6 +192,10 @@ div.EXLResultsHeader:focus {
   border: 1px solid $gray;
 }
 
+.EXLResultsNumbers h1 {
+  font-size: $base-font-size;
+}
+
 .EXLResultsNumbers h1 span.EXLBriefResultsPaginationPageCount,
 h1 span.EXLBriefResultsPaginationPageCount {
   display: none;

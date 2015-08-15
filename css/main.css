@@ -7927,6 +7927,9 @@ div.EXLResultsHeader:focus {
   color: #ffffff;
   border: 1px solid #cfcfcf; }
 
+.EXLResultsNumbers h1 {
+  font-size: 16px; }
+
 .EXLResultsNumbers h1 span.EXLBriefResultsPaginationPageCount,
 h1 span.EXLBriefResultsPaginationPageCount {
   display: none; }
