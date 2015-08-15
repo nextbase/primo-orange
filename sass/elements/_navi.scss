@@ -1,0 +1,113 @@
+#slide-main-menu {
+  margin-top: 20px;
+  width: 100%;
+  @include outer-container;
+  margin: 20px auto 0 auto;
+
+  .menu-block-wrapper > ul.menu {
+    text-align: center;
+
+    ul, li {
+      @include reset-margins;
+      vertical-align: top;
+    }
+
+    a {
+      color: $white;
+      @include font-w(lighter);
+    }
+
+    & > li {
+      float: left;
+      display: block;
+      width: 16.66666%;
+      padding: 0;
+
+      &:last-child {
+        margin-right: 0;
+
+        & > a {
+          border-right: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        ul.menu {
+          border-right: 1px solid rgba(255, 255, 255, 0.2);
+        }
+      }
+
+      & > a {
+        padding: 12px 0; // 라인을 짧게 만들려면 마진으로 바꾸면 됨.. 근데 그러면 백그라운드가 더러워짐... 차악이 이거다
+        width: 100%;
+        font-size: 14px;
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+        display: inline-block;
+        @include font-w(medium);
+
+        &:after {
+          font-family: 'Special-Icons';
+          font-style: normal;
+          font-weight: normal;
+          line-height: 1;
+          content: $icon-chevron-soft-down;
+          font-size: 10px;
+          margin-left: 8px;
+        }
+
+        &:hover {
+          background-color: rgba(255, 219, 204, 0.6);
+          transition: 0.3s ease all;
+        }
+      }
+
+      ul.menu {
+        display: none;
+        height: 320px;
+        border-left: 1px solid rgba(255, 255, 255, 0.2);
+
+        li {
+          list-style-type: none;
+          list-style-image: inherit;
+
+          a {
+            padding: 8px 15px;
+            width: 100%;
+            display: inline-block;
+            font-size: 13px;
+
+            &:hover {
+              transition: 0.3s ease all;
+              background-color: $white;
+              color: $black;
+              @include font-w(bold);
+            }
+
+            &:active {
+              @include prefixer(box-shadow, inset 1px 1px 3px 0px $gray, o ms webkit moz spec);
+            }
+
+          }
+        }
+      }
+
+      &:hover {
+        background-color: rgba(255, 219, 204, 0.3);
+        transition: 0.3s ease all;
+
+        & > a {
+          background-color: rgba(255, 219, 204, 0.6);
+          transition: 0.3s ease all;
+        }
+      }
+    }
+
+    &:hover {
+      & > li > ul.menu {
+        display: block;
+      }
+    }
+  }
+}
+
+.logged-in #slide-main-menu .menu-block-wrapper > ul.menu > li.first > a:first-child {
+  display: none;
+}
