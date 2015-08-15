@@ -5003,6 +5003,7 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidHeaderTile {
   margin: 0;
   padding: 0;
+  width: 100%;
   display: block; }
 
 @media screen and (max-width: 480px) {
@@ -5025,8 +5026,7 @@ table.jCalendar td.unselectable.dp-hover {
 
 #header {
   background-color: rgba(246, 125, 80, 0.79);
-  position: absolute;
-  top: 0;
+  position: static;
   width: 100%; }
   #header #block-unist-custom-block-unist-head-block {
     padding: 5px 0 0 0; }

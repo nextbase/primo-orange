@@ -9,6 +9,7 @@
 
 #exlidHeaderTile {
     @include reset-margins;
+    width: 100%;
     display: block;
 }
 
@@ -37,8 +38,7 @@
 
 #header {
   background-color: $base-color-transparent;
-  position: absolute;
-  top: 0;
+  position: static;
   width: 100%;
   //z-index: $panopoly-plus-btn - 1;
 
