@@ -1,0 +1,283 @@
+$sitemap-bg-color: $base-color;
+$sitemap-font-color: $white;
+$sitemap-font-color-visited: $white;
+
+#footer-sitemap {
+  background-color: transparent;
+  @include transition(background-color 0.2s ease-in .0s);
+
+  header {
+    display: none;
+  }
+
+  #block-menu-menu-footer-sit {
+    opacity: 0;
+    @include transition(opacity .2s ease-in .25s);
+    @include reset-margins;
+    max-height: 0;
+    overflow: hidden;
+    @include transition(max-height 0.5s ease-in 0s, padding 0.5s ease-in 0s);
+  }
+
+  &.expanded  {
+    background-color: $sitemap-bg-color;
+    @include transition(background-color .2s ease-in .25s);
+
+    #block-menu-menu-footer-sit {
+      opacity: 1;
+      @include transition(opacity .4s ease-in .25s);
+      @include outer-container;
+      padding: 40px 0;
+      height: auto;
+      max-height: 800px;
+      @include transition(max-height 0.5s ease-in 0s, padding 0.25s ease-in 0s);
+    }
+
+  }
+
+
+  #sitemap-button-container,
+  #block-menu-menu-footer-sit {
+    @include outer-container;
+  }
+
+  #block-menu-menu-footer-sit {
+
+    > ul.menu {
+      // Level One Menu
+      @include reset-margins;
+      @include outer-container;
+
+      // Link Colors
+      li > a,
+      li > a:link,
+      li > a:visited, {
+        font-size: ($base-font-size - 2px);
+        font-weight: normal;
+        text-transform: none;
+        color: $sitemap-font-color;
+        display: block;
+      }
+
+      li > a:visited {
+        color: $sitemap-font-color-visited;
+      }
+
+      > li {
+        // Footer Main Links & Blocks
+        @include reset-margins;
+        @include span-columns(2 of 12);
+        font-size: $h4-fontsize;
+        font-weight: normal;
+        text-transform: uppercase;
+        list-style: none;
+
+        > a,
+        > a:link,
+        > a:visited {
+          font-size: $h4-fontsize;
+          font-weight: normal;
+          text-transform: none;
+          padding-bottom: 15px;
+          width: 100%;
+          float: none;
+          position: relative;
+
+          @include retina-image('../img/line_footer_menu', 24px 1px);
+          background-position: bottom left;
+          background-repeat: no-repeat;
+          margin-bottom: 15px;
+        }
+
+        > ul.menu {
+          // Level Two Menu
+          width: 100%;
+          display: block;
+          margin-bottom: 4px;
+
+          > li > a,
+          > li > a:link,
+          > li > a:visited, {
+            font-size: ($base-font-size - 2px);
+            font-weight: normal;
+            text-transform: none;
+            margin-bottom: 5px;
+          }
+
+          > li {
+            @include reset-margins;
+            list-style: none;
+
+            > ul.menu {
+              // Level Three Menu
+              width: 100%;
+              display: block;
+              margin-bottom: 8px;
+              margin-top: 2px;
+
+              > li > a,
+              > li > a:link,
+              > li > a:visited {
+                font-size: $base-font-size;
+                font-weight: lighter;
+                text-transform: none;
+                margin-bottom: 5px;
+              }
+
+              li {
+                @include reset-margins;
+                list-style: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sitemap-button-container {
+    @include outer-container;
+
+    .sitemap-button-container-inner {
+      @include span-columns(6 of 12);
+
+      a#sitemap-toggle {
+        @include button();
+        @include set-button-color($black, $white);
+        @include set-button-size;
+        @include prefixer(border-radius, 0, webkit moz spec);
+      }
+    }
+  }
+
+}
+
+$footer-bottom-bg: #bbbbbb;
+
+#footer {
+  padding: 20px 0;
+  background-color: $footer-bottom-bg;
+  border-top: 1px solid $white;
+
+  header {
+    display: none;
+  }
+
+  .footer-container {
+    @include outer-container;
+  }
+
+  #footer-logo-container {
+    @include reset-margins;
+    width: 340px;
+    height: 60px;
+    float: left;
+
+    #footer-logo {
+      @include reset-margins;
+      width: 340px;
+      height: 60px;
+      text-indent: -500px;
+      display: block;
+      overflow: hidden;
+      @include retina-image('../img/logo_footer', 340px 60px);
+      background-repeat: no-repeat;
+      background-position: left center;
+    }
+  }
+
+  #block-menu-menu-footer-social-links {
+    height: 60px;
+    width: auto;
+    max-width: 200px;
+    float: left;
+
+    ul.menu {
+      list-style: none;
+      padding: 6px 0;
+
+      li {
+        @include reset-margins;
+        list-style: none;
+        float: left;
+
+        a {
+          overflow: hidden;
+          display: block;
+          height: 36px;
+          width: 36px;
+          float: left;
+          margin-right: 5px;
+          color: $gray-secondary;
+
+          &:hover,
+          &:active {
+            color: $gray;
+          }
+
+          &[href*='twitter'] {
+            //// @include unist-icon($icon-twitter);
+            &:before {
+              font-size: 35px;
+              height: 36px;
+              width: 36px;
+              float: left;
+              line-height: 40px;
+            }
+          }
+
+          &[href*='facebook'] {
+            //// @include unist-icon($icon-facebook);
+
+            &:before {
+              font-size: 32px;
+              height: 36px;
+              width: 36px;
+              float: left;
+              line-height: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #block-menu-menu-footer-bottom-links {
+    float: right;
+    width: auto;
+    margin-bottom: 10px;
+
+    ul.menu {
+      li {
+        @include reset-margins;
+        float: left;
+        display: block;
+        list-style: none;
+        border-left: 1px solid $gray-secondary;
+        padding-left: 20px;
+        margin-left: 20px;
+
+        &:first-child {
+          margin-left: 0;
+          padding-left: 0;
+          border-left: none;
+        }
+
+        a {
+          font-size: $small-font-size;
+        }
+      }
+    }
+  }
+
+  .block-block {
+    float: right;
+    width: auto;
+
+    p {
+      font-size: $small-font-size;
+      line-height: 1.4;
+      margin-bottom: 2px;
+    }
+  }
+}
