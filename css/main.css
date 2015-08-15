@@ -7919,6 +7919,9 @@ div.EXLResultsHeader:focus {
   .EXLBriefResultsPagination img[src*="arrow"] {
     margin-top: 4px; }
 
+.EXLResultsNavigation {
+  float: right; }
+
 .EXLResultsNavigation .EXLBriefResultsPaginationPageCount {
   background: #cfcfcf;
   color: #ffffff;

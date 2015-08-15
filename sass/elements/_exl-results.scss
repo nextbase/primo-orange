@@ -182,6 +182,10 @@ div.EXLResultsHeader:focus {
   }
 }
 
+.EXLResultsNavigation {
+  float: right;
+}
+
 .EXLResultsNavigation .EXLBriefResultsPaginationPageCount {
   background: $gray;
   color: $white;
