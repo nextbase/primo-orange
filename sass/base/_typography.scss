@@ -3,6 +3,8 @@ $base-line-height: 1.5;
 $small-font-size: 14px;
 $xsmall-font-size: 12px;
 
+$action-color: $secondary-color;
+
 $font-weight-normal: normal;
 $font-weight-bold: bold;
 
@@ -116,3 +118,74 @@ ul li {
 ol li {
   list-style: ideograph-numeric inside;
 }
+
+
+@mixin text1 {
+  font-size: $h1-fontsize;
+  line-height: $h1-lineheight;
+}
+
+@mixin text2 {
+  font-size: $h2-fontsize;
+  line-height: $h2-lineheight;
+}
+
+@mixin text3 {
+  font-size: $h3-fontsize;
+  line-height: $h3-lineheight;
+}
+
+@mixin text4 {
+  font-size: $h4-fontsize;
+  line-height: $h4-lineheight;
+}
+
+@mixin text5 {
+  font-size: $h5-fontsize;
+  line-height: $h5-lineheight;
+}
+
+@mixin text6 {
+  font-size: $h6-fontsize;
+  line-height: $h6-lineheight;
+}
+
+@mixin p {
+  font-family: $small-font-family;
+  line-height: $p-lineheight;
+}
+
+@mixin a {
+  color: $black;
+  text-decoration: none;
+  transition: color 0.1s linear;
+
+  &:active,
+  &:focus,
+  &:hover {
+    color: darken($action-color, 15%);
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+$font-weight-lighter: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 600;
+
+@mixin font-w( $font-weight: "normal" ) {
+  @if $font-weight == "bold" {
+    font-weight: $font-weight-bold;
+  } @else if $font-weight == "medium" {
+    font-weight: $font-weight-medium;
+  } @else if $font-weight == "lighter" {
+    font-weight: $font-weight-lighter;
+  } @else {
+    font-weight: $font-weight-normal;
+  }
+}
+

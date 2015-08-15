@@ -4,6 +4,7 @@ $black-secondary: $black;
 
 $base-color: #f67d50;
 $base-color-hover: #e56434;
+$base-color-transparent: rgba($base-color, 0.79);
 
 $base-color-light: lighten($base-color, 15%);
 $base-color-light-secondary: lighten($base-color, 20%);

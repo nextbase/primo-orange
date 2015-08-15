@@ -9,7 +9,6 @@
 
 #exlidHeaderTile {
     @include reset-margins;
-    display: none;
 }
 
 @include media($mobile) {
@@ -33,4 +32,99 @@
 #exlidUserAreaTile ul {
     @include reset-margins;
     border: none
+}
+
+#header {
+  background-color: $base-color-transparent;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  //z-index: $panopoly-plus-btn - 1;
+
+  #block-unist-custom-block-unist-head-block {
+    padding: 5px 0 0 0;
+
+    .header-wrapper-1 {
+      @include outer-container;
+
+      .logo {
+        margin-top: 20px;
+        float: left;
+        height: 32px;
+        width: 340px;
+        @include retina-image('../img/header_logo', 340px 32px);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+
+        img {
+          display: none;
+        }
+      }
+
+      .menu-top {
+        margin-top: 25px;
+        float: right;
+
+        a {
+          @include text5;
+          @include font-w(lighter);
+          color: $white;
+        }
+
+        &>div {
+          float: left;
+        }
+
+        .top-account {
+          padding: 0 20px;
+          margin: 0 20px;
+          border-right: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .top-access {
+          padding: 0 20px;
+          margin: 0 20px;
+          border-right: 1px solid rgba(255, 255, 255, 0.3);
+          border-left: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .ajax-login,
+        .ajax-logout {
+          @include text5;
+          margin-bottom: 0;
+          @include font-w(lighter);
+          cursor: pointer;
+          color: $white;
+          position: relative;
+          top: 2px;
+
+          &:before {
+            top: 1px;
+            position: relative;
+            display: inline-block;
+            font-family: 'Glyphicons Halflings';
+            font-style: normal;
+            font-weight: normal;
+            line-height: 1;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            // content: $icon-lock;
+            font-size: 10px;
+            margin-right: 6px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.not-front #header {
+  background-color: $base-color;
+}
+
+.front #main > #page-title,
+.front #main > .tabs,
+.front #page-title,
+.front #main .tabs {
+  display: none;
 }
