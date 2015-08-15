@@ -7816,9 +7816,10 @@ div.EXLResultsHeader:focus {
   padding: 0;
   display: block;
   z-index: 100;
-  position: absolute;
-  left: 10px;
-  top: 40px; }
+  float: left;
+  margin-left: 20px;
+  height: 20px;
+  margin-top: 8px; }
 
 #resultsNumbersTileBottom div.EXLResultsSortBy {
   display: none; }
@@ -7922,6 +7923,10 @@ div.EXLResultsHeader:focus {
   background: #cfcfcf;
   color: #ffffff;
   border: 1px solid #cfcfcf; }
+
+.EXLResultsNumbers h1 span.EXLBriefResultsPaginationPageCount,
+h1 span.EXLBriefResultsPaginationPageCount {
+  display: none; }
 
 .EXLBriefResultsPagination:hover {
   text-decoration: none;
