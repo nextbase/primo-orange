@@ -12,7 +12,6 @@ $sitemap-font-color-visited: $white;
 
   #block-menu-menu-footer-sit {
     opacity: 0;
-    @include transition(opacity .2s ease-in .25s);
     @include reset-margins;
     max-height: 0;
     overflow: hidden;

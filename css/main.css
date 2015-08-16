@@ -5202,7 +5202,6 @@ table.jCalendar td.unselectable.dp-hover {
     display: none; }
   #footer-sitemap #block-menu-menu-footer-sit {
     opacity: 0;
-    transition: opacity 0.2s ease-in 0.25s;
     margin: 0;
     padding: 0;
     max-height: 0;
@@ -9714,12 +9713,12 @@ body.EXLFullView div.EXLBackToResults {
   font-size: 12px;
   font-weight: bold;
   line-height: 1;
-  color: #333333;
-  background: #f7f7f7;
+  color: #ffffff;
+  background: #99836e;
   border: 1px solid #ffffff;
   float: left; }
   .EXLTabsRibbon div li.EXLResultTab a:hover {
-    background: #d8d8d8;
+    background: #8b7662;
     text-decoration: none; }
 
 .EXLTabsRibbon div li.EXLResultTabIconPopout {
@@ -9744,7 +9743,7 @@ body.EXLFullView div.EXLBackToResults {
 .EXLTabsRibbon div li.EXLResultSelectedTab {
   border: 1px solid #c7bbaf;
   border-bottom: 1px solid #99836e;
-  background-color: #99836e;
+  background-color: #c7bbaf;
   color: #333333;
   height: auto; }
   .EXLTabsRibbon div li.EXLResultSelectedTab:hover {
