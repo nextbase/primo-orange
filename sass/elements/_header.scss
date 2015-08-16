@@ -1,3 +1,4 @@
+$header-z-index: 10;
 $header-height: 140px;
 
 #exlidHeaderContainer {
@@ -17,7 +18,7 @@ $header-height: 140px;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 12;
+  z-index: $header-z-index;
 }
 
 @include media($mobile) {
