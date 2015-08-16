@@ -35,12 +35,14 @@ $header-height: 140px;
 #exlidUserAreaTile {
   @include reset-margins;
   @include outer-container();
-  z-index: ($header-z-index + 10);
+  float: none;
   pointer-events: none;
 }
 
 #exlidUserAreaTile ul {
   @include reset-margins;
+  z-index: ($header-z-index + 10);
+  float: right;
   border: none;
   pointer-events: all;
   position: relative;

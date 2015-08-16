@@ -5013,7 +5013,7 @@ table.jCalendar td.unselectable.dp-hover {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  z-index: 20;
+  float: none;
   pointer-events: none; }
   #exlidUserAreaTile::after {
     clear: both;
@@ -5023,6 +5023,8 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidUserAreaTile ul {
   margin: 0;
   padding: 0;
+  z-index: 20;
+  float: right;
   border: none;
   pointer-events: all;
   position: relative;
