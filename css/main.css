@@ -5470,6 +5470,29 @@ table.jCalendar td.unselectable.dp-hover {
       line-height: 1.4;
       margin-bottom: 2px; }
 
+#footer-simetmap {
+  margin-bottom: 40px; }
+
+#footer-sitemap.expanded {
+  background-color: #f67849;
+  transition: background-color 0.2s ease-in 0.25s; }
+
+#footer-sitemap.expanded #block-menu-menu-footer-sit {
+  opacity: 1;
+  transition: opacity 0.4s ease-in 0.25s;
+  max-width: 75em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0;
+  height: auto;
+  max-height: 800px;
+  transition: max-height 0.5s ease-in 0s, padding 0.25s ease-in 0s; }
+
+#footer-sitemap.expanded #block-menu-menu-footer-sit::after {
+  clear: both;
+  content: "";
+  display: table; }
+
 #exlidHomeContainer {
   margin: 0;
   padding: 0;
@@ -6647,7 +6670,7 @@ li.EXLFacet label {
   margin-bottom: 20px;
   color: #333333;
   font-size: 16px;
-  background-color: #f7f7f7;
+  background-color: #d8d8d8;
   border-top: 1px solid #eaeaea;
   border-bottom: 1px solid #eaeaea;
   line-height: 1.4;

@@ -289,3 +289,33 @@ $footer-bottom-bg: #bbbbbb;
     }
   }
 }
+
+#footer-simetmap {
+  margin-bottom: 40px;
+}
+
+#footer-sitemap.expanded {
+  background-color: #f67849;
+  -webkit-transition: background-color 0.2s ease-in 0.25s;
+  transition: background-color 0.2s ease-in 0.25s;
+}
+
+#footer-sitemap.expanded #block-menu-menu-footer-sit {
+  opacity: 1;
+  -webkit-transition: opacity 0.4s ease-in 0.25s;
+  transition: opacity 0.4s ease-in 0.25s;
+  max-width: 75em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0;
+  height: auto;
+  max-height: 800px;
+  -webkit-transition: max-height 0.5s ease-in 0s, padding 0.25s ease-in 0s;
+  transition: max-height 0.5s ease-in 0s, padding 0.25s ease-in 0s;
+}
+#footer-sitemap.expanded #block-menu-menu-footer-sit::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+

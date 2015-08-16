@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b6805e-1c0b-4afd-ae34-6c5f955bbb08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_exl-footer.scss" afterPath="$PROJECT_DIR$/sass/elements/_exl-footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_exlid-facets.scss" afterPath="$PROJECT_DIR$/sass/elements/_exlid-facets.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_footer.scss" afterPath="$PROJECT_DIR$/sass/elements/_footer.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/footer.html" afterPath="$PROJECT_DIR$/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -28,56 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_exlid-search-ribbon.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.225806">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.354838">
-              <caret line="107" column="27" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/elements/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42718446">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="11471" column="0" selection-start-line="11471" selection-start-column="0" selection-end-line="11471" selection-end-column="0" />
-              <folding>
-                <marker date="1439759236000" expanded="true" signature="127990:128027" placeholder="{...}" />
-                <marker date="1439759236000" expanded="true" signature="128037:128040" placeholder="{...}" />
-                <marker date="1439759236000" expanded="true" signature="130155:130270" placeholder="{...}" />
-                <marker date="1439759236000" expanded="true" signature="307651:307840" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_exl-search-tab.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/elements/_exl-search-tab.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.096774">
-              <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+            <state vertical-scroll-proportion="-3.967742">
+              <caret line="309" column="18" selection-start-line="309" selection-start-column="18" selection-end-line="309" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -86,8 +40,18 @@
       <file leaf-file-name="_colors.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/variables/_colors.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.806452">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            <state vertical-scroll-proportion="-1.8387097">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_exlid-facets.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-facets.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3669903">
+              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -110,7 +74,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/sass/elements/_exl-results.scss" />
-        <option value="$PROJECT_DIR$/sass/elements/_exlid-facets.scss" />
         <option value="$PROJECT_DIR$/js/footer.js" />
         <option value="$PROJECT_DIR$/sass/variables/_typography.scss" />
         <option value="$PROJECT_DIR$/sass/base/_typography.scss" />
@@ -121,7 +84,6 @@
         <option value="$PROJECT_DIR$/sass/elements/_exlid-user-area-ribbon.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid-main-menu-ribbon.scss" />
         <option value="$PROJECT_DIR$/header.html" />
-        <option value="$PROJECT_DIR$/sass/variables/_colors.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid-search-tile.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid_advanced_search_tile.scss" />
@@ -129,6 +91,8 @@
         <option value="$PROJECT_DIR$/sass/elements/_exl-footer.scss" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/sass/elements/_footer.scss" />
+        <option value="$PROJECT_DIR$/sass/variables/_colors.scss" />
+        <option value="$PROJECT_DIR$/sass/elements/_exlid-facets.scss" />
       </list>
     </option>
   </component>
@@ -419,14 +383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-facets.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49194992">
-          <caret line="378" column="1" selection-start-line="378" selection-start-column="1" selection-end-line="378" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exl-results.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30053666">
@@ -515,27 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/variables/_colors.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.806452">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11471" column="0" selection-start-line="11471" selection-start-column="0" selection-end-line="11471" selection-end-column="0" />
-          <folding>
-            <marker date="1439759236000" expanded="true" signature="127990:128027" placeholder="{...}" />
-            <marker date="1439759236000" expanded="true" signature="128037:128040" placeholder="{...}" />
-            <marker date="1439759236000" expanded="true" signature="130155:130270" placeholder="{...}" />
-            <marker date="1439759236000" expanded="true" signature="307651:307840" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exlid_advanced_search_tile.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18394649">
@@ -560,22 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7009709">
-          <caret line="162" column="34" selection-start-line="162" selection-start-column="34" selection-end-line="162" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.354838">
-          <caret line="107" column="27" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-tile.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.67572814">
@@ -584,26 +503,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-search-tab.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3669903">
+          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61538464">
+          <caret line="11493" column="0" selection-start-line="11493" selection-start-column="0" selection-end-line="11493" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7436893">
+          <caret line="107" column="27" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.225806">
+        <state vertical-scroll-proportion="0.5553398">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-search-tab.scss">
+    <entry file="file://$PROJECT_DIR$/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.096774">
-          <caret line="80" column="42" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        <state vertical-scroll-proportion="-0.025242718">
+          <caret line="150" column="17" selection-start-line="150" selection-start-column="17" selection-end-line="150" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/variables/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8387097">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42718446">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state vertical-scroll-proportion="-3.967742">
+          <caret line="309" column="18" selection-start-line="309" selection-start-column="18" selection-end-line="309" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-facets.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3669903">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
           <folding />
         </state>
       </provider>
