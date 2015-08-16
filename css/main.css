@@ -6337,11 +6337,13 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
   vertical-align: middle;
   height: auto;
+  float: none;
   clear: none; }
   #exlidMainMenuTile::after {
     clear: both;

@@ -1,11 +1,13 @@
 #exlidMainMenuTile {
   @include reset-margins;
   @include outer-container();
+  width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
   position: relative;
   vertical-align: middle;
   height: auto;
+  float: none;
   clear: none;
 }
 
