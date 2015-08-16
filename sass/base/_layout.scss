@@ -1,64 +1,67 @@
+$header-height: 200px;
+
 #contentEXL,
 .EXLCustomLayoutContainer {
-	@include reset-margins;
-    max-width: none;
-    width: 100%;
+  @include reset-margins;
+  padding-top: $header-height;
+  max-width: none;
+  width: 100%;
 }
 
 .outter-container {
-	@include outer-container;
+  @include outer-container;
 }
 
 .form-example {
-	@include span-columns(12);
-	// @include shift(2);
+  @include span-columns(12);
+  // @include shift(2);
 }
 
 #exlidSearchRibbon {
-    @include reset-margins;
-    @include span-columns(12);
-    padding: $spacing-small;
-    position: relative;
-    display: table;
+  @include reset-margins;
+  @include span-columns(12);
+  padding: $spacing-small;
+  position: relative;
+  display: table;
 }
 
 $tabs-width: 0;
 
 #exlidSearchRibbon fieldset {
-    @include reset-margins;
-    width: 100%;
+  @include reset-margins;
+  width: 100%;
 }
 
 #exlidSearchTabs {
-    @include reset-margins;
-		width: $tabs-width;
-		float: left;
+  @include reset-margins;
+  width: $tabs-width;
+  float: left;
 }
 
 #exlidSearchRibbon div.EXLSearchFieldRibbon {
-		@include reset-margins;
-		@include span-columns(9);
-		position: relative;
-		float: left;
-		padding-left: $tabs-width + 20px;
+  @include reset-margins;
+  @include span-columns(9);
+  position: relative;
+  float: left;
+  padding-left: $tabs-width + 20px;
 }
 
 .EXLSearchFieldRibbonBrowseSearchLink,
 .EXLSearchFieldRibbonAdvancedSearchLink {
-		@include reset-margins;
-		position: absolute;
+  @include reset-margins;
+  position: absolute;
 
-		a {
-			font-weight: bold;
-		}
+  a {
+    font-weight: bold;
+  }
 }
 
 .EXLSearchFieldRibbonBrowseSearchLink {
-    right: 20px;
-    top: 30px;
+  right: 20px;
+  top: 30px;
 }
 
 .EXLSearchFieldRibbonAdvancedSearchLink {
-    right: 130px;
-    top: 30px;
+  right: 130px;
+  top: 30px;
 }
