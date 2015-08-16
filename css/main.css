@@ -5034,7 +5034,8 @@ table.jCalendar td.unselectable.dp-hover {
 #header {
   background-color: rgba(246, 125, 80, 0.79);
   position: static;
-  width: 100%; }
+  width: 100%;
+  z-index: 10; }
   #header #block-unist-custom-block-unist-head-block {
     padding: 5px 0 0 0; }
     #header #block-unist-custom-block-unist-head-block .header-wrapper-1 {
