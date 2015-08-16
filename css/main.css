@@ -6425,7 +6425,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   border: 1px solid #fab399;
   display: inline;
   padding: 2px 10px 2px 10px;
-  background-color: yellow;
+  background-color: #f4591f;
   list-style-type: none;
   margin: 0px;
   position: relative;
@@ -6440,14 +6440,14 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: left;
   white-space: nowrap;
   background-color: transparent;
-  border: 2px solid #ffffff;
   z-index: 100;
   display: inline;
   clear: left;
   cursor: pointer;
   vertical-align: text-top;
   font-size: 14px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  color: #ffffff; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide li.EXLLanguageLinkHide {
   display: none; }
@@ -6470,7 +6470,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   top: -2px; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer li#exlidSelectedLanguage a {
-  color: #333333;
+  color: #ffffff;
   text-decoration: none;
   width: 100%;
   display: block; }
