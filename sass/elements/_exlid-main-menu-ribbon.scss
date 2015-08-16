@@ -2,8 +2,6 @@
   @include reset-margins;
   @include outer-container();
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
   position: relative;
   vertical-align: middle;
   height: auto;
@@ -15,6 +13,7 @@
   display: block;
   width: auto;
   @include clearfix;
+  padding: 10px 0;
 }
 
 #exlidMainMenuTile div.EXLMainMenuContainer ul {

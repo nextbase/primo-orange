@@ -6338,8 +6338,6 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  padding-top: 10px;
-  padding-bottom: 10px;
   position: relative;
   vertical-align: middle;
   height: auto;
@@ -6352,7 +6350,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuTile div.EXLMainMenuContainer {
   display: block;
-  width: auto; }
+  width: auto;
+  padding: 10px 0; }
   #exlidMainMenuTile div.EXLMainMenuContainer::after {
     clear: both;
     content: "";
