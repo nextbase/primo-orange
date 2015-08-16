@@ -11,6 +11,9 @@
   @include reset-margins;
   width: 100%;
   display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 @include media($mobile) {
