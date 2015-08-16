@@ -1,5 +1,5 @@
 $header-z-index: 10;
-$header-height: 100px;
+$header-height: 103px;
 
 #exlidHeaderContainer {
   @include reset-margins;
@@ -46,7 +46,7 @@ $header-height: 100px;
   border: none;
   pointer-events: all;
   position: relative;
-  top: (30 - $header-height);
+  top: (29 - $header-height);
   right: 130px;
 }
 

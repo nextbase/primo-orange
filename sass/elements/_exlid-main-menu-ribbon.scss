@@ -1,8 +1,6 @@
 #exlidMainMenuTile {
   @include reset-margins;
   @include outer-container;
-  padding-top: 10px;
-  padding-bottom: 10px;
   position: relative;
   vertical-align: middle;
   height: auto;
@@ -31,8 +29,8 @@
   width: 80px;
   float: right;
   position: relative;
-  top: -($header-height + 37);
-  margin-right: 50px;
+  top: -($header-height + 28);
+  margin-right: 48px;
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
@@ -51,19 +49,23 @@
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow {
   float: right;
   clear: left;
-  border: 1px solid $base-color-light;
+  border: 0px;
   display: inline;
   padding: 2px 10px 2px 10px;
-  background-color: $base-color-hover;
+  background-color: $base-color;
   list-style-type: none;
   margin: 0px;
   position: relative;
-  top: -2px;
+  top: -3px;
+
+  @include prefixer(box-shadow, 0 2px 6px 0 rgba($black, .2), webkit moz spec);
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide {
   border: 0px;
-  background-color: transparent
+  background-color: transparent;
+  top: -3px;
+  @include prefixer(box-shadow, none, webkit moz spec);
 }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow li.EXLLanguageLink {
