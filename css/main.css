@@ -5607,18 +5607,20 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidSearchTile {
   margin: 0;
   padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   border: 0;
   background-image: none;
   background-color: #595959;
   height: auto;
   font-size: 16px;
-  position: relative; }
-  #exlidSearchTile:last-child {
-    margin-right: 0; }
+  position: relative;
+  float: none; }
+  #exlidSearchTile::after {
+    clear: both;
+    content: "";
+    display: table; }
   #exlidSearchTile a {
     color: #ffffff; }
 
@@ -5795,7 +5797,6 @@ table.jCalendar td.unselectable.dp-hover {
   margin-left: auto;
   margin-right: auto;
   float: none;
-  padding-left: 0;
   position: relative; }
   #exlidSearchRibbon::after {
     clear: both;
@@ -7254,6 +7255,9 @@ li.EXLFacet label {
 #exlidAdvancedSearchTile {
   margin: 0;
   padding: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
   clear: left;
   border: none;
@@ -7262,6 +7266,10 @@ li.EXLFacet label {
   height: auto;
   background-color: #cfcfcf;
   width: 100%; }
+  #exlidAdvancedSearchTile::after {
+    clear: both;
+    content: "";
+    display: table; }
   #exlidAdvancedSearchTile #exlidSearchTabs {
     width: 100%; }
   #exlidAdvancedSearchTile #exlidSearchTabs li {

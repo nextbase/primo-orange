@@ -1,69 +1,70 @@
 #exlidSearchTile {
-    @include reset-margins;
-    @include span-columns(12);
-    border: 0;
-    background-image: none;
-    background-color: $gray-dark-secondary;
-    height: auto;
-    font-size: $base-font-size;
-    position: relative;
+  @include reset-margins;
+  @include outer-container();
+  border: 0;
+  background-image: none;
+  background-color: $gray-dark-secondary;
+  height: auto;
+  font-size: $base-font-size;
+  position: relative;
+  float: none;
 
-    a {
-        color: $white;
-    }
+  a {
+    color: $white;
+  }
 }
 
 #exlidSearchTileWrapper,
 .EXLSearchWrapper {
-    @include reset-margins;
-    @include span-columns(12);
+  @include reset-margins;
+  @include span-columns(12);
 }
 
 #searchForm,
 .EXLSearchForm {
-    @include reset-margins;
-    @include span-columns(12);
+  @include reset-margins;
+  @include span-columns(12);
 }
 
 #exlidEmbeddedSearch {
-    margin: 0.5em;
+  margin: 0.5em;
 }
 
 #exlidEmbeddedSearch #exlidSearchTile {
-    border: 1px solid #adb9c2;
+  border: 1px solid #adb9c2;
 }
 
 #exlidHeaderSearchLimits {
-    @include reset-margins;
-    @include span-columns(12);
-    padding: 5px 15px 3px 15px;
-    border-bottom: 1px solid $gray-light-secondary;
-    background-color: $gray-dark-secondary;
-    color: $gray-dark-secondary;
-    height: auto;
-    margin-bottom: $spacing-small;
+  @include reset-margins;
+  @include span-columns(12);
+  padding: 5px 15px 3px 15px;
+  border-bottom: 1px solid $gray-light-secondary;
+  background-color: $gray-dark-secondary;
+  color: $gray-dark-secondary;
+  height: auto;
+  margin-bottom: $spacing-small;
 }
 
 #exlidHeaderSearchLimits fieldset {
-    padding: 0;
-    color: $gray-dark-secondary;
-    font-weight: bold;
-    font-size: 14px;
-    width: auto;
+  padding: 0;
+  color: $gray-dark-secondary;
+  font-weight: bold;
+  font-size: 14px;
+  width: auto;
 }
 
 #exlidHeaderSearchLimits fieldset legend {
-    float: left;
-    width: auto;
-    color: $gray-dark-secondary;
+  float: left;
+  width: auto;
+  color: $gray-dark-secondary;
 }
 
 #exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFields {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
-#exlidHeaderSearchLimits  span.EXLHeaderSearchLimitsFieldsTitle {
+#exlidHeaderSearchLimits span.EXLHeaderSearchLimitsFieldsTitle {
   font-size: $small-font-size;
   display: block;
   float: left;
@@ -73,29 +74,29 @@
 }
 
 #exlidHeaderSearchLimits select {
-    @include input;
-    @include input-select;
-    @include input-size("small");
-    @include form-element-width("wide");
+  @include input;
+  @include input-select;
+  @include input-size("small");
+  @include form-element-width("wide");
 }
 
 #exlidHeaderSearchLimits label {
-    display: none;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+  display: none;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 #exlidHeaderSearchLimits input {
-    @include input;
-    @include input-size("small");
-    float: left;
-    position: absolute;
-    left: -10000px;
-    top: auto;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+  @include input;
+  @include input-size("small");
+  float: left;
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }

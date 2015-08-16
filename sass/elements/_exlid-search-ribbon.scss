@@ -5,7 +5,6 @@ $label-width: 120px;
 #exlidSearchRibbon {
   @include outer-container();
   float: none;
-  padding-left: 0;
   position: relative;
 }
 
