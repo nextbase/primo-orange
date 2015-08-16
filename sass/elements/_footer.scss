@@ -3,7 +3,7 @@ $sitemap-font-color: $white;
 $sitemap-font-color-visited: $white;
 
 #footer-sitemap {
-  background-color: $base-color;
+  background-color: transparent;
   @include transition(background-color 0.2s ease-in .0s);
 
   header {
@@ -204,7 +204,6 @@ $footer-bottom-bg: #bbbbbb;
     width: auto;
     max-width: 200px;
     float: left;
-    display: none;
 
     ul.menu {
       list-style: none;
@@ -279,9 +278,8 @@ $footer-bottom-bg: #bbbbbb;
           border-left: none;
         }
 
-        a, a:hover, a:active {
+        a {
           font-size: $small-font-size;
-          color: $black;
         }
       }
     }
@@ -309,11 +307,14 @@ $footer-bottom-bg: #bbbbbb;
   transition: background-color 0.2s ease-in 0.25s;
 }
 
+#footer-sitemap #block-menu-menu-footer-sit {
+  max-height: 0;
+}
+
 #footer-sitemap.expanded #block-menu-menu-footer-sit {
   opacity: 1;
   -webkit-transition: opacity 0.4s ease-in 0.25s;
   transition: opacity 0.4s ease-in 0.25s;
-  max-width: 75em;
   margin-left: auto;
   margin-right: auto;
   padding: 40px 0;
@@ -322,6 +323,7 @@ $footer-bottom-bg: #bbbbbb;
   -webkit-transition: max-height 0.5s ease-in 0s, padding 0.25s ease-in 0s;
   transition: max-height 0.5s ease-in 0s, padding 0.25s ease-in 0s;
 }
+
 #footer-sitemap.expanded #block-menu-menu-footer-sit::after {
   clear: both;
   content: "";

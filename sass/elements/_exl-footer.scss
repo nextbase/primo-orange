@@ -1,7 +1,7 @@
 
 .EXLFooterTile {
   @include reset-margins;
-  border-top: 1px solid $base-color-hover;
+  border-top: none;
   background-image: none;
   background-color: transparent;
   width: 100%;

@@ -5196,7 +5196,7 @@ table.jCalendar td.unselectable.dp-hover {
   display: none; }
 
 #footer-sitemap {
-  background-color: #f67849;
+  background-color: transparent;
   transition: background-color 0.2s ease-in 0s; }
   #footer-sitemap header {
     display: none; }
@@ -5412,8 +5412,7 @@ table.jCalendar td.unselectable.dp-hover {
     height: 60px;
     width: auto;
     max-width: 200px;
-    float: left;
-    display: none; }
+    float: left; }
     #footer #block-menu-menu-footer-social-links ul.menu {
       list-style: none;
       padding: 6px 0; }
@@ -5472,9 +5471,8 @@ table.jCalendar td.unselectable.dp-hover {
         margin-left: 0;
         padding-left: 0;
         border-left: none; }
-      #footer #block-menu-menu-footer-bottom-links ul.menu li a, #footer #block-menu-menu-footer-bottom-links ul.menu li a:hover, #footer #block-menu-menu-footer-bottom-links ul.menu li a:active {
-        font-size: 14px;
-        color: #333333; }
+      #footer #block-menu-menu-footer-bottom-links ul.menu li a {
+        font-size: 14px; }
   #footer .block-block {
     float: right;
     width: auto; }
@@ -5490,10 +5488,12 @@ table.jCalendar td.unselectable.dp-hover {
   background-color: #f67849;
   transition: background-color 0.2s ease-in 0.25s; }
 
+#footer-sitemap #block-menu-menu-footer-sit {
+  max-height: 0; }
+
 #footer-sitemap.expanded #block-menu-menu-footer-sit {
   opacity: 1;
   transition: opacity 0.4s ease-in 0.25s;
-  max-width: 75em;
   margin-left: auto;
   margin-right: auto;
   padding: 40px 0;
@@ -11497,7 +11497,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLFooterTile {
   margin: 0;
   padding: 0;
-  border-top: 1px solid #e56434;
+  border-top: none;
   background-image: none;
   background-color: transparent;
   width: 100%;
