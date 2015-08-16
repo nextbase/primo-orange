@@ -13,7 +13,7 @@ $sitemap-font-color-visited: $white;
   #block-menu-menu-footer-sit {
     opacity: 0;
     @include reset-margins;
-    max-height: 0;
+    max-width: auto;
     overflow: hidden;
     @include transition(max-height 0.5s ease-in 0s, padding 0.5s ease-in 0s);
   }

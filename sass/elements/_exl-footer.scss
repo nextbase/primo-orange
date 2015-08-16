@@ -53,6 +53,7 @@
   list-style: none;
   @include clearfix;
   margin-bottom: $spacing-small;
+  display: block;
 }
 
 .EXLFooterTile li {
@@ -87,4 +88,8 @@
   background-color: $yellow;
   z-index: 300;
   background-color: $gray-light;
+}
+
+.EXLFooterUpdateContainer {
+  display: none;
 }

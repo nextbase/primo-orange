@@ -80,7 +80,7 @@
 
 .EXLTabsRibbon div li.EXLResultSelectedTab {
   border: 1px solid $secondary-color-secondary;
-  border-bottom: 1px solid $secondary-color;
+  border-bottom: 1px solid $base-color;
   background-color: $secondary-color-secondary;
   color: $black-secondary;
   height: auto;
@@ -96,15 +96,15 @@
 }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab a {
-  border-color: $secondary-color;
-  color: $black-secondary;
-  background-color: $secondary-color;
+  border-color: $base-color;
+  color: $white;
+  background-color: $base-color;
   height: auto;
 
   &:hover {
-    border-color: $base-color;
+    border-color: $base-color-hover;
     color: $white;
-    background-color: $base-color;
+    background-color: $base-color-hover;
     outline: 0;
   }
 }
@@ -133,7 +133,8 @@
   border: none;
   border-top: none;
   margin-bottom: $spacing-medium;
-  clear: left
+  clear: left;
+  border: 2px solid $base-color;
 }
 
 .EXLResultTabContainerClosed {
