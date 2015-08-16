@@ -1,8 +1,9 @@
 
 .EXLFooterTile {
   @include reset-margins;
-  padding-top: $spacing-large;
-  border-top: 1px solid $secondary-color;
+  border-top: 1px solid $base-color-hover;
+  background-image: none;
+  background-color: transparent;
   width: 100%;
   display: block;
   float: none;
@@ -13,7 +14,7 @@
   @include span-columns(8)
 }
 
-.EXLFooterTile div.EXLFooterUpdateContainer {
+.EXLFooterTile div.EXLFooterUpdate Container {
   @include span-columns(4);
   display: none !important;
 }

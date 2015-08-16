@@ -159,5 +159,11 @@
 <!-- End of footer.html -->
 
 <!-- JavaScript for footer -->
-<script src="http://nextbase.github.io/primo-orange/js/footer.js"></script>
+<script>
+    $(document).ready(function() {
+        $("#sitemap-button").click(function() {
+            $("#footer").toggleClass("sitemap-expanded");
+        });
+    });
+</script>
 <!-- end Javascript -->

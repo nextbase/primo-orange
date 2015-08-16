@@ -5235,16 +5235,14 @@ table.jCalendar td.unselectable.dp-hover {
       clear: both;
       content: "";
       display: table; }
+  #footer-sitemap #block-menu-menu-footer-sit ul.menu li {
+    width: 100%; }
+    #footer-sitemap #block-menu-menu-footer-sit ul.menu li a {
+      text-indent: 0; }
   #footer-sitemap #block-menu-menu-footer-sit > ul.menu {
     margin: 0;
     padding: 0;
-    max-width: 1170px;
-    margin-left: auto;
-    margin-right: auto; }
-    #footer-sitemap #block-menu-menu-footer-sit > ul.menu::after {
-      clear: both;
-      content: "";
-      display: table; }
+    padding: 0; }
     #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a,
     #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a:link,
     #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a:visited {
@@ -5271,14 +5269,14 @@ table.jCalendar td.unselectable.dp-hover {
       #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > a,
       #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > a:link,
       #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > a:visited {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: normal;
         text-transform: none;
         padding-bottom: 15px;
         width: 100%;
         float: none;
         position: relative;
-        background-image: url("../img/line_footer_menu.png");
+        background-image: url("../images/line_footer_menu.png");
         background-position: bottom left;
         background-repeat: no-repeat;
         margin-bottom: 15px; }
@@ -5286,9 +5284,11 @@ table.jCalendar td.unselectable.dp-hover {
           #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > a,
           #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > a:link,
           #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > a:visited {
-            background-image: url("../img/line_footer_menu_2x.png");
+            background-image: url("../images/line_footer_menu_2x.png");
             background-size: 24px 1px; } }
       #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu {
+        margin: 0;
+        padding: 0;
         width: 100%;
         display: block;
         margin-bottom: 4px; }
@@ -11459,8 +11459,9 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLFooterTile {
   margin: 0;
   padding: 0;
-  padding-top: 40px;
-  border-top: 1px solid #99836e;
+  border-top: 1px solid #e56434;
+  background-image: none;
+  background-color: transparent;
   width: 100%;
   display: block;
   float: none;
@@ -11474,13 +11475,13 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   .EXLFooterTile div.EXLFooterLinksContainer:last-child {
     margin-right: 0; }
 
-.EXLFooterTile div.EXLFooterUpdateContainer {
+.EXLFooterTile div.EXLFooterUpdate Container {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
   display: none !important; }
-  .EXLFooterTile div.EXLFooterUpdateContainer:last-child {
+  .EXLFooterTile div.EXLFooterUpdate Container:last-child {
     margin-right: 0; }
 
 .EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterLastUpdate {

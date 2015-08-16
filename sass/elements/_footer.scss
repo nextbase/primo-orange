@@ -19,7 +19,7 @@ $sitemap-font-color-visited: $white;
     @include transition(max-height 0.5s ease-in 0s, padding 0.5s ease-in 0s);
   }
 
-  &.expanded  {
+  &.expanded {
     background-color: $sitemap-bg-color;
     @include transition(background-color .2s ease-in .25s);
 
@@ -35,7 +35,6 @@ $sitemap-font-color-visited: $white;
 
   }
 
-
   #sitemap-button-container,
   #block-menu-menu-footer-sit {
     @include outer-container;
@@ -43,10 +42,18 @@ $sitemap-font-color-visited: $white;
 
   #block-menu-menu-footer-sit {
 
+    ul.menu li {
+      width: 100%;
+
+      a {
+        text-indent: 0;
+      }
+    }
+
     > ul.menu {
       // Level One Menu
       @include reset-margins;
-      @include outer-container;
+      padding: 0;
 
       // Link Colors
       li > a,
@@ -75,7 +82,7 @@ $sitemap-font-color-visited: $white;
         > a,
         > a:link,
         > a:visited {
-          font-size: $h4-fontsize;
+          font-size: $base-font-size;
           font-weight: normal;
           text-transform: none;
           padding-bottom: 15px;
@@ -83,7 +90,7 @@ $sitemap-font-color-visited: $white;
           float: none;
           position: relative;
 
-          @include retina-image('../img/line_footer_menu', 24px 1px);
+          @include retina-image('../images/line_footer_menu', 24px 1px);
           background-position: bottom left;
           background-repeat: no-repeat;
           margin-bottom: 15px;
@@ -91,6 +98,7 @@ $sitemap-font-color-visited: $white;
 
         > ul.menu {
           // Level Two Menu
+          @include reset-margins;
           width: 100%;
           display: block;
           margin-bottom: 4px;
