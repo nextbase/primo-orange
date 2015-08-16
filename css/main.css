@@ -6438,10 +6438,17 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 #exlidMainMenuRibbon {
   margin: 0;
   padding: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   float: left;
   display: block;
   list-style: none;
   width: auto; }
+  #exlidMainMenuRibbon::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidMainMenuRibbon li {
   margin: 0;
