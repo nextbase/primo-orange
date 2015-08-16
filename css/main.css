@@ -4461,14 +4461,9 @@ ol li {
 
 #contentEXL,
 .EXLCustomLayoutContainer {
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto; }
-  #contentEXL::after,
-  .EXLCustomLayoutContainer::after {
-    clear: both;
-    content: "";
-    display: table; }
+  margin: 0;
+  padding: 0;
+  width: 100%; }
 
 .outter-container {
   max-width: 1170px;
