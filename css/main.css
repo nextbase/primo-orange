@@ -6431,7 +6431,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   list-style: none;
   float: left;
   white-space: nowrap;
-  background-color: #ffffff;
+  background-color: transparent;
+  border: 2px solid #ffffff;
   z-index: 100;
   display: inline;
   clear: left;
