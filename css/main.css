@@ -5029,7 +5029,7 @@ table.jCalendar td.unselectable.dp-hover {
   pointer-events: all;
   position: relative;
   top: -70px;
-  right: 0; }
+  right: 130px; }
 
 #header {
   background-color: rgba(246, 125, 80, 0.79);
@@ -5558,7 +5558,7 @@ table.jCalendar td.unselectable.dp-hover {
   display: none; }
 
 #exlidUserAreaRibbon li span.EXLUserAreaStartRtl {
-  display: nones; }
+  display: none; }
 
 #exlidUserAreaRibbon li span.EXLMyShelfStarSelected {
   background-image: url("../images/star_full.png");
