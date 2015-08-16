@@ -6337,12 +6337,14 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: relative;
   vertical-align: middle;
   height: auto;
+  clear: both;
   float: none;
-  clear: none; }
+  width: 100%; }
   #exlidMainMenuTile::after {
     clear: both;
     content: "";
@@ -6351,11 +6353,16 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 #exlidMainMenuTile div.EXLMainMenuContainer {
   display: block;
   width: auto;
-  padding: 10px 0; }
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%; }
   #exlidMainMenuTile div.EXLMainMenuContainer::after {
     clear: both;
     content: "";
     display: table; }
+  #exlidMainMenuTile div.EXLMainMenuContainer:last-child {
+    margin-right: 0; }
 
 #exlidMainMenuTile div.EXLMainMenuContainer ul {
   list-style-type: none; }
@@ -6368,8 +6375,10 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   z-index: 100;
   height: auto;
   width: 80px;
-  float: left;
-  position: relative; }
+  float: right;
+  position: relative;
+  top: -153px;
+  margin-right: 160px; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
   float: left;
