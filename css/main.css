@@ -11451,17 +11451,12 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLFooterTile {
   margin: 0;
   padding: 0;
-  max-width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
   padding-top: 40px;
   border-top: 1px solid #99836e;
+  width: 100%;
   display: block;
-  float: none; }
-  .EXLFooterTile::after {
-    clear: both;
-    content: "";
-    display: table; }
+  float: none;
+  max-width: none; }
 
 .EXLFooterTile div.EXLFooterLinksContainer {
   float: left;
@@ -11518,7 +11513,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   float: left;
   padding-right: 10px;
   padding-left: 10px;
-  border-right: 1px solid #e2e2e2; }
+  border-right: none; }
   .EXLFooterTile li a {
     font-size: 14px; }
 

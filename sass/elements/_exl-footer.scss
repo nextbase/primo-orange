@@ -1,49 +1,49 @@
 
 .EXLFooterTile {
-    @include reset-margins;
-    @include outer-container;
-    padding-top: $spacing-large;
-    border-top: 1px solid $secondary-color;
-    display: block;
-    float: none;
+  @include reset-margins;
+  padding-top: $spacing-large;
+  border-top: 1px solid $secondary-color;
+  width: 100%;
+  display: block;
+  float: none;
+  max-width: none;
 }
 
 .EXLFooterTile div.EXLFooterLinksContainer {
-    @include span-columns(8)
+  @include span-columns(8)
 }
 
 .EXLFooterTile div.EXLFooterUpdateContainer {
-    @include span-columns(4);
-    display: none !important;
+  @include span-columns(4);
+  display: none !important;
 }
 
 .EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterLastUpdate {
-    color: $gray-dark;
-    font-weight: normal;
+  color: $gray-dark;
+  font-weight: normal;
 }
 
 .EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate {
-    float: right;
+  float: right;
 
-    label {
-        float: left;
-        width: auto;
-        line-height: 18px;
-    }
+  label {
+    float: left;
+    width: auto;
+    line-height: 18px;
+  }
 
-    input[type="checkbox"] {
-        float: left;
-        margin-right: 5px;
-        margin-top: 2px;
-        height: 20px;
-        width: 20px;
-        line-height: 18px;
-    }
+  input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    height: 20px;
+    width: 20px;
+    line-height: 18px;
+  }
 
 }
 
 .EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterAutoUpdate
-
 .EXLFooterTile ul {
   @include reset-margins;
   display: block;
@@ -55,35 +55,35 @@
 }
 
 .EXLFooterTile li {
-    list-style: none;
-    float: left;
-    padding-right: 10px;
-    padding-left: 10px;
-    border-right: 1px solid #e2e2e2;
+  list-style: none;
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-right: none;
 
-    a {
-      font-size: $small-font-size;
-    }
+  a {
+    font-size: $small-font-size;
+  }
 
 }
 
 .EXLFooterTile li.EXLFooterLastLink {
-    border-right: none
+  border-right: none
 }
 
 .EXLFooterTile ul.EXLFooterLinksList2 {
-    width: 100%
+  width: 100%
 }
 
 .EXLFooterTile ul.EXLFooterLinksList2 li a {
-    color: #4a4d51
+  color: #4a4d51
 }
 
 .EXLPleaseWaitIframe {
-    position: absolute;
-    top: 50px;
-    left: 30%;
-    background-color: $yellow;
-    z-index: 300;
-    background-color: $gray-light;
+  position: absolute;
+  top: 50px;
+  left: 30%;
+  background-color: $yellow;
+  z-index: 300;
+  background-color: $gray-light;
 }
