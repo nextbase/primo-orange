@@ -1,43 +1,44 @@
 #exlidHomeContainer {
-    @include reset-margins;
-    @include outer-container;
-    padding-top: $base-line-height;
-    margin-top: 40px;
-    clear: auto;
-    font-size: $base-font-size;
-    color: $black;
+  @include reset-margins;
+  @include outer-container;
+  padding-top: $base-line-height;
+  margin-top: 40px;
+  min-height: 400px;
+  clear: auto;
+  font-size: $base-font-size;
+  color: $black;
 }
 
 #exlidHomeContainer h1 {
-    font-size: 100%;
-    color: $base-color;
+  font-size: 100%;
+  color: $base-color;
 }
 
 #exlidHomeContainer h2 {
-    font-size: 100%;
-    color: $base-color;
+  font-size: 100%;
+  color: $base-color;
 }
 
 #exlidHomeContainer h3 {
-    font-size: 100%;
-    color: $black;
+  font-size: 100%;
+  color: $black;
 }
 
 #exlidHomeContainer h4 {
-    font-size: 100%;
-    color: $base-color
+  font-size: 100%;
+  color: $base-color
 }
 
 @include media($tablet) {
-    
-    #exlidHomeContainer {
-        width: auto;
-        height: auto;
-        margin: 0em;
-        padding-top: 1.5em;
-        clear: right;
-        font-size: 80%;
-        color: #777676;
-    }
+
+  #exlidHomeContainer {
+    width: auto;
+    height: auto;
+    margin: 0em;
+    padding-top: 1.5em;
+    clear: right;
+    font-size: 80%;
+    color: #777676;
+  }
 
 }
