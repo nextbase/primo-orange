@@ -1,10 +1,9 @@
 #exlidHeaderContainer {
     @include reset-margins;
-    @include outer-container;
     @include clearfix;
     margin-bottom: $section-spacing;
     position: relative;
-    margin-bottom: 0;
+    width: 100%;
 }
 
 #exlidHeaderTile {
