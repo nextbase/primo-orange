@@ -54,7 +54,7 @@
   border: 1px solid $base-color-light;
   display: inline;
   padding: 2px 10px 2px 10px;
-  background-color: darken($base-color, 10%);
+  background-color: $base-color-hover;
   list-style-type: none;
   margin: 0px;
   position: relative;
