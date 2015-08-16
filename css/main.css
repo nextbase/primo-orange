@@ -4985,13 +4985,26 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidHeaderContainer {
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 40px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 0; }
   #exlidHeaderContainer::after {
     clear: both;
     content: "";
     display: table; }
+  #exlidHeaderContainer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+#exlidHeaderTile {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block; }
 
 @media screen and (max-width: 480px) {
   #exlidHeaderContainer div.EXLSkipToContent {
@@ -5010,14 +5023,6 @@ table.jCalendar td.unselectable.dp-hover {
   margin: 0;
   padding: 0;
   border: none; }
-
-#exlidHeaderTile {
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%; }
 
 #header {
   background-color: rgba(246, 125, 80, 0.79);

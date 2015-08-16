@@ -1,15 +1,22 @@
 #exlidHeaderContainer {
     @include reset-margins;
+    @include outer-container;
     @include clearfix;
-    width: 100%;
     margin-bottom: $section-spacing;
     position: relative;
+    margin-bottom: 0;
+}
+
+#exlidHeaderTile {
+    @include reset-margins;
+    width: 100%;
+    display: block;
 }
 
 @include media($mobile) {
 
-  #exlidHeaderContainer div.EXLSkipToContent {
-      display: none;
+	#exlidHeaderContainer div.EXLSkipToContent {
+        display: none;
   }
   #exlidHeaderContainer div.EXLSkipToSystemFeedback {
       display: none;
@@ -27,14 +34,6 @@
 #exlidUserAreaTile ul {
     @include reset-margins;
     border: none
-}
-
-#exlidHeaderTile {
-  @include reset-margins;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
 }
 
 #header {
