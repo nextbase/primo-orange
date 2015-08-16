@@ -5532,6 +5532,14 @@ table.jCalendar td.unselectable.dp-hover {
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   overflow: visible;
   background: transparent; }
+  #exlidUserAreaRibbon li a,
+  #exlidUserAreaRibbon li a:link,
+  #exlidUserAreaRibbon li a:visited {
+    color: #ffffff; }
+  #exlidUserAreaRibbon li a:hover,
+  #exlidUserAreaRibbon li a:active {
+    color: #ffffff;
+    text-decoration: underline; }
   #exlidUserAreaRibbon li .EXLUserNameDisplay,
   #exlidUserAreaRibbon li a {
     font-family: sans-serif;
