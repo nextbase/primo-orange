@@ -6448,6 +6448,12 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   font-size: 14px;
   margin-bottom: 0;
   color: #ffffff; }
+  #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow li.EXLLanguageLink a,
+  #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow li.EXLLanguageLink a:hover,
+  #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow li.EXLLanguageLink a:visited,
+  #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow li.EXLLanguageLink a:hover,
+  #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuShow li.EXLLanguageLink a:active {
+    color: #ffffff; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer ul.EXLLanguageMenuHide li.EXLLanguageLinkHide {
   display: none; }
