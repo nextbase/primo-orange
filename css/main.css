@@ -4463,7 +4463,6 @@ ol li {
 .EXLCustomLayoutContainer {
   margin: 0;
   padding: 0;
-  padding-top: 200px;
   max-width: none;
   width: 100%; }
 
@@ -4985,7 +4984,8 @@ table.jCalendar td.unselectable.dp-hover {
   margin-bottom: 40px;
   position: relative;
   width: 100%;
-  max-width: none; }
+  max-width: none;
+  padding-top: 200px; }
   #exlidHeaderContainer::after {
     clear: both;
     content: "";

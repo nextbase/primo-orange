@@ -1,9 +1,6 @@
-$header-height: 200px;
-
 #contentEXL,
 .EXLCustomLayoutContainer {
   @include reset-margins;
-  padding-top: $header-height;
   max-width: none;
   width: 100%;
 }
