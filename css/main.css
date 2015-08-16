@@ -37,24 +37,24 @@ table.jCalendar td.other-month {
   color: #333333; }
 
 table.jCalendar td.today {
-  background: #f67d50;
+  background: #f67849;
   color: #333333; }
 
 table.jCalendar td.selected {
-  background: #f67d50;
+  background: #f67849;
   color: #333333; }
 
 table.jCalendar td.selected.dp-hover {
-  background: #f67d50;
+  background: #f67849;
   color: #333333; }
 
 table.jCalendar td.dp-hover,
 table.jCalendar tr.activeWeekHover td {
-  background: #f67d50;
+  background: #f67849;
   color: #333333; }
 
 table.jCalendar tr.selectedWeek td {
-  background: #f67d50;
+  background: #f67849;
   color: #ffffff; }
 
 table.jCalendar td.disabled,
@@ -85,7 +85,7 @@ div#dp-popup {
   background-image: url(../images/v3.0/images/bg_strip_calendar_caption.png);
   background-repeat: repeat-x;
   background-color: #ffffff;
-  border: 1px solid #f67d50;
+  border: 1px solid #f67849;
   padding-left: 0.3em;
   padding-right: 0.3em;
   text-align: center;
@@ -103,7 +103,7 @@ a#dp-close {
   padding: 4px 0;
   text-align: center;
   display: block;
-  color: #f67d50; }
+  color: #f67849; }
 
 a#dp-close:hover {
   text-decoration: underline; }
@@ -120,7 +120,7 @@ div.dp-popup div.dp-nav-prev {
 
 div.dp-popup div.dp-nav-prev a {
   float: left;
-  color: #f67d50; }
+  color: #f67849; }
 
 a.dp-nav-next-month {
   background: transparent url(../images/v3.0/images/calendar-next.png) no-repeat scroll 30px 6px;
@@ -141,7 +141,7 @@ a.dp-nav-prev-year {
 div.dp-popup div.dp-nav-prev a,
 div.dp-popup div.dp-nav-next a {
   cursor: pointer;
-  color: #f67d50; }
+  color: #f67849; }
 
 div.dp-popup div.dp-nav-prev a.disabled,
 div.dp-popup div.dp-nav-next a.disabled {
@@ -382,7 +382,7 @@ pre.sourcecode {
 
 .ui-widget-header {
   border: 1px solid #ffffff;
-  background: #f67d50 url(../images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
+  background: #f67849 url(../images/ui-bg_gloss-wave_35_f6a828_500x100.png) 50% 50% repeat-x;
   color: #ffffff;
   font-weight: bold; }
 
@@ -418,7 +418,7 @@ pre.sourcecode {
 .ui-state-hover a:hover,
 .ui-state-hover a:link,
 .ui-state-hover a:visited {
-  color: #f4591f;
+  color: #f45418;
   text-decoration: none; }
 
 .ui-state-active,
@@ -427,12 +427,12 @@ pre.sourcecode {
   border: 1px solid #ffcc00;
   background: #ffffff url(../images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
   font-weight: bold;
-  color: #f67d50; }
+  color: #f67849; }
 
 .ui-state-active a,
 .ui-state-active a:link,
 .ui-state-active a:visited {
-  color: #f67d50;
+  color: #f67849;
   text-decoration: none; }
 
 .ui-state-highlight,
@@ -1170,7 +1170,7 @@ pre.sourcecode {
 .qtip-cream {
   background-color: #ffe066;
   border-color: #ffdb4d;
-  color: #f67d50; }
+  color: #f67849; }
 
 .qtip-cream .qtip-titlebar {
   background-color: #ffd633; }
@@ -1279,16 +1279,16 @@ pre.sourcecode {
   border: 0 dashed transparent; }
 
 .qtip-cluetip .qtip-titlebar {
-  background-color: #f4591f;
+  background-color: #f45418;
   color: #ffffff;
   border: 0 dashed transparent; }
 
 .qtip-cluetip .qtip-icon {
-  border-color: #f4591f; }
+  border-color: #f45418; }
 
 .qtip-cluetip .qtip-titlebar .ui-state-hover {
-  border-color: #ed490c;
-  color: #ed490c; }
+  border-color: #e7470b;
+  color: #e7470b; }
 
 .qtip-tipsy {
   background: #333333;
@@ -1452,7 +1452,7 @@ html {
 
 a:link,
 a:visited {
-  color: #f67d50;
+  color: #f67849;
   text-decoration: none; }
 
 a:hover {
@@ -1838,14 +1838,14 @@ strong {
   float: left;
   display: inline;
   clear: both;
-  border: 1px solid #fab399;
+  border: 1px solid #faae92;
   margin-left: 6em; }
 
 #exlidFindDBContainer div.EXLFindDBFieldRibbonFormSubmitSelected {
   float: left;
   display: inline;
   clear: both;
-  border: 1px solid #fab399;
+  border: 1px solid #faae92;
   margin-left: auto;
   margin-top: 1em; }
 
@@ -1853,7 +1853,7 @@ strong {
   border: 1px solid #ffffff;
   padding: 0em 0.5em 0em 0.5em;
   display: block;
-  background-color: #f67d50;
+  background-color: #f67849;
   background-image: url(../images/bg_strip_btn_orange.png);
   background-repeat: repeat-x;
   margin: 0em;
@@ -1866,13 +1866,13 @@ strong {
 #exlidFindDBContainer .EXLFindDBFieldRibbonFormClear {
   float: left;
   display: inline;
-  border: 1px solid #fab399;
+  border: 1px solid #faae92;
   margin-left: 0.2em;
   clear: none; }
 
 .EXLFindDBTabsRibbon {
   height: 28px;
-  border-bottom: 2px solid #f67d50;
+  border-bottom: 2px solid #f67849;
   padding: 0px;
   padding-top: 2.5em;
   margin: 0em 0em 0em 0em;
@@ -1917,9 +1917,9 @@ strong {
   text-decoration: underline; }
 
 .EXLFindDBTabsRibbon div li.EXLFindDBSelectedTab {
-  border: 1px solid #f67d50;
-  border-bottom: 2px solid #f67d50;
-  background-color: #f67d50;
+  border: 1px solid #f67849;
+  border-bottom: 2px solid #f67849;
+  background-color: #f67849;
   height: 26px;
   text-align: center;
   font-weight: bold;
@@ -1984,7 +1984,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 
 #exlidFindDBTile div div.EXLFindDBListHeaderLinks {
   width: auto;
-  color: #fab399;
+  color: #faae92;
   padding-left: 0.7em;
   line-height: 200%; }
 
@@ -2106,7 +2106,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   background-color: #ffe066; }
 
 .NewSetNameTextField {
-  border: 1px solid #f67d50; }
+  border: 1px solid #f67849; }
 
 #exlidFindDBContainer #exlidDatabasesListContainer {
   height: 154px; }
@@ -2209,7 +2209,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   display: block; }
 
 #exlidFindDBTile div.EXLFindDBSets ul li em {
-  color: #f67d50;
+  color: #f67849;
   letter-spacing: 0.1em; }
 
 #exlidFindDBTile div.EXLFindDBSets ul li span {
@@ -2266,7 +2266,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeader div.EXLFindDBEditSetHeaderContent div.EXLFindDBEditSetHeaderNoteEdit {
   width: 255px;
   height: 135px;
-  border: 1px solid #fbc5b1;
+  border: 1px solid #fbc0aa;
   position: relative;
   z-index: 1000;
   background-color: #ffffff;
@@ -2309,7 +2309,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   background-repeat: no-repeat;
   background-position: 90% 50%;
   padding-right: 1.8em;
-  border: 1px solid #fab399;
+  border: 1px solid #faae92;
   background-color: #ffffff;
   padding-left: 0.5em;
   padding-top: 0.1em;
@@ -2319,7 +2319,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   width: 280px;
   height: 11.8em;
   overflow-y: hidden;
-  border: 1px solid #fbc5b1;
+  border: 1px solid #fbc0aa;
   position: relative;
   z-index: 999;
   background-color: #ffffff;
@@ -2357,7 +2357,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   cursor: pointer; }
 
 .EXLFindDBMyDatabasesHeaderContainer div.EXLFindDBEditSetHeaderContent div.EXLMyDBSelectSet label em {
-  color: #f67d50;
+  color: #f67849;
   letter-spacing: 0.1em;
   font-weight: normal; }
 
@@ -2460,7 +2460,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   width: 92%;
   margin-left: auto;
   margin-right: auto;
-  color: #fcd7c9;
+  color: #fcd2c2;
   margin-top: 2em;
   height: 10em; }
 
@@ -2515,7 +2515,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   background-image: url(../images/bg_progress_bar_on.png);
   background-repeat: repeat-x;
   width: 20%;
-  background-color: #f67d50; }
+  background-color: #f67849; }
 
 .EXLSuggestedSearchesTile {
   width: 100%;
@@ -2745,7 +2745,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   float: left;
   display: inline;
   clear: right;
-  border: 1px solid #fab399;
+  border: 1px solid #faae92;
   margin-left: 0.5em;
   margin-top: 1em; }
 
@@ -2753,7 +2753,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   float: left;
   display: inline;
   clear: both;
-  border: 1px solid #fab399;
+  border: 1px solid #faae92;
   margin-left: auto;
   margin-top: 1em; }
 
@@ -2761,7 +2761,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   border: 1px solid #ffffff;
   padding: 0.3em 0.5em 0em 0.5em;
   display: inline-block;
-  background-color: #f67d50;
+  background-color: #f67849;
   background-image: url(../css/images/bg_strip_btn_orange.png);
   background-repeat: repeat-x;
   margin: 0em;
@@ -2776,7 +2776,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   border: 1px solid #ffffff;
   padding: 0em 0.5em 0em 0.5em;
   display: inline-block;
-  background-color: #f67d50;
+  background-color: #f67849;
   margin: 0em;
   width: auto;
   color: #ffffff;
@@ -2787,7 +2787,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 
 .EXLFacetsLightboxTabsRibbon {
   height: 28px;
-  border-bottom: 2px solid #f67d50;
+  border-bottom: 2px solid #f67849;
   padding: 0px;
   padding-top: auto;
   padding-left: 1em;
@@ -3065,7 +3065,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
   height: 22px; }
 
 .EXLMyAccountMainContainer form input.submit {
-  background-color: #f67d50;
+  background-color: #f67849;
   background-image: url(../images/bg_strip_submit_temp.png);
   background-repeat: repeat-x;
   margin-left: 0em;
@@ -3103,7 +3103,7 @@ div.EXLFindDBListHeaderAtoZ li a:hover {
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue {
   width: 100%;
   padding-bottom: 0px;
-  color: #f67d50;
+  color: #f67849;
   height: 1.5em; }
 
 .EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstData {
@@ -3965,7 +3965,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 .EXLSaveCitationReultsAreaHeaderContainer div.EXLSaveCitationEditSetHeader div.EXLSaveCitationEditSetHeaderContent div.EXLSaveCitationEditSetHeaderNoteEdit {
   width: 255px;
   height: 135px;
-  border: 1px solid #fbc5b1;
+  border: 1px solid #fbc0aa;
   position: relative;
   z-index: 1000;
   background-color: #ffffff;
@@ -4079,7 +4079,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 
 #exlidSaveCitationtile div.EXLSaveCitationDisclaimerRow div.EXLSaveCitationDisclaimer {
   background-color: #f7f7f7;
-  color: #f67d50;
+  color: #f67849;
   font-size: 85%;
   text-align: center;
   padding: 0.5em;
@@ -4088,7 +4088,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
 
 .EXLSaveCitationHeader {
   background-color: #ffffff;
-  border-bottom: 2px solid #f67d50;
+  border-bottom: 2px solid #f67849;
   width: 100%;
   clear: both;
   display: block;
@@ -4196,7 +4196,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   display: block; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li em {
-  color: #f67d50;
+  color: #f67849;
   letter-spacing: 0.1em; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li span {
@@ -4217,7 +4217,7 @@ div.EXLOpenUrlHeaderButtons li a span.EXLOpenUrlHeaderButtonClose {
   display: block; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li em {
-  color: #f67d50;
+  color: #f67849;
   letter-spacing: 0.1em; }
 
 #exlidSaveCitationtile div.EXLSaveCitationSets ul li span {
@@ -4241,7 +4241,7 @@ div.EXLSaveCitationBottomRow span.EXLSaveCitationEditSetHeaderAddtoSet {
   background-color: #ffffff;
   background-position: 90% 50%;
   background-repeat: no-repeat;
-  border: 1px solid #fab399;
+  border: 1px solid #faae92;
   padding: 0.1em 1.8em 0.1em 0.5em; }
 
 div.EXLSaveCitationListRow div.EXLFindDBEditSetHeaderContent {
@@ -4320,7 +4320,7 @@ li.EXLAdditionalBarType_thumbnails {
   background-image: url(../images/icon_book.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  border: 1px solid #fab399; }
+  border: 1px solid #faae92; }
 
 .EXLResultsList td.EXLAdditionalBar img {
   padding: 0em;
@@ -4343,7 +4343,7 @@ li.EXLAdditionalBarType_thumbnails {
   width: 760px; }
 
 .EXLAdditionalBarContentMultipleLineLink {
-  color: #f67d50; }
+  color: #f67849; }
 
 .EXLAdditionalBarContentMultipleEnteriesThumbnail {
   float: left;
@@ -4597,8 +4597,8 @@ input[type="button"] {
   outline: none;
   background-image: none;
   color: #ffffff;
-  background-color: #f67d50;
-  border: 2px solid #f67d50;
+  background-color: #f67849;
+  border: 2px solid #f67849;
   line-height: 28px; }
   .button::-moz-focus-inner,
   button::-moz-focus-inner,
@@ -4618,26 +4618,26 @@ input[type="button"] {
   input[type="button"]:hover,
   input[type="button"]:active {
     color: #ffffff;
-    background-color: #f56b38;
-    border-color: #f46029; }
+    background-color: #f56631;
+    border-color: #f45b22; }
   .button:active,
   button:active,
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active {
     color: #ffffff;
-    background-color: #f46029;
-    border-color: #f35216;
-    box-shadow: inset 2px 2px 2px 1px rgba(243, 82, 22, 0.5); }
+    background-color: #f45b22;
+    border-color: #f34d0f;
+    box-shadow: inset 2px 2px 2px 1px rgba(243, 77, 15, 0.5); }
   .button.outline,
   button.outline,
   input[type="submit"].outline,
   input[type="reset"].outline,
   input[type="button"].outline {
-    color: #f67d50;
+    color: #f67849;
     background-color: transparent;
     border: 2px solid transparent;
-    border: 2px solid #f78f68; }
+    border: 2px solid #f78a61; }
     .button.outline:hover,
     .button.outline:active,
     button.outline:hover,
@@ -4649,17 +4649,17 @@ input[type="button"] {
     input[type="button"].outline:hover,
     input[type="button"].outline:active {
       color: #ffffff;
-      background-color: #f67d50;
-      border: 2px solid #f67d50; }
+      background-color: #f67849;
+      border: 2px solid #f67849; }
     .button.outline:active,
     button.outline:active,
     input[type="submit"].outline:active,
     input[type="reset"].outline:active,
     input[type="button"].outline:active {
       color: #ffffff;
-      background-color: #f67d50;
-      border-color: #f46029;
-      box-shadow: inset 2px 2px 2px 1px rgba(244, 96, 41, 0.5); }
+      background-color: #f67849;
+      border-color: #f45b22;
+      box-shadow: inset 2px 2px 2px 1px rgba(244, 91, 34, 0.5); }
   .button.action,
   button.action,
   input[type="submit"].action,
@@ -4727,8 +4727,8 @@ input[type="button"] {
   input[type="reset"].secondary,
   input[type="button"].secondary {
     color: #ffffff;
-    background-color: #fab399;
-    border: 2px solid #fab399; }
+    background-color: #faae92;
+    border: 2px solid #faae92; }
     .button.secondary:hover,
     .button.secondary:active,
     button.secondary:hover,
@@ -4740,26 +4740,26 @@ input[type="button"] {
     input[type="button"].secondary:hover,
     input[type="button"].secondary:active {
       color: #ffffff;
-      background-color: #f8a181;
-      border-color: #f89672; }
+      background-color: #f89c7a;
+      border-color: #f8916b; }
     .button.secondary:active,
     button.secondary:active,
     input[type="submit"].secondary:active,
     input[type="reset"].secondary:active,
     input[type="button"].secondary:active {
       color: #ffffff;
-      background-color: #f89672;
-      border-color: #f7885f;
-      box-shadow: inset 2px 2px 2px 1px rgba(247, 136, 95, 0.5); }
+      background-color: #f8916b;
+      border-color: #f78358;
+      box-shadow: inset 2px 2px 2px 1px rgba(247, 131, 88, 0.5); }
     .button.secondary.outline,
     button.secondary.outline,
     input[type="submit"].secondary.outline,
     input[type="reset"].secondary.outline,
     input[type="button"].secondary.outline {
-      color: #fab399;
+      color: #faae92;
       background-color: transparent;
       border: 2px solid transparent;
-      border: 2px solid #fbc5b1; }
+      border: 2px solid #fbc0aa; }
       .button.secondary.outline:hover,
       .button.secondary.outline:active,
       button.secondary.outline:hover,
@@ -4771,17 +4771,17 @@ input[type="button"] {
       input[type="button"].secondary.outline:hover,
       input[type="button"].secondary.outline:active {
         color: #ffffff;
-        background-color: #fab399;
-        border: 2px solid #fab399; }
+        background-color: #faae92;
+        border: 2px solid #faae92; }
       .button.secondary.outline:active,
       button.secondary.outline:active,
       input[type="submit"].secondary.outline:active,
       input[type="reset"].secondary.outline:active,
       input[type="button"].secondary.outline:active {
         color: #ffffff;
-        background-color: #fab399;
-        border-color: #f89672;
-        box-shadow: inset 2px 2px 2px 1px rgba(248, 150, 114, 0.5); }
+        background-color: #faae92;
+        border-color: #f8916b;
+        box-shadow: inset 2px 2px 2px 1px rgba(248, 145, 107, 0.5); }
   .button.small,
   button.small,
   input[type="submit"].small,
@@ -5032,7 +5032,7 @@ table.jCalendar td.unselectable.dp-hover {
   right: 130px; }
 
 #header {
-  background-color: rgba(246, 125, 80, 0.79);
+  background-color: rgba(246, 120, 73, 0.79);
   position: static;
   width: 100%;
   z-index: 10; }
@@ -5106,7 +5106,7 @@ table.jCalendar td.unselectable.dp-hover {
             margin-right: 6px; }
 
 .not-front #header {
-  background-color: #f67d50; }
+  background-color: #f67849; }
 
 .front #main > #page-title,
 .front #main > .tabs,
@@ -5209,7 +5209,7 @@ table.jCalendar td.unselectable.dp-hover {
     overflow: hidden;
     transition: max-height 0.5s ease-in 0s, padding 0.5s ease-in 0s; }
   #footer-sitemap.expanded {
-    background-color: #f67d50;
+    background-color: #f67849;
     transition: background-color 0.2s ease-in 0.25s; }
     #footer-sitemap.expanded #block-menu-menu-footer-sit {
       opacity: 1;
@@ -5488,11 +5488,11 @@ table.jCalendar td.unselectable.dp-hover {
 
 #exlidHomeContainer h1 {
   font-size: 100%;
-  color: #f67d50; }
+  color: #f67849; }
 
 #exlidHomeContainer h2 {
   font-size: 100%;
-  color: #f67d50; }
+  color: #f67849; }
 
 #exlidHomeContainer h3 {
   font-size: 100%;
@@ -5500,7 +5500,7 @@ table.jCalendar td.unselectable.dp-hover {
 
 #exlidHomeContainer h4 {
   font-size: 100%;
-  color: #f67d50; }
+  color: #f67849; }
 
 @media screen and (max-width: 768px) {
   #exlidHomeContainer {
@@ -5862,11 +5862,11 @@ table.jCalendar td.unselectable.dp-hover {
     transition: box-shadow 0.2s ease-in-out; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
-    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.5), 0px 0px 20px 0 rgba(246, 125, 80, 0.75); }
+    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.5), 0px 0px 20px 0 rgba(246, 120, 73, 0.75); }
 
 #exlidSearchRibbon input.submit {
   border: none;
-  background-color: #f67d50;
+  background-color: #f67849;
   background-image: url("../images/search_button_bg.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -6452,7 +6452,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   border: 0px;
   display: inline;
   padding: 2px 10px 2px 10px;
-  background-color: #f67d50;
+  background-color: #f67849;
   list-style-type: none;
   margin: 0px;
   position: relative;
@@ -6558,7 +6558,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   padding: 0;
   padding: 0 5px;
   margin: 0 5px;
-  background: #f67d50;
+  background: #f67849;
   height: auto;
   width: auto;
   cursor: pointer;
@@ -6574,7 +6574,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 #exlidMainMenuRibbon li.EXLMainMenuItemSelected span a.EXLMainMenuITEMATOZClose {
   border-left: medium none;
-  border-right: 1px solid #f67d50;
+  border-right: 1px solid #f67849;
   display: none; }
 
 #exlidMainMenuRibbon li span.EXLMainMenuItemSelectedClose {
@@ -6681,7 +6681,7 @@ li.EXLFacet label {
 .EXLFacetContainer li a {
   text-indent: 0;
   font: "Noto Sans Korean", sans-serif;
-  color: #f67d50; }
+  color: #f67849; }
 
 .EXLFacetContainer ol li {
   margin: 0;
@@ -6690,7 +6690,7 @@ li.EXLFacet label {
   margin-left: 0;
   padding: 0;
   font-size: 14px;
-  color: #f67d50;
+  color: #f67849;
   list-style: none;
   line-height: 120%;
   list-style-position: outside; }
@@ -7179,7 +7179,7 @@ li.EXLFacet label {
   border-radius: 10px; }
 
 .datebox {
-  border: solid 1px #f67d50;
+  border: solid 1px #f67849;
   padding: 2px 3px 1px 3px;
   font-size: 14px; }
 
@@ -7196,7 +7196,7 @@ li.EXLFacet label {
 .ui-state-default,
 .ui-widget-content .ui-state-default,
 .ui-widget-header .ui-state-default {
-  color: #f67d50;
+  color: #f67849;
   text-decoration: none;
   outline: none; }
 
@@ -7632,8 +7632,8 @@ li.EXLFacet label {
   outline: none;
   background-image: none;
   color: #ffffff;
-  background-color: #f67d50;
-  border: 2px solid #f67d50;
+  background-color: #f67849;
+  border: 2px solid #f67849;
   line-height: 28px;
   background-image: none; }
   #exlidAdvancedSearchRibbon input.submit::-moz-focus-inner {
@@ -7642,13 +7642,13 @@ li.EXLFacet label {
   #exlidAdvancedSearchRibbon input.submit:hover,
   #exlidAdvancedSearchRibbon input.submit:active {
     color: #ffffff;
-    background-color: #f56b38;
-    border-color: #f46029; }
+    background-color: #f56631;
+    border-color: #f45b22; }
   #exlidAdvancedSearchRibbon input.submit:active {
     color: #ffffff;
-    background-color: #f46029;
-    border-color: #f35216;
-    box-shadow: inset 2px 2px 2px 1px rgba(243, 82, 22, 0.5); }
+    background-color: #f45b22;
+    border-color: #f34d0f;
+    box-shadow: inset 2px 2px 2px 1px rgba(243, 77, 15, 0.5); }
 
 #exlidAdvancedSearchTile .EXLSearchFieldRibbonFormSubmitSearch {
   width: auto; }
@@ -8155,8 +8155,8 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   outline: none;
   background-image: none;
   color: #ffffff;
-  background-color: #f67d50;
-  border: 2px solid #f67d50;
+  background-color: #f67849;
+  border: 2px solid #f67849;
   line-height: 28px; }
   #exlidCitationLinkerContainer input.EXLSubmit::-moz-focus-inner {
     border: 0;
@@ -8164,13 +8164,13 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
   #exlidCitationLinkerContainer input.EXLSubmit:hover,
   #exlidCitationLinkerContainer input.EXLSubmit:active {
     color: #ffffff;
-    background-color: #f56b38;
-    border-color: #f46029; }
+    background-color: #f56631;
+    border-color: #f45b22; }
   #exlidCitationLinkerContainer input.EXLSubmit:active {
     color: #ffffff;
-    background-color: #f46029;
-    border-color: #f35216;
-    box-shadow: inset 2px 2px 2px 1px rgba(243, 82, 22, 0.5); }
+    background-color: #f45b22;
+    border-color: #f34d0f;
+    box-shadow: inset 2px 2px 2px 1px rgba(243, 77, 15, 0.5); }
 
 #exlidCitationLinkerContainer input.EXLSubmitClear {
   font-family: sans-serif;
@@ -8217,7 +8217,7 @@ div.EXLCitationLinkerFieldRibbonFormFieldsSubmit {
 
 #exlidCitationLinkerTile div div.EXLCitationLinkerListHeaderLinks {
   width: auto;
-  color: #fab399;
+  color: #faae92;
   padding-left: 0.7em;
   line-height: 200%; }
 
@@ -8378,7 +8378,7 @@ div.EXLResultsHeader:focus {
 
 .EXLResultsHeader div.EXLResultsNumbers li a {
   width: auto;
-  color: #f67d50;
+  color: #f67849;
   cursor: pointer; }
 
 .EXLResultsHeader div.EXLResultsNumbers li img {
@@ -8537,7 +8537,7 @@ h1 span.EXLBriefResultsPaginationPageCount {
 .EXLResultsList p.EXLTocLink {
   font-weight: bold;
   margin-top: 1em;
-  color: #f67d50;
+  color: #f67849;
   font-size: 95%; }
 
 .EXLResultsList span.EXLResultVersionFound {
@@ -8777,7 +8777,7 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
   text-align: center; }
 
 .EXLResultsListBrowseLine td span.EXLBrowseResultsDataHeadingsEntry {
-  color: #f67d50;
+  color: #f67849;
   padding-top: 0px; }
 
 .EXLResultsListBrowseLine td span.EXLBrowseResultsDataHeadingsEntry span.EXlBrowseFirstPhrase {
@@ -9459,7 +9459,7 @@ body.EXLFullView div.EXLBackToResults {
   height: 110px;
   background-image: url("../images/icon_book.png");
   background-repeat: no-repeat;
-  border: 1px solid #f4591f;
+  border: 1px solid #f45418;
   position: relative; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     .multipleCoverImageContainer {
@@ -9717,7 +9717,7 @@ body.EXLFullView div.EXLBackToResults {
   color: #333333;
   height: auto; }
   .EXLTabsRibbon div li.EXLResultSelectedTab:hover {
-    border-color: #f67d50;
+    border-color: #f67849;
     border-bottom-width: 2px;
     border-top-width: 0;
     position: relative;
@@ -9729,9 +9729,9 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #99836e;
   height: auto; }
   .EXLTabsRibbon div li.EXLResultSelectedTab a:hover {
-    border-color: #f67d50;
+    border-color: #f67849;
     color: #ffffff;
-    background-color: #f67d50;
+    background-color: #f67849;
     outline: 0; }
 
 .EXLTabsRibbon div li.EXLResultFirstTab {
@@ -10631,7 +10631,7 @@ body.EXLFullView div.EXLBackToResults {
   background-color: transparent;
   font-size: 90%;
   line-height: 250%;
-  color: #f67d50; }
+  color: #f67849; }
 
 .EXLFormCalendar tr.EXLFormCalendarNav td a:hover {
   background-color: transparent;
@@ -11543,7 +11543,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   margin: 0;
   padding: 0;
   height: 30px;
-  border-bottom: 2px solid #f67d50;
+  border-bottom: 2px solid #f67849;
   line-height: 1.2;
   background-color: #ffffff;
   max-width: 1170px;
@@ -11597,9 +11597,9 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   text-decoration: underline; }
 
 .EXLMyAccountTabsRibbon div li.EXLMyAccountSelectedTab {
-  border: 1px solid #f67d50;
-  border-bottom: 2px solid #f67d50;
-  background-color: #f67d50;
+  border: 1px solid #f67849;
+  border-bottom: 2px solid #f67849;
+  background-color: #f67849;
   height: 26px;
   text-align: center;
   font-weight: bold;
@@ -11957,7 +11957,7 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
   color: #333333; }
 
 a.EXLLoansRenewButton {
-  color: #f67d50;
+  color: #f67849;
   padding-right: 2em; }
 
 .EXLLocationsWaitButton {
@@ -12203,8 +12203,8 @@ a.EXLLoansRenewButton {
   outline: none;
   background-image: none;
   color: #ffffff;
-  background-color: #f67d50;
-  border: 2px solid #f67d50;
+  background-color: #f67849;
+  border: 2px solid #f67849;
   line-height: 28px;
   max-width: 100%; }
   .EXLMyAccountMainContainer form input.submit::-moz-focus-inner {
@@ -12213,13 +12213,13 @@ a.EXLLoansRenewButton {
   .EXLMyAccountMainContainer form input.submit:hover,
   .EXLMyAccountMainContainer form input.submit:active {
     color: #ffffff;
-    background-color: #f56b38;
-    border-color: #f46029; }
+    background-color: #f56631;
+    border-color: #f45b22; }
   .EXLMyAccountMainContainer form input.submit:active {
     color: #ffffff;
-    background-color: #f46029;
-    border-color: #f35216;
-    box-shadow: inset 2px 2px 2px 1px rgba(243, 82, 22, 0.5); }
+    background-color: #f45b22;
+    border-color: #f34d0f;
+    box-shadow: inset 2px 2px 2px 1px rgba(243, 77, 15, 0.5); }
 
 .EXLMyAccountMainContainer table.EXLMyAccountForm tr.PSPasswordsHiddableRow {
   display: none; }
@@ -12423,7 +12423,7 @@ a.EXLLoansRenewButton {
   height: 22px; }
 
 .EXLMyAccountMainContainer form input.submit {
-  background-color: #f67d50;
+  background-color: #f67849;
   background-image: url(../images/bg_strip_submit_temp.png);
   background-repeat: repeat-x;
   margin-left: 0em;
@@ -12602,7 +12602,7 @@ ul {
   padding-right: 0px;
   background: none #ffffff no-repeat left bottom;
   width: 15%;
-  border: 1px solid #fab399; }
+  border: 1px solid #faae92; }
 
 #foldersOverflow,
 .foldersoverflow {
@@ -12749,7 +12749,7 @@ html > body .folders_new li ul li img.foldericon {
   background: none transparent scroll repeat 0% 0%; }
 
 .folders_new li ul .nonextbranch input {
-  border: 1px solid #f67d50; }
+  border: 1px solid #f67849; }
 
 .folders_new li ul .nonextbranch_2nd {
   padding-left: 30px;
@@ -12758,12 +12758,12 @@ html > body .folders_new li ul li img.foldericon {
 .folders_new input.newfolders_input {
   font-size: 0.9em;
   width: 100px;
-  border: 1px solid #f67d50; }
+  border: 1px solid #f67849; }
 
 .folders_new input {
   font-size: 0.9em;
   width: 100px;
-  border: 1px solid #f67d50; }
+  border: 1px solid #f67849; }
 
 .folders_new input.newfolders_submit {
   background: url(../images/bg_strip_btn_orange.png);
@@ -13718,7 +13718,7 @@ table.main {
 
 #EXLEShelfFolderContentsPushTo span.buttonGo,
 .buttongo {
-  border: 1px solid #f67d50;
+  border: 1px solid #f67849;
   display: inline-table;
   vertical-align: bottom;
   width: auto;
@@ -13726,7 +13726,7 @@ table.main {
 
 #EXLEShelfFolderContentsPushTo span.buttonGo a,
 .buttonGo a {
-  color: #f67d50;
+  color: #f67849;
   background-color: #ffffff !important;
   padding-left: 5px;
   padding-right: 5px;
@@ -13889,13 +13889,13 @@ select#saveAs option[value='EasyBib'] {
   width: auto;
   display: block;
   cursor: pointer;
-  background-color: #f67d50;
+  background-color: #f67849;
   background-image: url(../images/bg_strip_submit_temp.png);
   background-repeat: repeat-x;
   margin-left: 0em;
   width: 65px;
   color: #ffffff;
-  border: 1px solid #f67d50;
+  border: 1px solid #f67849;
   height: 22px;
   margin-top: 0.3em;
   display: none; }

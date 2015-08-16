@@ -132,8 +132,8 @@ input[type="button"] {
   outline: none;
   background-image: none;
   color: #ffffff;
-  background-color: #f67d50;
-  border: 2px solid #f67d50;
+  background-color: #f67849;
+  border: 2px solid #f67849;
   line-height: 28px; }
   .button::-moz-focus-inner,
   button::-moz-focus-inner,
@@ -153,26 +153,26 @@ input[type="button"] {
   input[type="button"]:hover,
   input[type="button"]:active {
     color: #ffffff;
-    background-color: #f56b38;
-    border-color: #f46029; }
+    background-color: #f56631;
+    border-color: #f45b22; }
   .button:active,
   button:active,
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active {
     color: #ffffff;
-    background-color: #f46029;
-    border-color: #f35216;
-    box-shadow: inset 2px 2px 2px 1px rgba(243, 82, 22, 0.5); }
+    background-color: #f45b22;
+    border-color: #f34d0f;
+    box-shadow: inset 2px 2px 2px 1px rgba(243, 77, 15, 0.5); }
   .button.outline,
   button.outline,
   input[type="submit"].outline,
   input[type="reset"].outline,
   input[type="button"].outline {
-    color: #f67d50;
+    color: #f67849;
     background-color: transparent;
     border: 2px solid transparent;
-    border: 2px solid #f78f68; }
+    border: 2px solid #f78a61; }
     .button.outline:hover,
     .button.outline:active,
     button.outline:hover,
@@ -184,17 +184,17 @@ input[type="button"] {
     input[type="button"].outline:hover,
     input[type="button"].outline:active {
       color: #ffffff;
-      background-color: #f67d50;
-      border: 2px solid #f67d50; }
+      background-color: #f67849;
+      border: 2px solid #f67849; }
     .button.outline:active,
     button.outline:active,
     input[type="submit"].outline:active,
     input[type="reset"].outline:active,
     input[type="button"].outline:active {
       color: #ffffff;
-      background-color: #f67d50;
-      border-color: #f46029;
-      box-shadow: inset 2px 2px 2px 1px rgba(244, 96, 41, 0.5); }
+      background-color: #f67849;
+      border-color: #f45b22;
+      box-shadow: inset 2px 2px 2px 1px rgba(244, 91, 34, 0.5); }
   .button.action,
   button.action,
   input[type="submit"].action,
@@ -262,8 +262,8 @@ input[type="button"] {
   input[type="reset"].secondary,
   input[type="button"].secondary {
     color: #ffffff;
-    background-color: #fab399;
-    border: 2px solid #fab399; }
+    background-color: #faae92;
+    border: 2px solid #faae92; }
     .button.secondary:hover,
     .button.secondary:active,
     button.secondary:hover,
@@ -275,26 +275,26 @@ input[type="button"] {
     input[type="button"].secondary:hover,
     input[type="button"].secondary:active {
       color: #ffffff;
-      background-color: #f8a181;
-      border-color: #f89672; }
+      background-color: #f89c7a;
+      border-color: #f8916b; }
     .button.secondary:active,
     button.secondary:active,
     input[type="submit"].secondary:active,
     input[type="reset"].secondary:active,
     input[type="button"].secondary:active {
       color: #ffffff;
-      background-color: #f89672;
-      border-color: #f7885f;
-      box-shadow: inset 2px 2px 2px 1px rgba(247, 136, 95, 0.5); }
+      background-color: #f8916b;
+      border-color: #f78358;
+      box-shadow: inset 2px 2px 2px 1px rgba(247, 131, 88, 0.5); }
     .button.secondary.outline,
     button.secondary.outline,
     input[type="submit"].secondary.outline,
     input[type="reset"].secondary.outline,
     input[type="button"].secondary.outline {
-      color: #fab399;
+      color: #faae92;
       background-color: transparent;
       border: 2px solid transparent;
-      border: 2px solid #fbc5b1; }
+      border: 2px solid #fbc0aa; }
       .button.secondary.outline:hover,
       .button.secondary.outline:active,
       button.secondary.outline:hover,
@@ -306,17 +306,17 @@ input[type="button"] {
       input[type="button"].secondary.outline:hover,
       input[type="button"].secondary.outline:active {
         color: #ffffff;
-        background-color: #fab399;
-        border: 2px solid #fab399; }
+        background-color: #faae92;
+        border: 2px solid #faae92; }
       .button.secondary.outline:active,
       button.secondary.outline:active,
       input[type="submit"].secondary.outline:active,
       input[type="reset"].secondary.outline:active,
       input[type="button"].secondary.outline:active {
         color: #ffffff;
-        background-color: #fab399;
-        border-color: #f89672;
-        box-shadow: inset 2px 2px 2px 1px rgba(248, 150, 114, 0.5); }
+        background-color: #faae92;
+        border-color: #f8916b;
+        box-shadow: inset 2px 2px 2px 1px rgba(248, 145, 107, 0.5); }
   .button.small,
   button.small,
   input[type="submit"].small,
