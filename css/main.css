@@ -6419,7 +6419,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     margin-right: 0; }
 
 #exlidMainMenuTile div.EXLMainMenuContainer ul {
-  list-style-type: none; }
+  list-style-type: none;
+  padding: 10px 0; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer {
   margin: 0;
