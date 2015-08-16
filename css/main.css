@@ -5000,12 +5000,6 @@ table.jCalendar td.unselectable.dp-hover {
     content: "";
     display: table; }
 
-#exlidHeaderTile {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  display: block; }
-
 @media screen and (max-width: 480px) {
   #exlidHeaderContainer div.EXLSkipToContent {
     display: none; }
@@ -5023,6 +5017,14 @@ table.jCalendar td.unselectable.dp-hover {
   margin: 0;
   padding: 0;
   border: none; }
+
+#exlidHeaderTile {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; }
 
 #header {
   background-color: rgba(246, 125, 80, 0.79);
