@@ -5529,13 +5529,13 @@ table.jCalendar td.unselectable.dp-hover {
   list-style: none;
   width: auto;
   height: 20px;
-  border-left: 1px solid #cfcfcf;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
   overflow: visible;
   background: transparent; }
   #exlidUserAreaRibbon li .EXLUserNameDisplay,
   #exlidUserAreaRibbon li a {
     font-family: sans-serif;
-    color: #595959;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 10px;
     width: auto; }

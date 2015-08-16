@@ -14,14 +14,14 @@
     list-style: none;
     width: auto;
     height: 20px;
-    border-left: 1px solid $gray;
+    border-left: 1px solid rgba($white, .5);
     overflow: visible;
     background: transparent;
 
     .EXLUserNameDisplay,
     a {
         font-family: sans-serif;
-        color: $gray-dark-secondary;
+        color: $white;
         text-decoration: none;
         margin: 0 ($spacing-small / 2);
         width: auto;
