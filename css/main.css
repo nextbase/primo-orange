@@ -5077,7 +5077,8 @@ table.jCalendar td.unselectable.dp-hover {
           padding: 0 20px;
           margin: 0 20px;
           border-right: 1px solid rgba(255, 255, 255, 0.3);
-          border-left: 1px solid rgba(255, 255, 255, 0.3); }
+          border-left: 1px solid rgba(255, 255, 255, 0.3);
+          display: none; }
         #header #block-unist-custom-block-unist-head-block .header-wrapper-1 .menu-top .ajax-login,
         #header #block-unist-custom-block-unist-head-block .header-wrapper-1 .menu-top .ajax-logout {
           font-size: 14px;
@@ -5087,7 +5088,8 @@ table.jCalendar td.unselectable.dp-hover {
           cursor: pointer;
           color: #ffffff;
           position: relative;
-          top: 2px; }
+          top: 2px;
+          display: none; }
           #header #block-unist-custom-block-unist-head-block .header-wrapper-1 .menu-top .ajax-login:before,
           #header #block-unist-custom-block-unist-head-block .header-wrapper-1 .menu-top .ajax-logout:before {
             top: 1px;

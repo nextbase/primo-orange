@@ -101,6 +101,7 @@ $header-height: 100px;
           margin: 0 20px;
           border-right: 1px solid rgba(255, 255, 255, 0.3);
           border-left: 1px solid rgba(255, 255, 255, 0.3);
+          display: none; // hide
         }
 
         .ajax-login,
@@ -112,6 +113,7 @@ $header-height: 100px;
           color: $white;
           position: relative;
           top: 2px;
+          display: none; // Hide
 
           &:before {
             top: 1px;
