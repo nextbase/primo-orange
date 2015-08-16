@@ -53,7 +53,7 @@
         float: left;
         height: 32px;
         width: 340px;
-        @include retina-image('../img/header_logo', 340px 32px);
+        @include retina-image('../images/header_logo', 340px 32px);
         background-repeat: no-repeat;
         background-position: 0 0;
 
