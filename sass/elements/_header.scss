@@ -1,38 +1,39 @@
 #exlidHeaderContainer {
-    @include reset-margins;
-    @include clearfix;
-    margin-bottom: $section-spacing;
-    position: relative;
-    width: 100%;
+  @include reset-margins;
+  @include clearfix;
+  margin-bottom: $section-spacing;
+  position: relative;
+  width: 100%;
+  max-width: none;
 }
 
 #exlidHeaderTile {
-    @include reset-margins;
-    width: 100%;
-    display: block;
+  @include reset-margins;
+  width: 100%;
+  display: block;
 }
 
 @include media($mobile) {
 
-	#exlidHeaderContainer div.EXLSkipToContent {
-        display: none;
+  #exlidHeaderContainer div.EXLSkipToContent {
+    display: none;
   }
   #exlidHeaderContainer div.EXLSkipToSystemFeedback {
-      display: none;
+    display: none;
   }
 
 }
 
 #exlidUserAreaTile {
-    @include reset-margins;
-    float: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
+  @include reset-margins;
+  float: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #exlidUserAreaTile ul {
-    @include reset-margins;
-    border: none
+  @include reset-margins;
+  border: none
 }
 
 #header {
@@ -71,7 +72,7 @@
           color: $white;
         }
 
-        &>div {
+        & > div {
           float: left;
         }
 

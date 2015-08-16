@@ -4982,7 +4982,8 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 0;
   margin-bottom: 40px;
   position: relative;
-  width: 100%; }
+  width: 100%;
+  max-width: none; }
   #exlidHeaderContainer::after {
     clear: both;
     content: "";
