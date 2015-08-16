@@ -1,6 +1,7 @@
 #contentEXL,
 .EXLCustomLayoutContainer {
 	@include reset-margins;
+    max-width: none;
     width: 100%;
 }
 
