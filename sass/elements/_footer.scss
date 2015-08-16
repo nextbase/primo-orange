@@ -3,7 +3,7 @@ $sitemap-font-color: $white;
 $sitemap-font-color-visited: $white;
 
 #footer-sitemap {
-  background-color: transparent;
+  background-color: $base-color;
   @include transition(background-color 0.2s ease-in .0s);
 
   header {
@@ -16,6 +16,12 @@ $sitemap-font-color-visited: $white;
     max-width: auto;
     overflow: hidden;
     @include transition(max-height 0.5s ease-in 0s, padding 0.5s ease-in 0s);
+  }
+
+  &.expanded {
+    #block-menu-menu-footer-sit {
+      height: auto;
+    }
   }
 
   &.expanded {
@@ -198,6 +204,7 @@ $footer-bottom-bg: #bbbbbb;
     width: auto;
     max-width: 200px;
     float: left;
+    display: none;
 
     ul.menu {
       list-style: none;
@@ -208,7 +215,9 @@ $footer-bottom-bg: #bbbbbb;
         list-style: none;
         float: left;
 
-        a {
+        a,
+        a:link,
+        a:active {
           overflow: hidden;
           display: block;
           height: 36px;
@@ -270,8 +279,9 @@ $footer-bottom-bg: #bbbbbb;
           border-left: none;
         }
 
-        a {
+        a, a:hover, a:active {
           font-size: $small-font-size;
+          color: $black;
         }
       }
     }
