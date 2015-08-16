@@ -5012,7 +5012,8 @@ table.jCalendar td.unselectable.dp-hover {
   padding: 0;
   float: right;
   padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  z-index: 10; }
 
 #exlidUserAreaTile ul {
   margin: 0;

@@ -37,6 +37,7 @@ $header-height: 140px;
   float: right;
   padding-top: 10px;
   padding-bottom: 10px;
+  z-index: $header-z-index;
 }
 
 #exlidUserAreaTile ul {
