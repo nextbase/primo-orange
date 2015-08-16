@@ -79,14 +79,14 @@
 }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab {
-  border: 1px solid $secondary-color-secondary;
+  border: 1px solid $base-color;
   border-bottom: 1px solid $base-color;
-  background-color: $secondary-color-secondary;
+  background-color: $base-color;
   color: $black-secondary;
   height: auto;
 
   &:hover {
-    border-color: $base-color;
+    border-color: $base-color-hover;
     border-bottom-width: 2px;
     border-top-width: 0;
     position: relative;

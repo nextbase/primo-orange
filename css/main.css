@@ -9756,13 +9756,13 @@ body.EXLFullView div.EXLBackToResults {
   text-decoration: underline; }
 
 .EXLTabsRibbon div li.EXLResultSelectedTab {
-  border: 1px solid #c7bbaf;
+  border: 1px solid #f67849;
   border-bottom: 1px solid #f67849;
-  background-color: #c7bbaf;
+  background-color: #f67849;
   color: #333333;
   height: auto; }
   .EXLTabsRibbon div li.EXLResultSelectedTab:hover {
-    border-color: #f67849;
+    border-color: #e56434;
     border-bottom-width: 2px;
     border-top-width: 0;
     position: relative;
