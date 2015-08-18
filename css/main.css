@@ -4466,6 +4466,9 @@ ol li {
   max-width: none;
   width: 100%; }
 
+#exlidResultsContainer {
+  min-height: 480px; }
+
 .outter-container {
   max-width: 1170px;
   margin-left: auto;

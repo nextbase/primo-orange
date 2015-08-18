@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+#exlidResultsContainer {
+  min-height: 480px;
+}
+
 .outter-container {
   @include outer-container;
 }
