@@ -231,7 +231,7 @@ $footer-bottom-bg: #bbbbbb;
           }
 
           &[href*='twitter'] {
-            //// @include unist-icon($icon-twitter);
+            @include unist-icon($icon-twitter);
             &:before {
               font-size: 35px;
               height: 36px;
@@ -242,7 +242,7 @@ $footer-bottom-bg: #bbbbbb;
           }
 
           &[href*='facebook'] {
-            //// @include unist-icon($icon-facebook);
+            @include unist-icon($icon-facebook);
 
             &:before {
               font-size: 32px;

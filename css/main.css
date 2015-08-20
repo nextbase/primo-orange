@@ -4205,6 +4205,13 @@ ol li {
   src: url("../fonts/glyphicons-halflings-regular.eot");
   src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 
+@font-face {
+  font-family: 'unist-icons';
+  src: url("../fonts/unist-icons.eot?-sqrw1f");
+  src: url("../fonts/unist-icons.eot?#iefix-sqrw1f") format("embedded-opentype"), url("../fonts/unist-icons.ttf?-sqrw1f") format("truetype"), url("../fonts/unist-icons.woff?-sqrw1f") format("woff"), url("../fonts/unist-icons.svg?-sqrw1f#unist-icons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 label {
   font-size: 14px;
   display: block;
@@ -4743,13 +4750,13 @@ table.jCalendar td.unselectable.dp-hover {
             top: 1px;
             position: relative;
             display: inline-block;
-            font-family: 'Glyphicons Halflings';
+            font-family: 'unist-icons';
             font-style: normal;
             font-weight: normal;
             line-height: 1;
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
-            content: "";
+            content: "";
             font-size: 10px;
             margin-right: 6px; }
 
@@ -5086,22 +5093,56 @@ table.jCalendar td.unselectable.dp-hover {
           #footer #block-menu-menu-footer-social-links ul.menu li a:active:hover,
           #footer #block-menu-menu-footer-social-links ul.menu li a:active:active {
             color: #cfcfcf; }
-          #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter']:before,
-          #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='twitter']:before,
-          #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='twitter']:before {
-            font-size: 35px;
-            height: 36px;
-            width: 36px;
-            float: left;
-            line-height: 40px; }
-          #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook']:before,
-          #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='facebook']:before,
-          #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='facebook']:before {
-            font-size: 32px;
-            height: 36px;
-            width: 36px;
-            float: left;
-            line-height: 40px; }
+          #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter'],
+          #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='twitter'],
+          #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='twitter'] {
+            margin-right: 5px; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter']:before,
+            #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='twitter']:before,
+            #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='twitter']:before {
+              content: "";
+              position: relative;
+              top: 1px;
+              display: inline-block;
+              font-family: 'unist-icons';
+              font-style: normal;
+              font-weight: normal;
+              line-height: 1;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter']:before,
+            #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='twitter']:before,
+            #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='twitter']:before {
+              font-size: 35px;
+              height: 36px;
+              width: 36px;
+              float: left;
+              line-height: 40px; }
+          #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook'],
+          #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='facebook'],
+          #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='facebook'] {
+            margin-right: 5px; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook']:before,
+            #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='facebook']:before,
+            #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='facebook']:before {
+              content: "";
+              position: relative;
+              top: 1px;
+              display: inline-block;
+              font-family: 'unist-icons';
+              font-style: normal;
+              font-weight: normal;
+              line-height: 1;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook']:before,
+            #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='facebook']:before,
+            #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='facebook']:before {
+              font-size: 32px;
+              height: 36px;
+              width: 36px;
+              float: left;
+              line-height: 40px; }
   #footer #block-menu-menu-footer-bottom-links {
     float: right;
     width: auto;
