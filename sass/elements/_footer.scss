@@ -219,8 +219,8 @@ $footer-bottom-bg: #bbbbbb;
         a:active {
           overflow: hidden;
           display: block;
-          height: 36px;
-          width: 36px;
+          height: 40px;
+          width: 40px;
           float: left;
           margin-right: 5px;
           color: $gray-secondary;
@@ -234,8 +234,8 @@ $footer-bottom-bg: #bbbbbb;
             @include unist-icon($icon-twitter);
             &:before {
               font-size: 35px;
-              height: 36px;
-              width: 36px;
+              height: 40px;
+              width: 40px;
               float: left;
               line-height: 40px;
             }
@@ -246,8 +246,8 @@ $footer-bottom-bg: #bbbbbb;
 
             &:before {
               font-size: 32px;
-              height: 36px;
-              width: 36px;
+              height: 40px;
+              width: 40px;
               float: left;
               line-height: 40px;
             }

@@ -5081,8 +5081,8 @@ table.jCalendar td.unselectable.dp-hover {
         #footer #block-menu-menu-footer-social-links ul.menu li a:active {
           overflow: hidden;
           display: block;
-          height: 36px;
-          width: 36px;
+          height: 40px;
+          width: 40px;
           float: left;
           margin-right: 5px;
           color: #797979; }
@@ -5114,8 +5114,8 @@ table.jCalendar td.unselectable.dp-hover {
             #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='twitter']:before,
             #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='twitter']:before {
               font-size: 35px;
-              height: 36px;
-              width: 36px;
+              height: 40px;
+              width: 40px;
               float: left;
               line-height: 40px; }
           #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook'],
@@ -5139,8 +5139,8 @@ table.jCalendar td.unselectable.dp-hover {
             #footer #block-menu-menu-footer-social-links ul.menu li a:link[href*='facebook']:before,
             #footer #block-menu-menu-footer-social-links ul.menu li a:active[href*='facebook']:before {
               font-size: 32px;
-              height: 36px;
-              width: 36px;
+              height: 40px;
+              width: 40px;
               float: left;
               line-height: 40px; }
   #footer #block-menu-menu-footer-bottom-links {
