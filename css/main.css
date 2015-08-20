@@ -12124,6 +12124,701 @@ a.EXLLoansRenewButton {
   padding-left: 0.5em;
   padding-right: 0.5em; }
 
+.EXLLightbox {
+  border: 1px solid #ffffff;
+  height: auto;
+  padding: 0em;
+  margin: 0em;
+  background-color: #ffffff;
+  background-image: none;
+  background-repeat: repeat-x;
+  background-position: bottom;
+  padding-bottom: 1.5em;
+  border-radius: 0;
+  box-shadow: 0 0 20px 10px rgba(51, 51, 51, 0.5); }
+
+.EXLLightbox .exlidRecentness {
+  width: 100%; }
+
+.EXLLightbox div.EXLLightboxHeader {
+  background-image: none;
+  background-color: #f7f7f7;
+  background-position: bottom;
+  background-repeat: repeat-x;
+  height: 42px;
+  padding: 5px;
+  border-bottom: 0;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0; }
+
+.EXLLightbox div.EXLLightboxHeader span.EXLLightboxHeaderTitle {
+  color: #333333;
+  font-weight: bold;
+  font-size: 90%;
+  line-height: 210%;
+  margin-left: 1em; }
+
+.EXLLightbox div.EXLLightboxHeader a.EXLLightboxHeaderClose {
+  float: right;
+  margin-right: 1em;
+  margin-top: 0.6em;
+  text-align: right; }
+
+.EXLLightbox div.EXLLightboxFormContainer {
+  font-size: 80%;
+  padding: 20px; }
+
+.EXLLighboxFixed #EXLCancelPersonalRankData,
+#EXLCancelPersonalRankData {
+  line-height: 28px; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxHeader {
+  background-image: url(../images/lightbox_bg_title.png);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  height: 30px;
+  border-bottom: 1px solid #fbc0aa;
+  -moz-border-radius-topleft: 4px;
+  -moz-border-radius-topright: 4px; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow {
+  vertical-align: top;
+  padding: 0;
+  display: block;
+  background-color: #ffffff; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow span {
+  width: 100%;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  display: block;
+  white-space: normal; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLLightboxFormRow label {
+  width: auto;
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top; }
+
+.EXLLightbox div.EXLLightboxFormContainer p {
+  background-color: #ffffff;
+  padding: 1.5em 1em 0.5em 0em;
+  color: #7b7b79;
+  font-size: 90%;
+  background-color: #ffffff; }
+
+.EXLLightbox div.EXLLightboxFormContainer select {
+  width: 200px;
+  padding: 1px;
+  color: #333333;
+  border: 1px solid #c7c7c7;
+  background-image: url(../images/lightbox_footer_bg.png);
+  background-repeat: repeat-x;
+  margin-left: 0em;
+  font-family: Arial;
+  font-size: 90%;
+  margin-top: 0em; }
+
+.EXLLightbox div.EXLLightboxFormContainer input[type="text"] {
+  padding: 2px 0px 2px 0px;
+  color: #333333;
+  border: 1px solid #c7c7c7;
+  background-image: url(../images/lightbox_footer_bg.png);
+  background-repeat: repeat-x;
+  margin-left: 0em;
+  width: 198px; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection {
+  margin: 0;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #c7bbaf; }
+  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection::after {
+    clear: both;
+    content: "";
+    display: table; }
+  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection input[type=checkbox] {
+    float: left;
+    line-height: 1.2;
+    margin-right: 5px;
+    height: 28px; }
+  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection label {
+    float: left; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul {
+  list-style: none;
+  width: 49%; }
+  .EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul ul {
+    margin-top: 10px;
+    margin-bottom: 5px; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection .EXLLightboxFormDisciplineSelectionColumn1 {
+  float: left; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection .EXLLightboxFormDisciplineSelectionColumn2 {
+  float: right;
+  padding-left: 0.5em; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul li {
+  line-height: 1.4;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul li label {
+  padding-left: 0.2em;
+  white-space: nowrap;
+  width: auto;
+  display: inline;
+  float: left; }
+
+.EXLLightbox div.EXLLightboxFormContainer fieldset.EXLLightboxFormDisciplineSelection ul li label:hover {
+  cursor: pointer;
+  text-decoration: underline; }
+
+.EXLLightboxFormButtons {
+  margin-top: 0.5em; }
+
+.EXLLighboxSubmitButton {
+  width: auto;
+  font-size: 90%;
+  margin-left: 0em;
+  margin-right: auto;
+  margin-top: 0.5em;
+  float: left;
+  clear: right; }
+
+.EXLLighboxSubmitButton span {
+  border: none;
+  display: block;
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 0; }
+
+.EXLLighboxSubmitButton span input,
+.EXLLighboxSubmitButton span .EXLSubmit {
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #cfcfcf;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 0px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #f67849;
+  border: 2px solid #f67849;
+  line-height: 28px; }
+  .EXLLighboxSubmitButton span input::-moz-focus-inner,
+  .EXLLighboxSubmitButton span .EXLSubmit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .EXLLighboxSubmitButton span input:hover,
+  .EXLLighboxSubmitButton span input:active,
+  .EXLLighboxSubmitButton span .EXLSubmit:hover,
+  .EXLLighboxSubmitButton span .EXLSubmit:active {
+    color: #ffffff;
+    background-color: #f56631;
+    border-color: #f45b22; }
+  .EXLLighboxSubmitButton span input:active,
+  .EXLLighboxSubmitButton span .EXLSubmit:active {
+    color: #ffffff;
+    background-color: #f45b22;
+    border-color: #f34d0f;
+    box-shadow: inset 2px 2px 2px 1px rgba(243, 77, 15, 0.5); }
+
+.EXLLighboxCancelButton span {
+  margin-left: 10px; }
+
+.EXLLighboxCancelButton span input {
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #cfcfcf;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 0px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #99836e;
+  border: 2px solid #99836e;
+  line-height: 28px; }
+  .EXLLighboxCancelButton span input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  .EXLLighboxCancelButton span input:hover,
+  .EXLLighboxCancelButton span input:active {
+    color: #ffffff;
+    background-color: #8b7662;
+    border-color: #826f5c; }
+  .EXLLighboxCancelButton span input:active {
+    color: #ffffff;
+    background-color: #826f5c;
+    border-color: #766453;
+    box-shadow: inset 2px 2px 2px 1px rgba(118, 100, 83, 0.5); }
+
+.EXLLightboxFormButtonsLink {
+  width: auto;
+  font-weight: bold;
+  float: right;
+  line-height: 150%;
+  font-size: 100%;
+  margin-top: 0.7em;
+  margin-right: 2.5em; }
+
+/* More Lightbox Styles */
+.EXLLighboxConfirmContainer {
+  background-color: #f7f7f7;
+  width: 375px;
+  height: 130px;
+  padding-top: 0.5em;
+  position: fixed;
+  top: 10em;
+  left: 30%;
+  z-index: 1002; }
+
+.EXLLighboxConfirm {
+  font-size: 80%;
+  height: 120px;
+  width: 358px;
+  border: 1px solid darkgray;
+  background-color: #ffffff;
+  margin: auto; }
+
+.EXLLighboxConfirmHeader {
+  width: 100%;
+  clear: both;
+  display: block;
+  height: 3em; }
+
+.EXLLighboxConfirmHeader h1 {
+  float: left;
+  font-size: 100%;
+  color: #333333;
+  line-height: 300%;
+  padding-left: 1em; }
+
+.EXLLighboxConfirm p {
+  padding: 0em 0em 0em 1em;
+  margin: 0em;
+  width: 100%;
+  float: left; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmLinkButtons {
+  height: auto;
+  width: 80%;
+  margin-top: 2.5em; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink {
+  width: auto;
+  font-size: 90%;
+  margin-left: 1em;
+  margin-right: auto;
+  margin-top: 0.5em;
+  float: left;
+  clear: right; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span {
+  border: 1px solid #5dbbd6;
+  display: block;
+  width: 80px;
+  height: 20px;
+  text-align: center;
+  padding: 1px; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span input {
+  padding: 0em 0.5em 0em 0.5em;
+  color: #ffffff;
+  font-weight: normal;
+  height: 20px;
+  cursor: pointer;
+  background-image: url(../images/bg_strip_btn_orange.png);
+  background-repeat: repeat-x;
+  display: block;
+  line-height: 160%;
+  width: 80px;
+  background-color: #f88543; }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonCancel span input {
+  background-image: url(../images/bg_strip_btn_grey.png); }
+
+.EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span input[disabled] {
+  background-image: none;
+  background-color: #d4d2d2;
+  cursor: wait; }
+
+#exlidFacetsLightboxContainer {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: 600px;
+  padding: 20px 20px 60px 20px; }
+
+#exlidFacetsLightboxTile {
+  margin: 0;
+  padding: 0;
+  clear: left;
+  font-size: 16px -2px;
+  height: 510px;
+  width: 100%;
+  border: 1px solid #99836e;
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto; }
+
+#exlidFacetsLightboxListWrapper {
+  clear: both;
+  position: relative; }
+
+.EXLFacetsLightboxHeader {
+  width: 100%;
+  clear: both;
+  display: block;
+  height: 3em; }
+
+.EXLFacetsLightboxHeader h1 {
+  float: left;
+  font-size: 100%;
+  color: #333333;
+  line-height: 300%;
+  padding-left: 1em; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons {
+  padding: 0em;
+  width: 35%;
+  float: right;
+  text-align: right;
+  height: 18px;
+  padding-top: 0.8em;
+  margin-right: 0.5em; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons ul {
+  float: right;
+  margin-bottom: 9px; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li {
+  list-style: none;
+  float: left;
+  height: 18px;
+  border-right: 0px solid #c7bbaf; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li span {
+  background-image: none;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 18px;
+  display: inline;
+  float: left; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a {
+  padding: 0.2em 0.2em 0.2em 0.2em;
+  cursor: pointer;
+  text-decoration: none; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonCloseLabel {
+  display: none; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonHelpLabel {
+  display: inline; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a:hover span.EXLFacetsLightboxHeaderButtonHelpLabel {
+  text-decoration: underline; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonHelp {
+  background-image: none;
+  background-position: center;
+  border-right: 1px solid #c7bbaf; }
+
+.EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonClose {
+  background-image: url(../images/icon_close_tabs.png);
+  background-position: center;
+  margin-left: 0em; }
+
+#exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormResetSearch {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  border: none;
+  position: absolute;
+  bottom: -50px;
+  left: 120px; }
+
+#exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormSubmitSelected {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  border: none;
+  position: absolute;
+  bottom: -50px; }
+
+#exlidFacetsLightboxContainer a.EXLSubmit {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #cfcfcf;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 0px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #f67849;
+  border: 2px solid #f67849;
+  line-height: 28px; }
+  #exlidFacetsLightboxContainer a.EXLSubmit::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  #exlidFacetsLightboxContainer a.EXLSubmit:hover,
+  #exlidFacetsLightboxContainer a.EXLSubmit:active {
+    color: #ffffff;
+    background-color: #f56631;
+    border-color: #f45b22; }
+  #exlidFacetsLightboxContainer a.EXLSubmit:active {
+    color: #ffffff;
+    background-color: #f45b22;
+    border-color: #f34d0f;
+    box-shadow: inset 2px 2px 2px 1px rgba(243, 77, 15, 0.5); }
+
+#exlidFacetsLightboxContainer input.EXLReset {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: sans-serif;
+  display: inline-block;
+  height: auto;
+  width: auto;
+  padding: 3px 20px;
+  background-color: #cfcfcf;
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 0px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+  margin-right: 6px;
+  outline: none;
+  background-image: none;
+  color: #ffffff;
+  background-color: #cfcfcf;
+  border: 2px solid #cfcfcf;
+  line-height: 28px; }
+  #exlidFacetsLightboxContainer input.EXLReset::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  #exlidFacetsLightboxContainer input.EXLReset:hover,
+  #exlidFacetsLightboxContainer input.EXLReset:active {
+    color: #ffffff;
+    background-color: #c2c2c2;
+    border-color: #bbbbbb; }
+  #exlidFacetsLightboxContainer input.EXLReset:active {
+    color: #ffffff;
+    background-color: #bbbbbb;
+    border-color: #b0b0b0;
+    box-shadow: inset 2px 2px 2px 1px rgba(176, 176, 176, 0.5); }
+
+.EXLFacetsLightboxTabsRibbon {
+  margin: 0;
+  padding: 0;
+  height: 28px;
+  border-bottom: 2px solid #f67849;
+  padding: 0px;
+  padding-top: auto;
+  padding-left: 1em;
+  background-color: #ffffff;
+  overflow: scroll; }
+
+.EXLFacetsLightboxTabsRibbon span {
+  line-height: 200%;
+  font-size: 100%;
+  display: inline;
+  min-width: 14em;
+  width: auto;
+  margin-right: 13em; }
+
+#exlidFacetsLightboxForm {
+  height: 440px;
+  overflow: scroll;
+  box-shadow: inset 0 10px 20px 0 rgba(51, 51, 51, 0.1);
+  border-top: 1px solid #f7f7f7; }
+
+.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonInclude {
+  margin-right: 0em; }
+
+.EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonExclude {
+  margin-right: 1.4em;
+  margin-left: 1em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListContainer {
+  height: 440px;
+  overflow: auto;
+  overflow-x: hidden;
+  margin-top: 5px; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxList {
+  padding-top: 0em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRow {
+  border: none;
+  padding: 0.1em 0em 0.1em 0em;
+  margin: 0px;
+  display: block;
+  clear: both;
+  line-height: 150%;
+  padding-left: 1em;
+  padding-right: 1.5em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRowBgColor {
+  background-color: #f7f7f7; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow span.legend {
+  display: inline-block;
+  float: none;
+  padding-bottom: 0em;
+  margin-top: -0.1em;
+  width: auto;
+  margin-left: 3em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRow label {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  font-size: 1px; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow div.EXLCheckboxGroup {
+  display: inline; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow input[type="checkbox"].EXLChkInclude {
+  margin-left: 1em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow input[type="checkbox"].EXLChkExclude {
+  margin-left: 3em; }
+
+#exlidFacetsLightboxTile div.EXLFacetsLightboxListRow fieldset span.legend span {
+  color: #888888;
+  margin-left: 0.5em;
+  display: inline; }
+
+/* Unstyled Yet */
+#exlidLightbox {
+  background-color: #c7bbaf;
+  padding-top: 0.5em;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 1000;
+  display: none; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow {
+  width: 100%;
+  padding-bottom: 0px;
+  color: #8C8C8C;
+  padding-top: 1em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow em {
+  font-weight: normal; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em {
+  font-weight: normal; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowSeperated {
+  border-bottom: 1px solid #DFDFDF; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue {
+  width: 100%;
+  padding-bottom: 0px;
+  color: #f67849;
+  height: 1.5em; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstData {
+  list-style: none; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstName {
+  float: left;
+  cursor: pointer; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionSelectedInst {
+  color: #333333; }
+
+.EXLLightbox div.EXLLightboxFormContainer .EXLInstititutionSelectionInstAvailability {
+  float: right;
+  margin-right: 5em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionScrollArea {
+  height: 179px;
+  overflow: auto;
+  overflow-x: hidden; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusavailable {
+  background-image: url(../images/icon_available.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: #333333;
+  min-width: 10em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusunavailable {
+  background-image: url(../images/icon_unavailable_grey.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: #333333;
+  min-width: 10em; }
+
+.EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatuscheck_holdings {
+  background-image: url(../images/icon_yellow.png);
+  background-repeat: no-repeat;
+  background-position: 0px 3px;
+  padding-left: 15px;
+  color: #333333;
+  min-width: 10em; }
+
 .EXLMyAccountTabsRibbon,
 .EXLCitationLinkerTabsRibbon {
   margin: 0;

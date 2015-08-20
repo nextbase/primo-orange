@@ -59,7 +59,7 @@
   background-position: bottom;
   background-repeat: repeat-x;
   height: 30px;
-  border-bottom: 1px solid $gold-light-secondary;
+  border-bottom: 1px solid $base-color-light-secondary;
   -moz-border-radius-topleft: 4px;
   -moz-border-radius-topright: 4px;
 }
@@ -124,7 +124,7 @@
   padding: 20px;
   margin-bottom: 20px;
   width: 100%;
-  border: 1px solid $gold-gray-secondary;
+  border: 1px solid $secondary-color-secondary;
   @include clearfix;
 
   input[type=checkbox] {
@@ -204,7 +204,7 @@
 .EXLLighboxSubmitButton span input,
 .EXLLighboxSubmitButton span .EXLSubmit {
   @include button();
-  @include set-button-color($gold);
+  @include set-button-color($base-color);
   @include set-button-size;
 }
 
@@ -214,7 +214,7 @@
 
 .EXLLighboxCancelButton span input {
   @include button();
-  @include set-button-color($gold-gray);
+  @include set-button-color($secondary-color);
   @include set-button-size;
 }
 
@@ -334,7 +334,7 @@
   font-size: $base-font-size -2px;
   height: 510px;
   width: 100%;
-  border: 1px solid $gold-gray;
+  border: 1px solid $secondary-color;
   background-color: $white;
   margin-left: auto;
   margin-right: auto;
@@ -379,7 +379,7 @@
   list-style: none;
   float: left;
   height: 18px;
-  border-right: 0px solid $gold-gray-secondary;
+  border-right: 0px solid $secondary-color-secondary;
 }
 
 .EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li span {
@@ -412,7 +412,7 @@
 .EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonHelp {
   background-image: none;
   background-position: center;
-  border-right: 1px solid $gold-gray-secondary;
+  border-right: 1px solid $secondary-color-secondary;
 }
 
 .EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonClose {
@@ -444,7 +444,7 @@
   @include reset-margins;
   border: none;
   @include button;
-  @include set-button-color($gold);
+  @include set-button-color($base-color);
   @include set-button-size;
 }
 
@@ -459,7 +459,7 @@
 .EXLFacetsLightboxTabsRibbon {
   @include reset-margins;
   height: 28px;
-  border-bottom: 2px solid $gold;
+  border-bottom: 2px solid $base-color;
   padding: 0px;
   padding-top: auto;
   padding-left: 1em;
@@ -558,7 +558,7 @@
 /* Unstyled Yet */
 
 #exlidLightbox {
-  background-color: $gold-gray-secondary;
+  background-color: $secondary-color-secondary;
   padding-top: 0.5em;
   opacity: 0.9;
   filter: alpha(opacity=90);
