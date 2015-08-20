@@ -4653,7 +4653,7 @@ table.jCalendar td.unselectable.dp-hover {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 10; }
+  z-index: 999; }
 
 @media screen and (max-width: 480px) {
   #exlidHeaderContainer div.EXLSkipToContent {
@@ -4677,7 +4677,7 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidUserAreaTile ul {
   margin: 0;
   padding: 0;
-  z-index: 20;
+  z-index: 1009;
   float: right;
   border: none;
   pointer-events: all;
@@ -4689,7 +4689,7 @@ table.jCalendar td.unselectable.dp-hover {
   background-color: rgba(246, 120, 73, 0.79);
   position: static;
   width: 100%;
-  z-index: 10; }
+  z-index: 999; }
   #header #block-unist-custom-block-unist-head-block {
     padding: 5px 0 0 0; }
     #header #block-unist-custom-block-unist-head-block .header-wrapper-1 {
