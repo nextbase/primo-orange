@@ -98,8 +98,8 @@
       <file leaf-file-name="_exlid-search-ribbon.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52427185">
-              <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.5669903">
+              <caret line="159" column="22" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -109,13 +109,13 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5895" column="0" selection-start-line="5895" selection-start-column="0" selection-end-line="5895" selection-end-column="0" />
+              <caret line="5897" column="0" selection-start-line="5897" selection-start-column="0" selection-end-line="5897" selection-end-column="0" />
               <folding>
-                <marker date="1440371538000" expanded="true" signature="130516:130548" placeholder="{...}" />
-                <marker date="1440371538000" expanded="true" signature="136192:136223" placeholder="{...}" />
-                <marker date="1440371538000" expanded="true" signature="136799:136802" placeholder="{...}" />
-                <marker date="1440371538000" expanded="true" signature="382687:382691" placeholder="{...}" />
-                <marker date="1440371538000" expanded="true" signature="382691:383589" placeholder="{...}" />
+                <marker date="1440371595000" expanded="true" signature="130516:130548" placeholder="{...}" />
+                <marker date="1440371595000" expanded="true" signature="136192:136223" placeholder="{...}" />
+                <marker date="1440371595000" expanded="true" signature="136799:136802" placeholder="{...}" />
+                <marker date="1440371595000" expanded="true" signature="382712:382716" placeholder="{...}" />
+                <marker date="1440371595000" expanded="true" signature="382716:383614" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -461,11 +461,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5509" column="2" selection-start-line="5509" selection-start-column="2" selection-end-line="5509" selection-end-column="2" />
           <folding>
-            <marker date="1440371538000" expanded="true" signature="130516:130548" placeholder="{...}" />
-            <marker date="1440371538000" expanded="true" signature="136192:136223" placeholder="{...}" />
-            <marker date="1440371538000" expanded="true" signature="136799:136802" placeholder="{...}" />
-            <marker date="1440371538000" expanded="true" signature="382687:382691" placeholder="{...}" />
-            <marker date="1440371538000" expanded="true" signature="382691:383589" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="130516:130548" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="136192:136223" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="136799:136802" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="382712:382716" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="382716:383614" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -713,13 +713,13 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5895" column="0" selection-start-line="5895" selection-start-column="0" selection-end-line="5895" selection-end-column="0" />
+          <caret line="5897" column="0" selection-start-line="5897" selection-start-column="0" selection-end-line="5897" selection-end-column="0" />
           <folding>
-            <marker date="1440371538000" expanded="true" signature="130516:130548" placeholder="{...}" />
-            <marker date="1440371538000" expanded="true" signature="136192:136223" placeholder="{...}" />
-            <marker date="1440371538000" expanded="true" signature="136799:136802" placeholder="{...}" />
-            <marker date="1440371538000" expanded="true" signature="382687:382691" placeholder="{...}" />
-            <marker date="1440371538000" expanded="true" signature="382691:383589" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="130516:130548" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="136192:136223" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="136799:136802" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="382712:382716" placeholder="{...}" />
+            <marker date="1440371595000" expanded="true" signature="382716:383614" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -781,8 +781,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52427185">
-          <caret line="170" column="19" selection-start-line="170" selection-start-column="19" selection-end-line="170" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.5669903">
+          <caret line="159" column="22" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
           <folding />
         </state>
       </provider>

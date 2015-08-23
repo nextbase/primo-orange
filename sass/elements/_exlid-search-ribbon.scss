@@ -156,6 +156,10 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   width: 100%;
   @include clearfix;
 
+  .EXLSearchFieldRibbonFormFields {
+    padding-left: 20px;
+  }
+
   #exlidSearchRibbon {
     @include reset-margins;
     @include outer-container;
@@ -188,6 +192,10 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
         top: -30px;
       }
     }
+  }
+
+  #exlidSearchFieldRibbonSimpleSearchLink {
+    padding-left: 20px;
   }
 
 }

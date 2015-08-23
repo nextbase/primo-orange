@@ -5708,6 +5708,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
     clear: both;
     content: "";
     display: table; }
+  #exlidSearchTile.EXLSearchEJorunals .EXLSearchFieldRibbonFormFields {
+    padding-left: 20px; }
   #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon {
     margin: 0;
     padding: 0;
@@ -5750,6 +5752,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
         color: #333333;
         position: absolute;
         top: -30px; }
+  #exlidSearchTile.EXLSearchEJorunals #exlidSearchFieldRibbonSimpleSearchLink {
+    padding-left: 20px; }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset {
   margin-left: 0;
