@@ -154,6 +154,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   background-color: $gray-dark-secondary;
   background-image: none;
   width: 100%;
+  margin-top: -40px; // compensate for being outside of exlidHeaderContainer
   @include clearfix;
 
   .EXLSearchFieldRibbonFormFields {
@@ -209,6 +210,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset label {
+  color: $white;
   position: absolute;
   margin-top: 0.5em;
   margin-left: -11em;

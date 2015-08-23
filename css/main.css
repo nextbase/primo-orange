@@ -5703,7 +5703,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   background-position: bottom;
   background-color: #595959;
   background-image: none;
-  width: 100%; }
+  width: 100%;
+  margin-top: -40px; }
   #exlidSearchTile.EXLSearchEJorunals::after {
     clear: both;
     content: "";
@@ -5760,6 +5761,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   padding: 5px 0; }
 
 #exlidSearchTile.EXLSearchEJorunals fieldset label {
+  color: #ffffff;
   position: absolute;
   margin-top: 0.5em;
   margin-left: -11em; }
