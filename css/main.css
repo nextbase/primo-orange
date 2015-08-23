@@ -5731,8 +5731,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
         margin-right: 2.35765%;
         width: 100%;
         margin-right: 0;
-        margin-bottom: 10px;
-        padding: 0 20px; }
+        padding: 0 20px;
+        margin-bottom: 40px; }
         #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon form .EXLSearchEJorunalsListAtoZ:last-child {
           margin-right: 0; }
       #exlidSearchTile.EXLSearchEJorunals #exlidSearchRibbon form .exlidSearchTileWrapper {
@@ -5782,8 +5782,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ {
   text-align: center;
   width: 100%;
-  display: block;
-  margin-bottom: 10px; }
+  display: block; }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ ul {
   list-style: none; }

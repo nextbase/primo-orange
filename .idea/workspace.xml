@@ -98,8 +98,8 @@
       <file leaf-file-name="_exlid-search-ribbon.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45242718">
-              <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
+            <state vertical-scroll-proportion="0.5378641">
+              <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -111,14 +111,15 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="5905" column="0" selection-start-line="5905" selection-start-column="0" selection-end-line="5905" selection-end-column="0" />
               <folding>
-                <marker date="1440373041000" expanded="true" signature="130516:130548" placeholder="{...}" />
-                <marker date="1440373041000" expanded="true" signature="136192:136223" placeholder="{...}" />
-                <marker date="1440373041000" expanded="true" signature="136799:136802" placeholder="{...}" />
-                <marker date="1440373041000" expanded="true" signature="145651:145802" placeholder="{...}" />
-                <marker date="1440373041000" expanded="true" signature="147820:147887" placeholder="{...}" />
-                <marker date="1440373041000" expanded="true" signature="148764:148866" placeholder="{...}" />
-                <marker date="1440373041000" expanded="true" signature="382958:382962" placeholder="{...}" />
-                <marker date="1440373041000" expanded="true" signature="382962:383860" placeholder="{...}" />
+                <marker date="1440373125000" expanded="true" signature="130516:130548" placeholder="{...}" />
+                <marker date="1440373125000" expanded="true" signature="136192:136223" placeholder="{...}" />
+                <marker date="1440373125000" expanded="true" signature="136799:136802" placeholder="{...}" />
+                <marker date="1440373125000" expanded="true" signature="145651:145802" placeholder="{...}" />
+                <marker date="1440373125000" expanded="true" signature="147820:147887" placeholder="{...}" />
+                <marker date="1440373125000" expanded="true" signature="148298:148379" placeholder="{...}" />
+                <marker date="1440373125000" expanded="true" signature="148764:148866" placeholder="{...}" />
+                <marker date="1440373125000" expanded="true" signature="382958:382962" placeholder="{...}" />
+                <marker date="1440373125000" expanded="true" signature="382962:383860" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -464,14 +465,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5509" column="2" selection-start-line="5509" selection-start-column="2" selection-end-line="5509" selection-end-column="2" />
           <folding>
-            <marker date="1440373041000" expanded="true" signature="130516:130548" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="136192:136223" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="136799:136802" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="145651:145802" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="147820:147887" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="148764:148866" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="382958:382962" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="382962:383860" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="130516:130548" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="136192:136223" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="136799:136802" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="145651:145802" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="147820:147887" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="148298:148379" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="148764:148866" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="382958:382962" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="382962:383860" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -721,14 +723,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5905" column="0" selection-start-line="5905" selection-start-column="0" selection-end-line="5905" selection-end-column="0" />
           <folding>
-            <marker date="1440373041000" expanded="true" signature="130516:130548" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="136192:136223" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="136799:136802" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="145651:145802" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="147820:147887" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="148764:148866" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="382958:382962" placeholder="{...}" />
-            <marker date="1440373041000" expanded="true" signature="382962:383860" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="130516:130548" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="136192:136223" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="136799:136802" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="145651:145802" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="147820:147887" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="148298:148379" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="148764:148866" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="382958:382962" placeholder="{...}" />
+            <marker date="1440373125000" expanded="true" signature="382962:383860" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -790,8 +793,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45242718">
-          <caret line="190" column="21" selection-start-line="190" selection-start-column="21" selection-end-line="190" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.5378641">
+          <caret line="230" column="0" selection-start-line="230" selection-start-column="0" selection-end-line="230" selection-end-column="0" />
           <folding />
         </state>
       </provider>
