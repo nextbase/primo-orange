@@ -14372,10 +14372,6 @@ select#saveAs option[value='EasyBib'] {
     display: table; }
 
 @media screen and (max-width: 480px) {
-  * {
-    display: none; } }
-
-@media screen and (max-width: 480px) {
   .folders_new,
   .draggable,
   .EXLMyAccountTabsRibbon div li.EXLMyAccountTab,
