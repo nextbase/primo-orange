@@ -167,7 +167,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
       .EXLSearchEJorunalsListAtoZ {
         @include span-columns(12);
         @include omega();
-        margin-bottom: 20px;
+        margin-bottom: 10px;
+        padding: 0 20px;
       }
 
       .exlidSearchTileWrapper {
