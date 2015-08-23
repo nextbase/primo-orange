@@ -5796,9 +5796,9 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   font-size: 100%; }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ li.EXLSearchEJorunalsListAtoZSelected {
-  background-image: url(../images/icon_arrow_AtoZ.png);
   background-repeat: no-repeat;
-  background-position: 45% 0%; }
+  background-position: 45% 0%;
+  border-bottom: 2px solid #ffffff; }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ li a {
   display: inline-block;
