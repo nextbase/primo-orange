@@ -227,6 +227,7 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
   text-align: center;
   width: 100%;
   display: block;
+  margin-bottom: 10px;
 }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ ul {
@@ -243,7 +244,6 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ li.EXLSearchEJorunalsListAtoZSelected {
-  // background-image: url(../images/icon_arrow_AtoZ.png);
   background-repeat: no-repeat;
   background-position: 45% 0%;
   border-bottom: 2px solid $white;

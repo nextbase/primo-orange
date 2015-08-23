@@ -5782,7 +5782,8 @@ div.EXLALMAResultsTileNoFacets td.EXLThumbnail {
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ {
   text-align: center;
   width: 100%;
-  display: block; }
+  display: block;
+  margin-bottom: 10px; }
 
 #exlidSearchTile.EXLSearchEJorunals .EXLSearchEJorunalsListAtoZ ul {
   list-style: none; }
