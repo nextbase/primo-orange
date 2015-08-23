@@ -5383,25 +5383,32 @@ table.jCalendar td.unselectable.dp-hover {
 #exlidHeaderSearchLimits {
   margin: 0;
   padding: 0;
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 5px 15px 3px 15px;
   border-bottom: 1px solid #d8d8d8;
   background-color: #595959;
   color: #595959;
   height: auto;
   margin-bottom: 20px; }
-  #exlidHeaderSearchLimits:last-child {
-    margin-right: 0; }
+  #exlidHeaderSearchLimits::after {
+    clear: both;
+    content: "";
+    display: table; }
 
 #exlidHeaderSearchLimits fieldset {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
   padding: 0;
   color: #595959;
   font-weight: bold;
   font-size: 14px;
   width: auto; }
+  #exlidHeaderSearchLimits fieldset:last-child {
+    margin-right: 0; }
 
 #exlidHeaderSearchLimits fieldset legend {
   float: left;
