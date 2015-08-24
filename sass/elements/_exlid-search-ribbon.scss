@@ -541,6 +541,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   min-height: 80px;
   border: none;
   width: 100%;
+  /* changed */
 }
 
 #exlidAdvancedSearchRibbon div.EXLDynamicSelectOnlyOneScope {
@@ -570,7 +571,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon {
-  width: 96%
+  width: 100%;
 }
 
 .EXLAdvancedBrowseRibbon {
@@ -586,12 +587,16 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input#search_field {
-  border: none;
-  height: 26px;
-  width: 93%;
-  line-height: 210%;
-  vertical-align: bottom;
-  padding-left: 0.6em;
+  @include input;
+  @include input-size("default");
+  @include form-element-width('wide');
+  padding-right: $search-button-width + 30px;
+  height: 36px;
+
+  &:focus {
+    $double-shadow: 0px 1px 1px rgba($black-secondary, .5), 0px 0px 20px 0 rgba(#32b5c1, .75);
+    @include prefixer(box-shadow, $double-shadow, webkit moz spec);
+  }
 }
 
 #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input#search_field:focus {
@@ -599,7 +604,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 }
 
 .EXLSearchFieldRibbonFormBrowseSearchFor {
-  border: 1px solid #8FB9D0;
+  border: none;
 }
 
 .EXLAdvancedBrowseRibbon div.EXLSearchFieldRibbonFormSubmitSearch {
