@@ -231,7 +231,7 @@ $footer-bottom-bg: #bbbbbb;
       text-indent: -500px;
       display: block;
       overflow: hidden;
-      @include retina-image('../img/logo_footer', 340px 60px);
+      @include retina-image('../images/logo_footer', 340px 60px);
       background-repeat: no-repeat;
       background-position: left center;
     }

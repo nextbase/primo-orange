@@ -28,11 +28,9 @@
       <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/elements/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9264214">
-              <caret line="336" column="1" selection-start-line="336" selection-start-column="1" selection-end-line="336" selection-end-column="1" />
-              <folding>
-                <marker date="1440375611000" expanded="true" signature="115:137" placeholder="{...}" />
-              </folding>
+            <state vertical-scroll-proportion="0.8411371">
+              <caret line="233" column="38" selection-start-line="233" selection-start-column="38" selection-end-line="233" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -121,10 +119,10 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6255" column="0" selection-start-line="6255" selection-start-column="0" selection-end-line="6255" selection-end-column="0" />
+              <caret line="5909" column="0" selection-start-line="5909" selection-start-column="0" selection-end-line="5909" selection-end-column="0" />
               <folding>
-                <marker date="1440375253000" expanded="true" signature="110840:110972" placeholder="{...}" />
-                <marker date="1440375253000" expanded="true" signature="170934:170937" placeholder="{...}" />
+                <marker date="1440375631000" expanded="true" signature="110840:110972" placeholder="{...}" />
+                <marker date="1440375631000" expanded="true" signature="156897:156900" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -413,9 +411,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="312" column="0" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
-          <folding>
-            <marker date="1440375611000" expanded="true" signature="115:137" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -448,8 +444,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5509" column="2" selection-start-line="5509" selection-start-column="2" selection-end-line="5509" selection-end-column="2" />
           <folding>
-            <marker date="1440375253000" expanded="true" signature="110840:110972" placeholder="{...}" />
-            <marker date="1440375253000" expanded="true" signature="170934:170937" placeholder="{...}" />
+            <marker date="1440375631000" expanded="true" signature="110840:110972" placeholder="{...}" />
+            <marker date="1440375631000" expanded="true" signature="156897:156900" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -738,10 +734,10 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6255" column="0" selection-start-line="6255" selection-start-column="0" selection-end-line="6255" selection-end-column="0" />
+          <caret line="5909" column="0" selection-start-line="5909" selection-start-column="0" selection-end-line="5909" selection-end-column="0" />
           <folding>
-            <marker date="1440375253000" expanded="true" signature="110840:110972" placeholder="{...}" />
-            <marker date="1440375253000" expanded="true" signature="170934:170937" placeholder="{...}" />
+            <marker date="1440375631000" expanded="true" signature="110840:110972" placeholder="{...}" />
+            <marker date="1440375631000" expanded="true" signature="156897:156900" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -764,11 +760,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9264214">
-          <caret line="336" column="1" selection-start-line="336" selection-start-column="1" selection-end-line="336" selection-end-column="1" />
-          <folding>
-            <marker date="1440375611000" expanded="true" signature="115:137" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="0.8411371">
+          <caret line="233" column="38" selection-start-line="233" selection-start-column="38" selection-end-line="233" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
