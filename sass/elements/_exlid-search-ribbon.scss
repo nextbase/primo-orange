@@ -281,14 +281,48 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 
 }
 
-.EXLSearchFieldRibbonFormSelectedCollection {
-  width: 39%;
-  float: left;
-  margin-top: 0em;
-  cursor: pointer;
-  border-left: 1px solid #c0c0c0;
-  height: 26px;
-}
+//.EXLSearchFieldRibbonFormSelectedCollection {
+//  width: 39%;
+//  float: left;
+//  margin-top: 0em;
+//  cursor: pointer;
+//  border-left: 1px solid #c0c0c0;
+//  height: 26px;
+//}
+//
+//* html .EXLSearchFieldRibbonFormSelectedCollection {
+//  overflow: hidden;
+//  line-height: 200%
+//}
+//
+//.EXLSearchFieldRibbonFormSelectedCollectionLabel {
+//  display: inline-block;
+//  height: 100%;
+//  padding-left: 0.5em;
+//  width: 100%;
+//  overflow: hidden;
+//}
+//
+//.EXLSearchFieldRibbonFormSelectedCollectionLabel a {
+//  color: #32322f;
+//  display: inline-block;
+//  line-height: 210%;
+//  width: 100%;
+//  height: 100%;
+//  background-image: url(../images/icon_open_subMenu.png);
+//  background-repeat: no-repeat;
+//  background-position: 96% 50%;
+//}
+//
+//* html .EXLSearchFieldRibbonFormSelectedCollectionLabel a {
+//  float: left;
+//  width: 100%;
+//  overflow: hidden;
+//  margin-top: 0em;
+//  height: 23px;
+//}
+
+/* Select Box, on Browse */
 
 * html .EXLSearchFieldRibbonFormSelectedCollection {
   overflow: hidden;
@@ -296,11 +330,8 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 }
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel {
-  display: inline-block;
-  height: 100%;
-  padding-left: 0.5em;
-  width: 100%;
-  overflow: hidden;
+  background-color: $white;
+  border: 0;
 }
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel a {
@@ -321,6 +352,8 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   margin-top: 0em;
   height: 23px;
 }
+
+/* End: Select Box, on Browse */
 
 .EXLSearchFieldRibbonFormSelectedCollectionLabel a:hover {
   text-decoration: none;
