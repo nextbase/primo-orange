@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b6805e-1c0b-4afd-ae34-6c5f955bbb08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_footer.scss" afterPath="$PROJECT_DIR$/sass/elements/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="primo-orange.iws" />
@@ -28,7 +29,7 @@
       <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/elements/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.615534">
+            <state vertical-scroll-proportion="0.6688963">
               <caret line="661" column="25" selection-start-line="661" selection-start-column="25" selection-end-line="661" selection-end-column="25" />
               <folding />
             </state>
@@ -119,10 +120,10 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5905" column="0" selection-start-line="5905" selection-start-column="0" selection-end-line="5905" selection-end-column="0" />
+              <caret line="6255" column="0" selection-start-line="6255" selection-start-column="0" selection-end-line="6255" selection-end-column="0" />
               <folding>
-                <marker date="1440375027000" expanded="true" signature="110840:110972" placeholder="{...}" />
-                <marker date="1440375027000" expanded="true" signature="157644:157647" placeholder="{...}" />
+                <marker date="1440375208000" expanded="true" signature="110840:110972" placeholder="{...}" />
+                <marker date="1440375208000" expanded="true" signature="170934:170937" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -341,16 +342,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.49427754" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.49427754" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21033654" sideWeight="0.44563663" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31009614" sideWeight="0.65736765" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2639485" sideWeight="0.5261324" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2639485" sideWeight="0.4738676" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21033654" sideWeight="0.4427754" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21033654" sideWeight="0.55722463" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2639485" sideWeight="0.5251142" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2639485" sideWeight="0.47488585" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31009614" sideWeight="0.34263232" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -444,8 +445,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5509" column="2" selection-start-line="5509" selection-start-column="2" selection-end-line="5509" selection-end-column="2" />
           <folding>
-            <marker date="1440375027000" expanded="true" signature="110840:110972" placeholder="{...}" />
-            <marker date="1440375027000" expanded="true" signature="157644:157647" placeholder="{...}" />
+            <marker date="1440375208000" expanded="true" signature="110840:110972" placeholder="{...}" />
+            <marker date="1440375208000" expanded="true" signature="170934:170937" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -734,10 +735,10 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5905" column="0" selection-start-line="5905" selection-start-column="0" selection-end-line="5905" selection-end-column="0" />
+          <caret line="6255" column="0" selection-start-line="6255" selection-start-column="0" selection-end-line="6255" selection-end-column="0" />
           <folding>
-            <marker date="1440375027000" expanded="true" signature="110840:110972" placeholder="{...}" />
-            <marker date="1440375027000" expanded="true" signature="157644:157647" placeholder="{...}" />
+            <marker date="1440375208000" expanded="true" signature="110840:110972" placeholder="{...}" />
+            <marker date="1440375208000" expanded="true" signature="170934:170937" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -760,7 +761,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.615534">
+        <state vertical-scroll-proportion="0.6688963">
           <caret line="661" column="25" selection-start-line="661" selection-start-column="25" selection-end-line="661" selection-end-column="25" />
           <folding />
         </state>
