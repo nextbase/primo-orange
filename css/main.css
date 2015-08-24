@@ -4686,7 +4686,7 @@ table.jCalendar td.unselectable.dp-hover {
   right: 50px; }
 
 #header {
-  background-color: rgba(246, 120, 73, 0.79);
+  background-color: rgba(246, 120, 73, 0.85);
   position: static;
   width: 100%;
   z-index: 999; }
@@ -9546,7 +9546,7 @@ body.EXLFullView div.EXLBackToResults {
   color: #333333;
   height: auto; }
   .EXLTabsRibbon div li.EXLResultSelectedTab:hover {
-    border-color: #e56434;
+    border-color: #f67242;
     border-bottom-width: 2px;
     border-top-width: 0;
     position: relative;
@@ -9558,9 +9558,9 @@ body.EXLFullView div.EXLBackToResults {
   background-color: #f67849;
   height: auto; }
   .EXLTabsRibbon div li.EXLResultSelectedTab a:hover {
-    border-color: #e56434;
+    border-color: #f67242;
     color: #ffffff;
-    background-color: #e56434;
+    background-color: #f67242;
     outline: 0; }
 
 .EXLTabsRibbon div li.EXLResultFirstTab {
