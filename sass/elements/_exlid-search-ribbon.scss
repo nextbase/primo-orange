@@ -329,6 +329,7 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   background-image: url(../images/icon_open_subMenu.png);
   background-repeat: no-repeat;
   background-position: 96% 50%;
+  white-space: nowrap;
 }
 
 * html .EXLSearchFieldRibbonFormSelectedCollectionLabel a {
@@ -496,7 +497,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 }
 
 .EXLSearchFieldRibbonFormSelectedBrowse {
-  width: 20em;
+  width: 300px;
   float: left;
   margin-top: 0;
   cursor: pointer;
@@ -560,6 +561,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 .EXLSearchFieldRibbonFormSelectedLabelBrowse {
   padding-right: 0.5em;
+  width: 100%;
 }
 
 #exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
