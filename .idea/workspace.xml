@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b6805e-1c0b-4afd-ae34-6c5f955bbb08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss" afterPath="$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_header.scss" afterPath="$PROJECT_DIR$/sass/elements/_header.scss" />
     </list>
     <ignored path="primo-orange.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,11 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_exlid-search-ribbon.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_exlid-search-ribbon.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8796117">
-              <caret line="534" column="22" selection-start-line="534" selection-start-column="22" selection-end-line="534" selection-end-column="22" />
+            <state vertical-scroll-proportion="-9.645162">
+              <caret line="514" column="3" selection-start-line="514" selection-start-column="3" selection-end-line="514" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/elements/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9145631">
+              <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -69,6 +79,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-11.548388">
               <caret line="695" column="1" selection-start-line="695" selection-start-column="1" selection-end-line="695" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.387097">
+              <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -109,7 +129,6 @@
         <option value="$PROJECT_DIR$/header.html" />
         <option value="$PROJECT_DIR$/footer.html" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid-user-area-ribbon.scss" />
-        <option value="$PROJECT_DIR$/sass/elements/_header.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid-main-menu-ribbon.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_footer.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-result-tabs-ribbon.scss" />
@@ -119,6 +138,7 @@
         <option value="$PROJECT_DIR$/sass/elements/_exl-full-view.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-my-account.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss" />
+        <option value="$PROJECT_DIR$/sass/elements/_header.scss" />
       </list>
     </option>
   </component>
@@ -304,14 +324,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.49427754" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.48855507" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21033654" sideWeight="0.4341917" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31009614" sideWeight="0.6709585" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31009614" sideWeight="0.6709585" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26752505" sideWeight="0.5383275" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26752505" sideWeight="0.46167248" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -609,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38446602">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -662,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6077058">
-          <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-main-menu-ribbon.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.451505">
@@ -711,8 +717,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8796117">
-          <caret line="534" column="22" selection-start-line="534" selection-start-column="22" selection-end-line="534" selection-end-column="22" />
+        <state vertical-scroll-proportion="-9.645162">
+          <caret line="514" column="3" selection-start-line="514" selection-start-column="3" selection-end-line="514" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/elements/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9145631">
+          <caret line="94" column="7" selection-start-line="94" selection-start-column="7" selection-end-line="94" selection-end-column="7" />
           <folding />
         </state>
       </provider>

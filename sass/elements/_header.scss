@@ -64,12 +64,30 @@ $header-height: 103px;
 
       .logo {
         margin-top: 20px;
+        margin-bottom: 8px;
         float: left;
-        height: 32px;
-        width: 340px;
-        @include retina-image('../images/header_logo', 340px 32px);
+        height: 33px;
+        width: 190px;
+        @include retina-image('../img/header_logo_white', 340px 32px);
+        // background-image: url("../img/header_logo0_01.png");
         background-repeat: no-repeat;
-        background-position: 0 0;
+        background-position: left top;
+
+        img {
+          display: none;
+        }
+      }
+
+      .library {
+        margin-top: 20px;
+        margin-bottom: 8px;
+        float: left;
+        height: 33px;
+        width: 142px;
+        @include retina-image('../img/header_logo_white', 340px 32px);
+        // background-image: url("../img/header_logo0_02.png");
+        background-repeat: no-repeat;
+        background-position: right top;
 
         img {
           display: none;
