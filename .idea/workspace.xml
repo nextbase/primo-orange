@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0b6805e-1c0b-4afd-ae34-6c5f955bbb08" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss" afterPath="$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="primo-orange.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +58,8 @@
       <file leaf-file-name="_exlid-search-ribbon.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9145631">
-              <caret line="615" column="1" selection-start-line="615" selection-start-column="1" selection-end-line="615" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.57281554">
+              <caret line="488" column="18" selection-start-line="488" selection-start-column="18" selection-end-line="488" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -700,8 +701,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9145631">
-          <caret line="615" column="1" selection-start-line="615" selection-start-column="1" selection-end-line="615" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.57281554">
+          <caret line="488" column="18" selection-start-line="488" selection-start-column="18" selection-end-line="488" selection-end-column="18" />
           <folding />
         </state>
       </provider>
