@@ -1,8 +1,8 @@
 .EXLLightbox {
   border: 1px solid $white;
   height: auto;
-  padding: 0;
-  margin: 0;
+  padding: 0em;
+  margin: 0em;
   background-color: $white;
   background-image: none;
   background-repeat: repeat-x;
@@ -90,7 +90,7 @@
 
 .EXLLightbox div.EXLLightboxFormContainer p {
   background-color: $white;
-  padding: 1.5em 1em 0.5em 0;
+  padding: 1.5em 1em 0.5em 0em;
   color: #7b7b79;
   font-size: 90%;
   background-color: $white;
@@ -103,10 +103,10 @@
   border: 1px solid #c7c7c7;
   background-image: url(../images/lightbox_footer_bg.png);
   background-repeat: repeat-x;
-  margin-left: 0;
+  margin-left: 0em;
   font-family: Arial;
   font-size: 90%;
-  margin-top: 0;
+  margin-top: 0em;
 }
 
 .EXLLightbox div.EXLLightboxFormContainer input[type="text"] {
@@ -266,8 +266,8 @@
 }
 
 .EXLLighboxConfirm p {
-  padding: 0 0 0 1em;
-  margin: 0;
+  padding: 0em 0em 0em 1em;
+  margin: 0em;
   width: 100%;
   float: left;
 }
@@ -298,7 +298,7 @@
 }
 
 .EXLLighboxConfirmContainer div.EXLLighboxConfirmButtonLink span input {
-  padding: 0 0.5em 0 0.5em;
+  padding: 0em 0.5em 0em 0.5em;
   color: $white;
   font-weight: normal;
   height: 20px;
@@ -361,7 +361,7 @@
 }
 
 .EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons {
-  padding: 0;
+  padding: 0em;
   width: 35%;
   float: right;
   text-align: right;
@@ -379,7 +379,7 @@
   list-style: none;
   float: left;
   height: 18px;
-  border-right: 0 solid $secondary-color-secondary;
+  border-right: 0px solid $secondary-color-secondary;
 }
 
 .EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li span {
@@ -418,7 +418,7 @@
 .EXLFacetsLightboxHeader div.EXLFacetsLightboxHeaderButtons li a span.EXLFacetsLightboxHeaderButtonClose {
   background-image: url(../images/icon_close_tabs.png);
   background-position: center;
-  margin-left: 0;
+  margin-left: 0em;
 }
 
 #exlidFacetsLightboxContainer div.EXLFacetsLightboxFieldRibbonFormResetSearch {
@@ -460,7 +460,7 @@
   @include reset-margins;
   height: 28px;
   border-bottom: 2px solid $base-color;
-  padding: 0;
+  padding: 0px;
   padding-top: auto;
   padding-left: 1em;
   background-color: $white;
@@ -491,7 +491,7 @@
 }
 
 .EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonInclude {
-  margin-right: 0;
+  margin-right: 0em;
 }
 
 .EXLFacetsLightboxTabsRibbon span.EXLFacetsLightboxTabsRibbonExclude {
@@ -507,13 +507,13 @@
 }
 
 #exlidFacetsLightboxTile div.EXLFacetsLightboxList {
-  padding-top: 0;
+  padding-top: 0em;
 }
 
 #exlidFacetsLightboxTile div.EXLFacetsLightboxList div.EXLFacetsLightboxListRow {
   border: none;
-  padding: 0.1em 0 0.1em 0;
-  margin: 0;
+  padding: 0.1em 0em 0.1em 0em;
+  margin: 0px;
   display: block;
   clear: both;
   line-height: 150%;
@@ -528,7 +528,7 @@
 #exlidFacetsLightboxTile div.EXLFacetsLightboxListRow span.legend {
   display: inline-block;
   float: none;
-  padding-bottom: 0;
+  padding-bottom: 0em;
   margin-top: -0.1em;
   width: auto;
   margin-left: 3em;
@@ -570,8 +570,8 @@
   opacity: 0.9;
   filter: alpha(opacity=90);
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
   min-width: 100%;
   min-height: 100%;
   z-index: 1000;
@@ -580,7 +580,7 @@
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRow {
   width: 100%;
-  padding-bottom: 0;
+  padding-bottom: 0px;
   color: #8C8C8C;
   padding-top: 1em;
 }
@@ -599,7 +599,7 @@
 
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue {
   width: 100%;
-  padding-bottom: 0;
+  padding-bottom: 0px;
   color: $anchor-color;
   height: 1.5em;
 }
@@ -631,7 +631,7 @@
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusavailable {
   background-image: url(../images/icon_available.png);
   background-repeat: no-repeat;
-  background-position: 0 3px;
+  background-position: 0px 3px;
   padding-left: 15px;
   color: $black;
   min-width: 10em;
@@ -640,7 +640,7 @@
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatusunavailable {
   background-image: url(../images/icon_unavailable_grey.png);
   background-repeat: no-repeat;
-  background-position: 0 3px;
+  background-position: 0px 3px;
   padding-left: 15px;
   color: $black;
   min-width: 10em;
@@ -649,7 +649,7 @@
 .EXLLightbox div.EXLLightboxFormContainer div.EXLInstititutionSelectionRowValue em.EXLResultStatuscheck_holdings {
   background-image: url(../images/icon_yellow.png);
   background-repeat: no-repeat;
-  background-position: 0 3px;
+  background-position: 0px 3px;
   padding-left: 15px;
   color: $black;
   min-width: 10em;
