@@ -4824,10 +4824,11 @@ table.jCalendar td.unselectable.dp-hover {
         display: inline-block;
         font-weight: 500; }
         #slide-main-menu .menu-block-wrapper > ul.menu > li > a:after {
-          font-family: 'Special-Icons';
+          font-family: 'unist-icons';
           font-style: normal;
           font-weight: normal;
           line-height: 1;
+          content: "";
           font-size: 10px;
           margin-left: 8px; }
         #slide-main-menu .menu-block-wrapper > ul.menu > li > a:hover {
