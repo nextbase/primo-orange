@@ -535,7 +535,7 @@ html > body .notebubble a.cancelnote {
 }
 
 html > body table > tbody > tr .notebubble .notesubmit_holder {
-
+  margin-right: 0;
   padding-right: 0;
   margin-top: 20px;
 
@@ -550,10 +550,8 @@ html > body table > tbody > tr .notebubble .notesubmit_holder {
 }
 
 .notebubble .notebubble_content .notesubmit_holder {
-  padding-right: 18px;
-  padding-left: 0px;
-  padding-bottom: 0px;
-  padding-top: 0px;
+  padding: 0 18px 0 0;
+  margin-right: 0 !important;
 }
 
 .notebubble .notebubble_content input.note_submit {
@@ -562,6 +560,7 @@ html > body table > tbody > tr .notebubble .notesubmit_holder {
   @include set-button-size('tiny');
   height: auto !important;
   color: $white !important;
+  width: 80px !important;
 
   &:hover {
     color: $white !important;

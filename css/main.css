@@ -13638,6 +13638,7 @@ html > body .notebubble a.cancelnote {
   background: none !important; }
 
 html > body table > tbody > tr .notebubble .notesubmit_holder {
+  margin-right: 0;
   padding-right: 0;
   margin-top: 20px; }
   html > body table > tbody > tr .notebubble .notesubmit_holder input {
@@ -13647,10 +13648,8 @@ html > body table > tbody > tr .notebubble .notesubmit_holder {
       background-color: #fd8000 !important; }
 
 .notebubble .notebubble_content .notesubmit_holder {
-  padding-right: 18px;
-  padding-left: 0px;
-  padding-bottom: 0px;
-  padding-top: 0px; }
+  padding: 0 18px 0 0;
+  margin-right: 0 !important; }
 
 .notebubble .notebubble_content input.note_submit {
   font-family: sans-serif;
@@ -13679,7 +13678,8 @@ html > body table > tbody > tr .notebubble .notesubmit_holder {
   line-height: 20px;
   padding: 1.5px 10px;
   height: auto !important;
-  color: #ffffff !important; }
+  color: #ffffff !important;
+  width: 80px !important; }
   .notebubble .notebubble_content input.note_submit::-moz-focus-inner {
     border: 0;
     padding: 0; }
