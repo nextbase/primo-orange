@@ -5193,7 +5193,8 @@ table.jCalendar td.unselectable.dp-hover {
         font-size: 14px; }
   #footer .block-block {
     float: right;
-    width: auto; }
+    width: auto;
+    margin-top: 10px; }
     #footer .block-block p {
       font-size: 14px;
       line-height: 1.4;
