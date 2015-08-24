@@ -6081,6 +6081,9 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   padding-right: 0.5em;
   width: 100%; }
 
+.EXLBrowseFieldRibbon .EXLSearchFieldRibbonFormSelectedLabelBrowse {
+  width: 280px; }
+
 #exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
   margin: 0;
   padding: 0;

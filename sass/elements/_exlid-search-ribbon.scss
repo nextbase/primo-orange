@@ -564,6 +564,10 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   width: 100%;
 }
 
+.EXLBrowseFieldRibbon .EXLSearchFieldRibbonFormSelectedLabelBrowse {
+  width: 280px;
+}
+
 #exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
   @include reset-margins;
   background-color: transparent;

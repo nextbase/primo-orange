@@ -57,8 +57,18 @@
       <file leaf-file-name="_exlid-search-ribbon.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45242718">
-              <caret line="563" column="14" selection-start-line="563" selection-start-column="14" selection-end-line="563" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.647541">
+              <caret line="568" column="1" selection-start-line="568" selection-start-column="1" selection-end-line="568" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_exl-my-account.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.548388">
+              <caret line="695" column="1" selection-start-line="695" selection-start-column="1" selection-end-line="695" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -104,10 +114,10 @@
         <option value="$PROJECT_DIR$/sass/elements/_footer.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-result-tabs-ribbon.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_my-shelf.scss" />
-        <option value="$PROJECT_DIR$/sass/elements/_exl-my-account.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-lightbox.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid-search-tile.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-full-view.scss" />
+        <option value="$PROJECT_DIR$/sass/elements/_exl-my-account.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss" />
       </list>
     </option>
@@ -294,18 +304,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.49427754" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.48855507" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21033654" sideWeight="0.4341917" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31009614" sideWeight="0.6688126" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31009614" sideWeight="0.6709585" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26752505" sideWeight="0.5383275" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26752505" sideWeight="0.46167248" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31009614" sideWeight="0.3311874" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31009614" sideWeight="0.32904148" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -629,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36789298">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sass/variables/_colors.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29431438">
@@ -698,10 +701,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.548388">
+          <caret line="695" column="1" selection-start-line="695" selection-start-column="1" selection-end-line="695" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-search-ribbon.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45242718">
-          <caret line="563" column="14" selection-start-line="563" selection-start-column="14" selection-end-line="563" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.647541">
+          <caret line="568" column="1" selection-start-line="568" selection-start-column="1" selection-end-line="568" selection-end-column="1" />
           <folding />
         </state>
       </provider>
