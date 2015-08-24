@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b6805e-1c0b-4afd-ae34-6c5f955bbb08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_footer.scss" afterPath="$PROJECT_DIR$/sass/elements/_footer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_my-shelf.scss" afterPath="$PROJECT_DIR$/sass/elements/_my-shelf.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="primo-orange.iws" />
@@ -25,11 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/elements/_footer.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5217391">
-              <caret line="329" column="18" selection-start-line="329" selection-start-column="18" selection-end-line="329" selection-end-column="18" />
+            <state vertical-scroll-proportion="-10.774194">
+              <caret line="330" column="0" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_my-shelf.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sass/elements/_my-shelf.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25250837">
+              <caret line="1420" column="44" selection-start-line="1420" selection-start-column="44" selection-end-line="1420" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -50,16 +60,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="50.387096">
               <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_exl-result-tabs-ribbon.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/elements/_exl-result-tabs-ribbon.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,10 +119,10 @@
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5909" column="0" selection-start-line="5909" selection-start-column="0" selection-end-line="5909" selection-end-column="0" />
+              <caret line="5911" column="0" selection-start-line="5911" selection-start-column="0" selection-end-line="5911" selection-end-column="0" />
               <folding>
-                <marker date="1440375687000" expanded="true" signature="110840:110972" placeholder="{...}" />
-                <marker date="1440375687000" expanded="true" signature="156909:156912" placeholder="{...}" />
+                <marker date="1440375834000" expanded="true" signature="110840:110972" placeholder="{...}" />
+                <marker date="1440375834000" expanded="true" signature="156931:156934" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -170,6 +170,7 @@
         <option value="$PROJECT_DIR$/sass/elements/_header.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exlid-main-menu-ribbon.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_footer.scss" />
+        <option value="$PROJECT_DIR$/sass/elements/_my-shelf.scss" />
       </list>
     </option>
   </component>
@@ -385,13 +386,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-lightbox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="213" column="0" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/header.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -444,8 +438,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="5509" column="2" selection-start-line="5509" selection-start-column="2" selection-end-line="5509" selection-end-column="2" />
           <folding>
-            <marker date="1440375687000" expanded="true" signature="110840:110972" placeholder="{...}" />
-            <marker date="1440375687000" expanded="true" signature="156909:156912" placeholder="{...}" />
+            <marker date="1440375834000" expanded="true" signature="110840:110972" placeholder="{...}" />
+            <marker date="1440375834000" expanded="true" signature="156931:156934" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -734,10 +728,10 @@
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5909" column="0" selection-start-line="5909" selection-start-column="0" selection-end-line="5909" selection-end-column="0" />
+          <caret line="5911" column="0" selection-start-line="5911" selection-start-column="0" selection-end-line="5911" selection-end-column="0" />
           <folding>
-            <marker date="1440375687000" expanded="true" signature="110840:110972" placeholder="{...}" />
-            <marker date="1440375687000" expanded="true" signature="156909:156912" placeholder="{...}" />
+            <marker date="1440375834000" expanded="true" signature="110840:110972" placeholder="{...}" />
+            <marker date="1440375834000" expanded="true" signature="156931:156934" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -760,8 +754,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_footer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5217391">
-          <caret line="329" column="18" selection-start-line="329" selection-start-column="18" selection-end-line="329" selection-end-column="18" />
+        <state vertical-scroll-proportion="-10.774194">
+          <caret line="330" column="0" selection-start-line="330" selection-start-column="0" selection-end-line="330" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/elements/_my-shelf.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25250837">
+          <caret line="1420" column="44" selection-start-line="1420" selection-start-column="44" selection-end-line="1420" selection-end-column="44" />
           <folding />
         </state>
       </provider>
