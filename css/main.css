@@ -5411,7 +5411,9 @@ table.jCalendar td.unselectable.dp-hover {
   color: #595959;
   font-weight: bold;
   font-size: 14px;
-  width: auto; }
+  width: auto;
+  padding-left: 5px;
+  padding-bottom: 10px; }
   #exlidHeaderSearchLimits fieldset:last-child {
     margin-right: 0; }
 
