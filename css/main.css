@@ -5603,7 +5603,7 @@ table.jCalendar td.unselectable.dp-hover {
     transition: box-shadow 0.2s ease-in-out; }
   #exlidSearchRibbon input.EXLSearchFieldMaximized:focus,
   #exlidSearchRibbon input[type=text]:focus {
-    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.5), 0px 0px 20px 0 rgba(246, 120, 73, 0.75); }
+    box-shadow: 0 1px 1px rgba(51, 51, 51, 0.5), 0 0 20px 0 rgba(246, 120, 73, 0.75); }
 
 #exlidSearchRibbon input.submit {
   border: none;
@@ -5654,7 +5654,17 @@ table.jCalendar td.unselectable.dp-hover {
 
 .EXLSearchFieldRibbonFormSearchFor {
   float: left;
-  width: 100%; }
+  width: 240px; }
+
+.EXLSearchFieldRibbonFormBrowseSearchFor label.EXLHide {
+  display: block;
+  width: 240px;
+  left: 0;
+  position: static;
+  float: none;
+  height: 20px;
+  margin-bottom: 5px;
+  line-height: 20px; }
 
 .EXLClearSimpleSearchBoxButtonClose {
   background-image: url("../images/form_clear.png");
@@ -5835,7 +5845,7 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 .EXLSearchFieldRibbonFormSelectedCollection {
   width: 39%;
   float: left;
-  margin-top: 0em;
+  margin-top: 0;
   cursor: pointer;
   border-left: 1px solid #c0c0c0;
   height: 26px; }
@@ -5863,7 +5873,7 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   float: left;
   width: 100%;
   overflow: hidden;
-  margin-top: 0em;
+  margin-top: 0;
   height: 23px; }
 
 /* End: Select Box, on Browse */
@@ -5883,7 +5893,7 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 
 .EXLSearchFieldRibbonFormCollectionsList {
   float: left;
-  margin-top: 0em;
+  margin-top: 0;
   cursor: pointer;
   width: auto;
   position: relative;
@@ -5977,7 +5987,7 @@ a.EXLFullResultsHeaderBackToBriefResultsLink {
   font-weight: bold;
   font-size: 12px;
   padding: 10px 20px 10px 0;
-  margin: 0px;
+  margin: 0;
   margin-bottom: 0.2em;
   float: left;
   width: auto; }
@@ -6010,7 +6020,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 .EXLSearchFieldRibbonFormSelectedBrowse {
   width: 20em;
   float: left;
-  margin-top: 0em;
+  margin-top: 0;
   cursor: pointer;
   border: none;
   height: 26px; }
@@ -6029,7 +6039,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 
 .EXLSearchFieldRibbonFormBrowseList {
   float: left;
-  margin-top: 0em;
+  margin-top: 0;
   cursor: pointer;
   width: 20em;
   position: relative;
@@ -6059,7 +6069,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: left;
   width: 100%;
   overflow: hidden;
-  margin-top: 0em;
+  margin-top: 0;
   height: 23px; }
 
 .EXLSearchFieldRibbonFormSelectedLabelBrowse {
@@ -6142,7 +6152,7 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     border-bottom-left-radius: 0;
     transition: box-shadow 0.2s ease-in-out; }
   #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input#search_field:focus {
-    box-shadow: 0px 1px 1px rgba(51, 51, 51, 0.5), 0px 0px 20px 0 rgba(253, 128, 0, 0.75); }
+    box-shadow: 0 1px 1px rgba(51, 51, 51, 0.5), 0 0 20px 0 rgba(253, 128, 0, 0.75); }
 
 #exlidAdvancedSearchRibbon.EXLAdvancedBrowseRibbon input#search_field:focus {
   outline: none; }
