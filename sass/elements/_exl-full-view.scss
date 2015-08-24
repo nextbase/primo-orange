@@ -88,9 +88,9 @@ body.EXLFullView div.EXLResultsList {
 body.EXLFullView div.EXLTabContent {
     min-height: 17em;
     height: auto;
-    border: 1px solid $secondary-color-secondary;
+    border: none;
     border-top: none;
-    margin-bottom: 1em
+    margin-bottom: 0;
 }
 
 body.EXLFullView #exlidHeaderSystemFeedback {
