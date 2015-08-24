@@ -4682,8 +4682,8 @@ table.jCalendar td.unselectable.dp-hover {
   border: none;
   pointer-events: all;
   position: relative;
-  top: -74px;
-  right: 130px; }
+  top: -75px;
+  right: 50px; }
 
 #header {
   background-color: rgba(246, 120, 73, 0.79);
@@ -6174,7 +6174,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   float: right;
   position: relative;
   top: -131px;
-  margin-right: 48px; }
+  margin-right: 48px;
+  display: none; }
 
 #exlidMainMenuTile div.EXLLanguagesContainer span.EXLLanguagesLabel {
   float: left;
