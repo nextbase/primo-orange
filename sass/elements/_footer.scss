@@ -130,7 +130,7 @@ $sitemap-font-color-visited: $white;
           float: none;
           position: relative;
 
-          @include retina-image('../img/line_footer_menu', 24px 1px);
+          @include retina-image('../images/line_footer_menu', 24px 1px);
           background-position: bottom left;
           background-repeat: no-repeat;
           margin-bottom: 15px;

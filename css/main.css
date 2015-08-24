@@ -4984,7 +4984,7 @@ table.jCalendar td.unselectable.dp-hover {
         width: 100%;
         float: none;
         position: relative;
-        background-image: url("../img/line_footer_menu.png");
+        background-image: url("../images/line_footer_menu.png");
         background-position: bottom left;
         background-repeat: no-repeat;
         margin-bottom: 15px; }
@@ -4992,7 +4992,7 @@ table.jCalendar td.unselectable.dp-hover {
           #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > a,
           #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > a:link,
           #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > a:visited {
-            background-image: url("../img/line_footer_menu_2x.png");
+            background-image: url("../images/line_footer_menu_2x.png");
             background-size: 24px 1px; } }
       #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu {
         width: 100%;
