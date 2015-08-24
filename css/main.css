@@ -5832,6 +5832,14 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
   content: "";
   display: table; }
 
+.EXLSearchFieldRibbonFormSelectedCollection {
+  width: 39%;
+  float: left;
+  margin-top: 0em;
+  cursor: pointer;
+  border-left: 1px solid #c0c0c0;
+  height: 26px; }
+
 /* Select Box, on Browse */
 * html .EXLSearchFieldRibbonFormSelectedCollection {
   overflow: hidden;
@@ -6050,13 +6058,13 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   padding-right: 0.5em; }
 
 #exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
-  background-color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
   clear: both;
-  min-height: 3em;
-  border: 1px solid #8fb9d0;
-  width: 100%;
-  padding: 1em 1em 0.5em 1em;
-  margin: 0px; }
+  min-height: 80px;
+  border: none;
+  width: 100%; }
 
 #exlidAdvancedSearchRibbon div.EXLDynamicSelectOnlyOneScope {
   display: none; }

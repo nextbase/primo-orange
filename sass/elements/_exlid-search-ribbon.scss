@@ -281,46 +281,14 @@ div.EXLSearchEJorunalsListAtoZ li.EXLFindDBListHeaderAtoZSelected {
 
 }
 
-//.EXLSearchFieldRibbonFormSelectedCollection {
-//  width: 39%;
-//  float: left;
-//  margin-top: 0em;
-//  cursor: pointer;
-//  border-left: 1px solid #c0c0c0;
-//  height: 26px;
-//}
-//
-//* html .EXLSearchFieldRibbonFormSelectedCollection {
-//  overflow: hidden;
-//  line-height: 200%
-//}
-//
-//.EXLSearchFieldRibbonFormSelectedCollectionLabel {
-//  display: inline-block;
-//  height: 100%;
-//  padding-left: 0.5em;
-//  width: 100%;
-//  overflow: hidden;
-//}
-//
-//.EXLSearchFieldRibbonFormSelectedCollectionLabel a {
-//  color: #32322f;
-//  display: inline-block;
-//  line-height: 210%;
-//  width: 100%;
-//  height: 100%;
-//  background-image: url(../images/icon_open_subMenu.png);
-//  background-repeat: no-repeat;
-//  background-position: 96% 50%;
-//}
-//
-//* html .EXLSearchFieldRibbonFormSelectedCollectionLabel a {
-//  float: left;
-//  width: 100%;
-//  overflow: hidden;
-//  margin-top: 0em;
-//  height: 23px;
-//}
+.EXLSearchFieldRibbonFormSelectedCollection {
+  width: 39%;
+  float: left;
+  margin-top: 0em;
+  cursor: pointer;
+  border-left: 1px solid #c0c0c0;
+  height: 26px;
+}
 
 /* Select Box, on Browse */
 
@@ -567,13 +535,12 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
 }
 
 #exlidAdvancedSearchRibbon div.EXLBrowseFieldRibbon {
-  background-color: #FFFFFF;
+  @include reset-margins;
+  background-color: transparent;
   clear: both;
-  min-height: 3em;
-  border: 1px solid #8fb9d0;
+  min-height: 80px;
+  border: none;
   width: 100%;
-  padding: 1em 1em 0.5em 1em;
-  margin: 0px;
 }
 
 #exlidAdvancedSearchRibbon div.EXLDynamicSelectOnlyOneScope {
