@@ -4686,7 +4686,7 @@ table.jCalendar td.unselectable.dp-hover {
   right: 50px; }
 
 #header {
-  background-color: rgba(246, 120, 73, 0.85);
+  background-color: #f67849;
   position: static;
   width: 100%;
   z-index: 999; }
