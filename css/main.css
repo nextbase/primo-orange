@@ -6053,7 +6053,8 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   z-index: 1000;
   background-color: #ffffff;
   display: block;
-  clear: both; }
+  clear: both;
+  margin-bottom: 20px; }
 
 * html .EXLSearchFieldRibbonFormBrowseList {
   position: absolute;
