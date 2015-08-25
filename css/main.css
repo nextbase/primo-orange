@@ -4716,9 +4716,9 @@ table.jCalendar td.unselectable.dp-hover {
         #header #block-unist-custom-block-unist-head-block .header-wrapper-1 .logo img {
           display: none; }
       #header #block-unist-custom-block-unist-head-block .header-wrapper-1 .library {
+        display: none;
         margin-top: 20px;
         margin-bottom: 8px;
-        float: left;
         height: 33px;
         width: 142px;
         background-image: url("../images/header_logo_white.png");

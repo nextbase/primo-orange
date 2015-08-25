@@ -81,7 +81,7 @@ $header-height: 112px;
         display: none;
         margin-top: 20px;
         margin-bottom: 8px;
-        float: left;
+        // float: left;
         height: 33px;
         width: 142px;
         @include retina-image('../images/header_logo_white', 340px 32px);
