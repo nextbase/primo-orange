@@ -15113,6 +15113,7 @@ table.main {
 #responsive-header {
   display: none; }
 
+#responsive-menu-overlay,
 .overlay-scale {
   visibility: hidden;
   opacity: 0;
