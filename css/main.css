@@ -15109,3 +15109,11 @@ table.main {
   .MyAccount_FineAndFees_6,
   #exlidUserAreaRibbon li.EXLMyShelf {
     display: none; } }
+
+#responsive-header {
+  display: none; }
+
+.overlay-scale {
+  visibility: hidden;
+  opacity: 0;
+  display: none; }
