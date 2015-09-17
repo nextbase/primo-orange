@@ -10,7 +10,8 @@ function smothReplaceCSS() {
 }
 
 $(document).ready(function() {
-    $("#sitemap-toggle").click(function() {
-        $("#footer-sitemap").toggleClass("expanded");
-    });
+    // Update This Later
+    // $("#sitemap-toggle").click(function() {
+    //     $("#footer-sitemap").toggleClass("expanded");
+    // });
 });

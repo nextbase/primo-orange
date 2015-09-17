@@ -51,5 +51,3 @@ function initFilterExpand() {
         expandableMobileFacet($(this).find(".filters-expand-title"), $(this));
     });
 }
-
-
