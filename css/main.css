@@ -15752,9 +15752,9 @@ header#responsive-header.open {
     margin-right: 7.42297%;
     width: 46.28851%;
     margin-bottom: 15px; }
-    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(3n) {
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(2n) {
       margin-right: 2.35765%; }
-    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(3n+1) {
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(2n+1) {
       clear: none; }
     #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:last-child {
       margin-right: 0; }
