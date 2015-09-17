@@ -15319,7 +15319,7 @@ header#responsive-header.open {
   background-color: #f67849;
   z-index: 1200; }
 
-@media screen and (max-width: 961px) {
+@media screen and (min-width: 961px) {
   .overlay {
     display: none; } }
 
