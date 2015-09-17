@@ -6,9 +6,17 @@ $gutter: 30px;
 $grid-columns: 12;
 $max-width: 1170px;
 
+// Breakpoints for UNIST
+$small-screen: 500px;
+$medium-screen: 640px;
+$large-screen: 960px;
+
 // Define your breakpoints
-$tablet: new-breakpoint(max-width 768px 8);
-$mobile: new-breakpoint(max-width 480px 4);
+$mobile-small: new-breakpoint(max-width $small-screen);
+$mobile-down: new-breakpoint(max-width $medium-screen);
+$tablets-down: new-breakpoint(max-width $large-screen);
+$desktop: new-breakpoint(min-width $large-screen);
+
 
 $section-spacing:	40px;
 $elements-spacing:	30px;

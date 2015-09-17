@@ -1,3 +1,7 @@
 #responsive-header {
 	display: none;
 }
+
+@include media($tablets-down) {
+	
+}

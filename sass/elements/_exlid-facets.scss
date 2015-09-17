@@ -3,7 +3,7 @@
   @include span-columns(3);
 }
 
-@include media($tablet) {
+@include media($tablets-down) {
 
   .EXLFacetTile {
     @include span-columns(4);

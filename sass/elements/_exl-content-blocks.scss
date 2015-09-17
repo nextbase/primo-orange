@@ -167,7 +167,7 @@
     margin-right: 5.5em;
 }
 
-@include media($tablet) {
+@include media($tablets-down) {
 	#exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
         width: auto;
         float: none;
@@ -222,7 +222,7 @@
 
 }
 
-@include media($mobile) {
+@include media($mobile-down) {
 
 	#exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
         display: none

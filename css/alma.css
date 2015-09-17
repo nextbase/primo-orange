@@ -656,7 +656,7 @@ pre.sourcecode {
   overflow: auto;
   margin: 0 0 20px; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .folders_new,
   .draggable,
   .EXLMyAccountTabsRibbon div li.EXLMyAccountTab,

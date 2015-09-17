@@ -29,7 +29,7 @@
   color: $base-color
 }
 
-@include media($tablet) {
+@include media($tablets-down) {
 
   #exlidHomeContainer {
     width: auto;

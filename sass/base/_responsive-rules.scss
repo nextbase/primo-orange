@@ -1,11 +1,11 @@
 // General Responsive Rules
 // Hide Some Stuff
 
-@include media($mobile) {
+@include media($mobile-down) {
   // some rules here
 }
 
-@include media($mobile) {
+@include media($mobile-down) {
 	.folders_new,
 	.draggable,
 	.EXLMyAccountTabsRibbon div li.EXLMyAccountTab,

@@ -21,7 +21,7 @@ $header-height: 112px;
   z-index: $header-z-index;
 }
 
-@include media($mobile) {
+@include media($mobile-down) {
 
   #exlidHeaderContainer div.EXLSkipToContent {
     display: none;

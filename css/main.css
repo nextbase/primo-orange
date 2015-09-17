@@ -4655,7 +4655,7 @@ table.jCalendar td.unselectable.dp-hover {
   left: 0;
   z-index: 999; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #exlidHeaderContainer div.EXLSkipToContent {
     display: none; }
   #exlidHeaderContainer div.EXLSkipToSystemFeedback {
@@ -5250,7 +5250,7 @@ table.jCalendar td.unselectable.dp-hover {
   font-size: 100%;
   color: #f67849; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   #exlidHomeContainer {
     width: auto;
     height: auto;
@@ -6424,12 +6424,12 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
   .EXLFacetTile:last-child {
     margin-right: 0; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .EXLFacetTile {
     float: left;
     display: block;
-    margin-right: 3.57866%;
-    width: 48.21067%; }
+    margin-right: 2.35765%;
+    width: 31.76157%; }
     .EXLFacetTile:last-child {
       margin-right: 0; } }
 
@@ -8098,12 +8098,12 @@ div.EXLResultsHeader:focus {
   .EXLResultsContainer div.EXLResultsTile:last-child {
     margin-right: 0; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .EXLResultsContainer div.EXLResultsTile {
     float: left;
     display: block;
-    margin-right: 3.57866%;
-    width: 100%;
+    margin-right: 2.35765%;
+    width: 65.88078%;
     margin-right: 0; }
     .EXLResultsContainer div.EXLResultsTile:last-child {
       margin-right: 0; } }
@@ -9242,7 +9242,7 @@ body.EXLFullView div.EXLBackToResults {
   line-height: 120%;
   margin-right: 5.5em; }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock1 {
     width: auto;
     float: none;
@@ -9275,7 +9275,7 @@ body.EXLFullView div.EXLBackToResults {
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
     display: none; } }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   #exlidHomeContainer div.EXLContentBlock3 div.EXLHomeBannersContainer {
     display: none; }
   #exlidHomeContainer div.EXLContentBlock4 div.EXLHomeBannersContainer {
@@ -15075,7 +15075,7 @@ table.main {
     content: "";
     display: table; }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 640px) {
   .folders_new,
   .draggable,
   .EXLMyAccountTabsRibbon div li.EXLMyAccountTab,
