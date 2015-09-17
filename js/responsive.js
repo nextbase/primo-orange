@@ -116,6 +116,29 @@ function initFilterExpand() {
             // JS Menu Expands Run
             initJsExpands();
             ensureMenusAreClosed();
+
+            // Responsive Search Behavior
+            $("#goButtonResponsive").click( function() {
+                var text = $("#search_field_responsive").val();
+                if( text == "" ) {
+                    alert( 'Enter Search Keyword.' );
+                    return;
+                }
+
+                $body = $("body");
+                $body.addClass("loading");
+                window.location.href = "/search_primo/all/" + text;
+            });
+
+            $("#search_field_responsive").keydown( function( event ) {
+                if ( event.which == 13 && $("#search_field" ).val() != "" ) {
+                    event.preventDefault();
+                    $("#goButtonResponsive").trigger( "click" );
+                }
+                else if( event.which == 13 && $("#search_field_responsive" ).val() == "" ) {
+                    alert( 'Enter Search Keyword.' );
+                }
+            });
     });
 
 })(jQuery);
