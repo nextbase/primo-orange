@@ -15340,8 +15340,7 @@ header#responsive-header.open {
 
 .overlay-scale {
   visibility: hidden;
-  opacity: 0;
-  display: none; }
+  opacity: 0; }
 
 /* Mobile Navigation */
 .overlay {
