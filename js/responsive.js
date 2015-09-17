@@ -29,8 +29,21 @@ $.fn.isMissing = function(callback) {
     return this;
 };
 
-function isKorean() {
-    return $('body').hasClass('EXLCurrentLang_ko_KR');
+function updateLoginButton() {
+    responsiveLoginButton = $('#responsive-login-trigger');
+    loginButton = $('#exlidSignIn a');
+    logoutButton = $('#exlidSignOut a');
+    logoutText = logoutButton.html();
+
+    if ($('#exlidSignOut').hasClass('EXLHidden')) {
+        responsiveLoginButton.attr('href', loginButton.attr('href'));
+        responsiveLoginButton.attr('onclick', loginButton.attr('onclick'));
+    } else {
+        responsiveLoginButton.attr('href', logoutButton.attr('href'));
+        responsiveLoginButton.attr('onclick', logoutButton.attr('onclick'));
+        responsiveLoginButton.attr('id', "responsive-logout-trigger");
+        responsiveLoginButton.html(logoutButton.html());
+    }
 }
 
 function expandableMobileFacet(trigger_query, parent_query) {
@@ -42,17 +55,19 @@ function expandableMobileFacet(trigger_query, parent_query) {
 
 function initFilterExpand() {
     $("#exlidFacetTile").exists(function() {
-        if (isKorean()) {
-            $(this).prepend('<div class="filters-expand-title"><h2 class="filters-title">검색 필터</h2></div>');
-        } else {
-            $(this).prepend('<div class="filters-expand-title"><h2 class="filters-title">Search Filters</h2></div>');
-        }
+        $(this).prepend('<div class="filters-expand-title"><h2 class="filters-title">Search Filters</h2></div>');
         expandableMobileFacet($(this).find(".filters-expand-title"), $(this));
     });
 }
 
-// Responsive Menu
 $(document).ready(function() {
+    // Responsive Search Filters
+    initFilterExpand();
+
+    // Pick the right login / logout button
+    updateLoginButton();
+
+    // Responsive Menu
     var triggerBttn = $('#responsive-menu-trigger'),
         overlay = $('#responsive-menu-overlay'),
         closeBttn = overlay.find('button.overlay-close'),
