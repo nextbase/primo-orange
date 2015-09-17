@@ -83,7 +83,7 @@
       background: transparent;
       border: 0;
 
-      @include retina-image("../img/responsive_search_icon", 40px 40px);
+      @include retina-image("../images/responsive_search_icon", 40px 40px);
       background-position: center center;
       background-repeat: no-repeat;
 

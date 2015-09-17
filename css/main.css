@@ -15167,12 +15167,12 @@ header#responsive-header.open {
     position: absolute;
     bottom: -15px;
     left: 0;
-    background-image: url("../img/mobile_menu_shadow.png");
+    background-image: url("../images/mobile_menu_shadow.png");
     background-position: top center;
     background-repeat: no-repeat; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       header#responsive-header.open:after {
-        background-image: url("../img/mobile_menu_shadow_2x.png");
+        background-image: url("../images/mobile_menu_shadow_2x.png");
         background-size: 420px 15px; } }
 
 @media screen and (max-width: 960px) {
@@ -15194,14 +15194,14 @@ header#responsive-header.open {
   overflow: hidden;
   text-indent: 100px;
   white-space: nowrap;
-  background-image: url("../img/responsive_user_icon.png");
+  background-image: url("../images/responsive_user_icon.png");
   background-repeat: no-repeat;
   background-position: center center;
   border-left: 1px solid #f78358;
   border-right: 1px solid #f78358; }
   @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
     #responsive-login-trigger {
-      background-image: url("../img/responsive_user_icon_2x.png");
+      background-image: url("../images/responsive_user_icon_2x.png");
       background-size: 25px 25px; } }
 
 #responsive-logout-trigger {
@@ -15413,7 +15413,7 @@ header#responsive-header.open {
       white-space: nowrap;
       background: transparent;
       border: 0;
-      background-image: url("../img/responsive_search_icon.png");
+      background-image: url("../images/responsive_search_icon.png");
       background-position: center center;
       background-repeat: no-repeat; }
       @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
@@ -15421,7 +15421,7 @@ header#responsive-header.open {
         .overlay .search-container #searchFormResponsive input[type=button],
         .overlay .search-container form input[type=submit],
         .overlay .search-container form input[type=button] {
-          background-image: url("../img/responsive_search_icon_2x.png");
+          background-image: url("../images/responsive_search_icon_2x.png");
           background-size: 40px 40px; } }
       .overlay .search-container #searchFormResponsive input[type=submit]:hover,
       .overlay .search-container #searchFormResponsive input[type=submit]:focus,
