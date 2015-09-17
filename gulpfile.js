@@ -3,6 +3,7 @@
 
 var gulp = require('gulp');
 var gutil = require('gulp-util');
+var exec = require('child_process').exec;
 
 // load plugins
 var $ = require('gulp-load-plugins')();
@@ -30,3 +31,11 @@ gulp.task('watch', function () {
     // watch for changes
     gulp.watch('sass/**/*.scss', ['styles']);
 });
+
+gulp.task('push', function (cb) {
+    exec('./deploy', function (err, stdout, stderr) {
+        console.log(stdout);
+        console.log(stderr);
+        cb(err);
+    });
+})
