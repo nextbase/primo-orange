@@ -52,93 +52,91 @@ function initFilterExpand() {
 }
 
 // Responsive Menu
+$(document).ready(function() {
+    var triggerBttn = $('#responsive-menu-trigger'),
+            overlay = $('#responsive-menu-overlay'),
+            closeBttn = overlay.find( 'button.overlay-close'),
+            navigationHeader = $( '#responsive-header');
 
-(function($) {
-    $(document).ready(function() {
-        var triggerBttn = $('#responsive-menu-trigger'),
-                overlay = $('#responsive-menu-overlay'),
-                closeBttn = overlay.find( 'button.overlay-close'),
-                navigationHeader = $( '#responsive-header');
+        function toggleOverlay() {
+            if( overlay.hasClass('open') ) {
+                overlay.removeClass('open');
+                navigationHeader.removeClass('open');
+                ensureMenusAreClosed();
+            }
+            else if(navigationHeader.hasClass('open')) {
+                overlay.removeClass('open');
+                navigationHeader.removeClass('open');
+                ensureMenusAreClosed();
+            }
+            else {
+                overlay.addClass( 'open' );
+                navigationHeader.addClass( 'open' );
+            }
+        }
 
-            function toggleOverlay() {
-                if( overlay.hasClass('open') ) {
-                    overlay.removeClass('open');
-                    navigationHeader.removeClass('open');
-                    ensureMenusAreClosed();
+        triggerBttn.click( function() {
+            toggleOverlay();
+        });
+
+        closeBttn.click( function() {
+            toggleOverlay();
+        });
+
+        // Menu Expands
+        function ensureMenusAreClosed() {
+            var firstLevelItems = $('#responsive-menu-overlay nav > ul > li, #responsive-menu-overlay nav > div > ul > li');
+            firstLevelItems.removeClass('expanded');
+        }
+
+        function initJsExpands() {
+            var firstLevelItems = $('#responsive-menu-overlay nav > ul > li, #responsive-menu-overlay nav > div > ul > li'),
+                secondLevelItems = $('#responsive-menu-overlay nav > ul > li > ul > li');
+
+            firstLevelItems.each(function() {
+                if ($(this).children('ul').length != 0) {
+                    $(this).addClass('is-expandable');
                 }
-                else if(navigationHeader.hasClass('open')) {
-                    overlay.removeClass('open');
-                    navigationHeader.removeClass('open');
-                    ensureMenusAreClosed();
-                }
-                else {
-                    overlay.addClass( 'open' );
-                    navigationHeader.addClass( 'open' );
-                }
+            });
+
+            // Remove any accidental third level
+            secondLevelItems.each(function() {
+                $(this).find('ul').remove();
+            });
+
+            // Bind the links to expand / collapse
+            firstLevelItems.children('a').click(function(e) {
+                e.preventDefault();
+                $(this).parent().toggleClass('expanded');
+            })
+        }
+
+        // JS Menu Expands Run
+        initJsExpands();
+        ensureMenusAreClosed();
+
+        // Responsive Search Behavior
+        $("#goButtonResponsive").click( function() {
+            var text = $("#search_field_responsive").val();
+            if( text == "" ) {
+                alert( 'Enter Search Keyword.' );
+                return;
             }
 
-            triggerBttn.click( function() {
-                toggleOverlay();
-            });
+            $body = $("body");
+            $body.addClass("loading");
+            window.location.href = "/search_primo/all/" + text;
+        });
 
-            closeBttn.click( function() {
-                toggleOverlay();
-            });
-
-            // Menu Expands
-            function ensureMenusAreClosed() {
-                var firstLevelItems = $('#responsive-menu-overlay nav > ul > li, #responsive-menu-overlay nav > div > ul > li');
-                firstLevelItems.removeClass('expanded');
+        $("#search_field_responsive").keydown( function( event ) {
+            if ( event.which == 13 && $("#search_field" ).val() != "" ) {
+                event.preventDefault();
+                $("#goButtonResponsive").trigger( "click" );
             }
-
-            function initJsExpands() {
-                var firstLevelItems = $('#responsive-menu-overlay nav > ul > li, #responsive-menu-overlay nav > div > ul > li'),
-                    secondLevelItems = $('#responsive-menu-overlay nav > ul > li > ul > li');
-
-                firstLevelItems.each(function() {
-                    if ($(this).children('ul').length != 0) {
-                        $(this).addClass('is-expandable');
-                    }
-                });
-
-                // Remove any accidental third level
-                secondLevelItems.each(function() {
-                    $(this).find('ul').remove();
-                });
-
-                // Bind the links to expand / collapse
-                firstLevelItems.children('a').click(function(e) {
-                    e.preventDefault();
-                    $(this).parent().toggleClass('expanded');
-                })
+            else if( event.which == 13 && $("#search_field_responsive" ).val() == "" ) {
+                alert( 'Enter Search Keyword.' );
             }
-
-            // JS Menu Expands Run
-            initJsExpands();
-            ensureMenusAreClosed();
-
-            // Responsive Search Behavior
-            $("#goButtonResponsive").click( function() {
-                var text = $("#search_field_responsive").val();
-                if( text == "" ) {
-                    alert( 'Enter Search Keyword.' );
-                    return;
-                }
-
-                $body = $("body");
-                $body.addClass("loading");
-                window.location.href = "/search_primo/all/" + text;
-            });
-
-            $("#search_field_responsive").keydown( function( event ) {
-                if ( event.which == 13 && $("#search_field" ).val() != "" ) {
-                    event.preventDefault();
-                    $("#goButtonResponsive").trigger( "click" );
-                }
-                else if( event.which == 13 && $("#search_field_responsive" ).val() == "" ) {
-                    alert( 'Enter Search Keyword.' );
-                }
-            });
-    });
+        });
+});
 
 })(jQuery);
