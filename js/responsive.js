@@ -80,15 +80,15 @@ function initFilterExpand() {
             toggleOverlay();
         });
 
-        // Menu Expands (jQuery version, by Igor)
+        // Menu Expands
         function ensureMenusAreClosed() {
-            var firstLevelItems = $('div.overlay nav > ul > li');
+            var firstLevelItems = $('#responsive-menu-overlay nav > ul > li');
             firstLevelItems.removeClass('expanded');
         }
 
         function initJsExpands() {
-            var firstLevelItems = $('div.overlay nav > ul > li'),
-                secondLevelItems = $('div.overlay nav > ul > li > ul > li');
+            var firstLevelItems = $('responsive-menu-overlay nav > ul > li'),
+                secondLevelItems = $('#responsive-menu-overlay nav > ul > li > ul > li');
 
             firstLevelItems.each(function() {
                 if ($(this).children('ul').length != 0) {
@@ -112,5 +112,6 @@ function initFilterExpand() {
         // JS Menu Expands Run
         initJsExpands();
         ensureMenusAreClosed();
-    })
+    });
+
 })(jQuery);
