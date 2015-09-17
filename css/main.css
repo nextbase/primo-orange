@@ -15317,7 +15317,7 @@ header#responsive-header.open {
   bottom: 0;
   right: 0;
   background-color: #f67849;
-  z-index: 1200; }
+  z-index: 200; }
 
 @media screen and (min-width: 961px) {
   .overlay {
