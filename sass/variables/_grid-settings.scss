@@ -15,6 +15,7 @@ $large-screen: 960px;
 $mobile-small: new-breakpoint(max-width $small-screen);
 $mobile-down: new-breakpoint(max-width $medium-screen);
 $tablets-down: new-breakpoint(max-width $large-screen);
+$tablets-up:   new-breakpoint(max-width ($large-screen + 1));
 $desktop: new-breakpoint(min-width $large-screen);
 
 $section-spacing:	40px;

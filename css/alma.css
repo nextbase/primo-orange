@@ -94,11 +94,6 @@ ol li {
   src: local("Noto Sans CJK KR"), url("../fonts/NotoSans-Bold.otf") format("opentype"), url("../fonts/NotoSans-Bold.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url("../fonts/glyphicons-halflings-regular.eot");
-  src: url("../fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
-
-@font-face {
   font-family: 'unist-icons';
   src: url("../fonts/unist-icons.eot?-sqrw1f");
   src: url("../fonts/unist-icons.eot?#iefix-sqrw1f") format("embedded-opentype"), url("../fonts/unist-icons.ttf?-sqrw1f") format("truetype"), url("../fonts/unist-icons.woff?-sqrw1f") format("woff"), url("../fonts/unist-icons.svg?-sqrw1f#unist-icons") format("svg");

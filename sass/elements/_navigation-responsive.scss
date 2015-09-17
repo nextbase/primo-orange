@@ -134,7 +134,7 @@
   @include transition(max-height .5s ease);
 
   & > a:after {
-    content: $icon-chevron-down;
+    content: $icon-chevron-soft-down;
   }
 }
 
@@ -154,7 +154,7 @@
   }
 
   & > a:after {
-    content: $icon-chevron-up;
+    content: $icon-chevron-soft-up;
   }
 }
 
@@ -194,7 +194,7 @@
 .overlay nav div > ul > li > a,
 .overlay nav > ul > li > a {
   // Only first level menu
-  @include glyphicon($icon-chevron-down, 'after');
+  @include unist-icon($icon-chevron-soft-down, 'after');
   padding-left: 15px; // Compensate for the chevron space
   text-transform: uppercase;
   letter-spacing: 4px;

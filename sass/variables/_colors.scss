@@ -8,6 +8,7 @@ $base-color-transparent: rgba($base-color, 0.85);
 
 $base-color-light: lighten($base-color, 15%);
 $base-color-light-secondary: lighten($base-color, 20%);
+$base-color-light-hover: darken(#fccebd, 5%);
 
 $secondary-color: #99836e;
 $secondary-color-secondary: #c7bbaf;
