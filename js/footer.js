@@ -1,0 +1,1 @@
+console.log("Information: You are running footer.js");
