@@ -1,4 +1,4 @@
-function smothReplaceCSS() {
+function smoothReplaceCSS() {
     oldCSS = $('link[href*="primo_library_wro"]');
     newCSS = oldCSS.clone();
     newCSS.attr("href", "http://nextbase.github.io/primo-orange/css/main.css");
@@ -10,8 +10,6 @@ function smothReplaceCSS() {
 }
 
 $(document).ready(function() {
-    // Update This Later
-    // $("#sitemap-toggle").click(function() {
-    //     $("#footer-sitemap").toggleClass("expanded");
-    // });
+    // Let's replace the CSS with the one we want
+    smoothReplaceCSS();
 });
