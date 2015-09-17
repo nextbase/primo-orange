@@ -110,7 +110,7 @@ header#responsive-header.open {
   padding: 12px 15px 13px 15px;
   height: 56px;
   a {
-    @include retina-image("../img/mobile_logo", 165px 15px);
+    @include retina-image("../images/mobile_logo", 165px 15px);
     background-repeat: no-repeat;
     background-position: center left;
     height: 30px;

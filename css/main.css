@@ -15238,7 +15238,7 @@ header#responsive-header.open {
   padding: 12px 15px 13px 15px;
   height: 56px; }
   #mobile-logo a {
-    background-image: url("../img/mobile_logo.png");
+    background-image: url("../images/mobile_logo.png");
     background-repeat: no-repeat;
     background-position: center left;
     height: 30px;
@@ -15249,7 +15249,7 @@ header#responsive-header.open {
     white-space: nowrap; }
     @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 1.3/1), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
       #mobile-logo a {
-        background-image: url("../img/mobile_logo_2x.png");
+        background-image: url("../images/mobile_logo_2x.png");
         background-size: 165px 15px; } }
 
 #responsive-menu-trigger {
