@@ -56,7 +56,7 @@ function initFilterExpand() {
 
 (function($) {
     var triggerBttn = $('#responsive-menu-trigger'),
-        overlay = $('div.overlay'),
+        overlay = $('#responsive-menu-overlay'),
         closeBttn = overlay.find( 'button.overlay-close'),
         navigationHeader = $( '#responsive-header'),
         transEndEventName = "webkitTransitionEnd transitionend oTransitionEnd MSTransitionEnd transitionend";
