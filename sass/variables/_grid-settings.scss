@@ -22,3 +22,8 @@ $section-spacing:	40px;
 $elements-spacing:	30px;
 $footer-spacing:	60px;
 $paragraph-spacing: 20px;
+
+@mixin omega-reset($nth) {
+  &:nth-child(#{$nth}) { margin-right: flex-gutter(); }
+  &:nth-child(#{$nth}+1) { clear: none }
+}

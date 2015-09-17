@@ -15070,41 +15070,6 @@ table.main {
     content: "";
     display: table; }
 
-@media screen and (max-width: 640px) {
-  .folders_new,
-  .draggable,
-  .EXLMyAccountTabsRibbon div li.EXLMyAccountTab,
-  .EXLMyAccountTableAuthor,
-  .EXLMyAccountTableDueHour,
-  .EXLMyAccountTableFine,
-  .Location,
-  .EXLMyAccountMainHeaderTitle div.EXLMyAccountMainHeaderContent span,
-  .EXLMyAccountTableCounter,
-  .EXLMyAccountMainContainer table tr td:first-child,
-  .EXLMyAccountMainContainer div.EXLMyAccountTips,
-  .folder_details .newManage_buts,
-  a.eShelf_print,
-  .author,
-  .added,
-  .note,
-  .MyAccount_Loans_2,
-  .MyAccount_Loans_4,
-  .MyAccount_Loans_5,
-  .MyAccount_Loans_6,
-  .MyAccount_Loans_0,
-  .MyAccount_Requests_0,
-  .MyAccount_Requests_3,
-  .MyAccount_Requests_4,
-  .MyAccount_Requests_5,
-  .MyAccount_Requests_6,
-  .MyAccount_FineAndFees_0,
-  .MyAccount_FineAndFees_2,
-  .MyAccount_FineAndFees_4,
-  .MyAccount_FineAndFees_5,
-  .MyAccount_FineAndFees_6,
-  #exlidUserAreaRibbon li.EXLMyShelf {
-    display: none; } }
-
 header#responsive-header {
   margin: 0;
   padding: 0;
@@ -15548,3 +15513,342 @@ header#responsive-header.open {
   transform: scale(1);
   transition: -webkit-transform 0.4s, opacity 0.4s;
   transition: transform 0.4s, opacity 0.4s; }
+
+/* Footer responsive rules */
+@media screen and (max-width: 960px) {
+  #footer-sitemap {
+    margin-top: 20px; }
+    #footer-sitemap #block-menu-menu-footer-sit {
+      padding-left: 20px;
+      padding-right: 20px; }
+    #footer-sitemap.expanded #block-menu-menu-footer-sit {
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      height: auto;
+      max-height: 2800px; }
+    #footer-sitemap #sitemap-button-container {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      margin-right: 0; }
+      #footer-sitemap #sitemap-button-container:last-child {
+        margin-right: 0; }
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu {
+      margin: 0;
+      padding: 0;
+      max-width: 1170px;
+      margin-left: auto;
+      margin-right: auto; }
+      #footer-sitemap #block-menu-menu-footer-sit > ul.menu::after {
+        clear: both;
+        content: "";
+        display: table; }
+      #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a,
+      #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a:link,
+      #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a:visited {
+        font-size: 16px;
+        font-weight: normal; }
+      #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a:visited {
+        color: #ffffff; }
+      #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li {
+        float: left;
+        display: block;
+        margin-right: 3.16844%;
+        width: 31.22104%;
+        margin-bottom: 20px; }
+        #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:last-child {
+          margin-right: 0; }
+        #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(3n) {
+          margin-right: 0; }
+        #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(3n+1) {
+          clear: left; }
+        #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu {
+          width: 100%;
+          display: block;
+          margin-bottom: 4px; }
+          #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > a,
+          #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > a:link,
+          #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > a:visited {
+            font-size: 13px;
+            font-weight: normal;
+            text-transform: none;
+            margin-bottom: 5px; }
+          #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li {
+            margin: 0;
+            padding: 0;
+            list-style: none; }
+            #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > ul.menu {
+              margin-bottom: 20px; }
+              #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > ul.menu > li > a,
+              #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > ul.menu > li > a:link,
+              #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > ul.menu > li > a:visited {
+                font-size: 12px;
+                font-weight: lighter; }
+    #footer-sitemap .sitemap-button-container {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      margin-right: 0; }
+      #footer-sitemap .sitemap-button-container:last-child {
+        margin-right: 0; }
+      #footer-sitemap .sitemap-button-container .sitemap-button-container-inner {
+        padding-left: 20px;
+        padding-right: 20px; }
+  /* Less spacing on the frontpage */
+  .front #footer-sitemap {
+    margin-top: 30px; }
+  #footer {
+    padding: 20px 0;
+    background-color: #bbbbbb;
+    border-top: none; }
+    #footer header {
+      display: none; }
+    #footer .footer-container {
+      max-width: 1170px;
+      margin-left: auto;
+      margin-right: auto; }
+      #footer .footer-container::after {
+        clear: both;
+        content: "";
+        display: table; }
+      #footer .footer-container .footer-container-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+        position: relative; }
+    #footer #footer-logo-container {
+      margin: 0;
+      padding: 0;
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      text-align: center; }
+      #footer #footer-logo-container:last-child {
+        margin-right: 0; }
+      #footer #footer-logo-container #footer-logo {
+        margin: 0 auto;
+        width: 240px;
+        height: 43px;
+        text-indent: -500px;
+        background-image: url("../img/logo_footer_mobile.png");
+        background-repeat: no-repeat;
+        background-position: left center; } }
+      @media only screen and (max-width: 960px) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (max-width: 960px) and (min--moz-device-pixel-ratio: 1.3), only screen and (max-width: 960px) and (-o-min-device-pixel-ratio: 1.3/1), only screen and (max-width: 960px) and (min-resolution: 125dpi), only screen and (max-width: 960px) and (min-resolution: 1.3dppx) {
+        #footer #footer-logo-container #footer-logo {
+          background-image: url("../img/logo_footer_mobile_2x.png");
+          background-size: 240px 43px; } }
+
+@media screen and (max-width: 960px) {
+    #footer #block-menu-menu-footer-social-links {
+      position: absolute;
+      right: 10px;
+      top: 0;
+      height: 43px;
+      width: auto;
+      max-width: 200px;
+      float: left; }
+      #footer #block-menu-menu-footer-social-links ul.menu {
+        list-style: none;
+        padding: 6px 0; }
+        #footer #block-menu-menu-footer-social-links ul.menu li {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          float: left; }
+          #footer #block-menu-menu-footer-social-links ul.menu li a {
+            overflow: hidden;
+            display: block;
+            height: 30px;
+            width: 30px;
+            float: left;
+            margin-right: 4px;
+            color: #797979; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a:hover,
+            #footer #block-menu-menu-footer-social-links ul.menu li a:active {
+              color: #cfcfcf; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter'] {
+              margin-right: 5px; }
+              #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter']:before {
+                content: "";
+                position: relative;
+                top: 1px;
+                display: inline-block;
+                font-family: 'unist-icons';
+                font-style: normal;
+                font-weight: normal;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale; }
+              #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter']:before {
+                font-size: 24px;
+                height: 30px;
+                width: 30px;
+                float: left;
+                line-height: 28px; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook'] {
+              margin-right: 5px; }
+              #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook']:before {
+                content: "";
+                position: relative;
+                top: 1px;
+                display: inline-block;
+                font-family: 'unist-icons';
+                font-style: normal;
+                font-weight: normal;
+                line-height: 1;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale; }
+              #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook']:before {
+                font-size: 24px;
+                height: 30px;
+                width: 30px;
+                float: left;
+                line-height: 28px; }
+    #footer #block-menu-menu-footer-bottom-links {
+      float: right;
+      width: auto;
+      margin-bottom: 10px;
+      display: none; }
+      #footer #block-menu-menu-footer-bottom-links ul.menu li {
+        margin: 0;
+        padding: 0;
+        float: left;
+        display: block;
+        list-style: none;
+        border-left: 1px solid #797979;
+        padding-left: 20px;
+        margin-left: 20px; }
+        #footer #block-menu-menu-footer-bottom-links ul.menu li a {
+          font-size: 14px; }
+    #footer .block-block {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      text-align: center;
+      float: none;
+      display: block; }
+      #footer .block-block:last-child {
+        margin-right: 0; }
+      #footer .block-block p {
+        font-size: 13px;
+        line-height: 1.4;
+        margin-bottom: 2px; } }
+
+@media screen and (max-width: 640px) {
+  #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a,
+  #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a:link,
+  #footer-sitemap #block-menu-menu-footer-sit > ul.menu li > a:visited {
+    font-size: 14px;
+    font-weight: bold; }
+  #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 46.28851%;
+    margin-bottom: 15px; }
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(3n) {
+      margin-right: 2.35765%; }
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(3n+1) {
+      clear: none; }
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:last-child {
+      margin-right: 0; }
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(2n) {
+      margin-right: 0; }
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li:nth-child(2n+1) {
+      clear: left; }
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > a,
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > a:link,
+    #footer-sitemap #block-menu-menu-footer-sit > ul.menu > li > ul.menu > li > a:visited {
+      font-size: 12px;
+      margin-bottom: 4px; }
+  #footer #footer-logo-container {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    height: 30px;
+    padding: 0;
+    margin: 0; }
+    #footer #footer-logo-container:last-child {
+      margin-right: 0; }
+    #footer #footer-logo-container #footer-logo {
+      margin: 0 auto;
+      width: 240px;
+      height: 30px;
+      text-indent: -500px; }
+  #footer #block-menu-menu-footer-social-links {
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    position: static;
+    right: auto;
+    top: auto;
+    width: 100%;
+    height: auto;
+    max-width: none;
+    display: block;
+    margin-bottom: 5px; }
+    #footer #block-menu-menu-footer-social-links:last-child {
+      margin-right: 0; }
+    #footer #block-menu-menu-footer-social-links ul.menu {
+      width: auto;
+      display: block;
+      float: none;
+      list-style: none;
+      padding: 6px 0;
+      margin: 0 auto; }
+      #footer #block-menu-menu-footer-social-links ul.menu li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        float: none;
+        width: 100%; }
+        #footer #block-menu-menu-footer-social-links ul.menu li a {
+          font-size: 14px;
+          overflow: hidden;
+          height: 30px;
+          line-height: 30px;
+          width: 100%;
+          float: left;
+          margin-right: 0;
+          margin-left: 0;
+          text-indent: 0;
+          text-align: center; }
+          #footer #block-menu-menu-footer-social-links ul.menu li a:before {
+            display: none; }
+          #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter'] {
+            margin-right: 5px; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter']:before {
+              content: "";
+              position: relative;
+              top: 1px;
+              display: inline-block;
+              font-family: 'unist-icons';
+              font-style: normal;
+              font-weight: normal;
+              line-height: 1;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='twitter']:before {
+              display: none; }
+          #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook'] {
+            margin-right: 5px; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook']:before {
+              content: "";
+              position: relative;
+              top: 1px;
+              display: inline-block;
+              font-family: 'unist-icons';
+              font-style: normal;
+              font-weight: normal;
+              line-height: 1;
+              -webkit-font-smoothing: antialiased;
+              -moz-osx-font-smoothing: grayscale; }
+            #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook']:before {
+              display: none; } }
