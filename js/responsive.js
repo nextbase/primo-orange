@@ -123,7 +123,7 @@ $(document).ready(function() {
 
         $body = $("body");
         $body.addClass("loading");
-        window.location.href = "/search_primo/all/" + text;
+        window.location.href = "http://library.unist.ac.kr/search_primo/all/" + text;
     });
 
     $("#search_field_responsive").keydown(function(event) {
