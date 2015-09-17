@@ -21,7 +21,7 @@
   @include reset-margins;
   @include span-columns(4 of 8);
   color: $black;
-  padding: ($tabs-content-padding /2) $tabs-content-padding;
+  padding: ($tabs-content-padding / 2) $tabs-content-padding;
   white-space: nowrap;
   overflow: hidden;
 }
