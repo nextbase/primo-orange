@@ -15070,6 +15070,214 @@ table.main {
     content: "";
     display: table; }
 
+/* Responsive Layout Related Styles */
+@media screen and (max-width: 960px) {
+  #exlidUserAreaTile ul,
+  #exlidUserAreaRibbon {
+    display: none !important; }
+  #exlidMainMenuTile,
+  #exlidSearchTileWrapper,
+  #exlidResultsContainer {
+    padding-left: 20px;
+    padding-right: 20px; }
+  #exlidHeaderSystemFeedback {
+    margin-left: 20px;
+    margin-right: 20px; }
+  #exlidSearchRibbon {
+    padding-bottom: 10px; }
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 100%;
+    position: relative;
+    float: left; }
+    #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
+      margin-right: 0; }
+  .EXLSearchFieldRibbonBrowseSearchLink,
+  .EXLSearchFieldRibbonAdvancedSearchLink {
+    position: static;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 0; }
+  .EXLSearchFieldRibbonBrowseSearchLink {
+    right: 0;
+    top: 0; }
+  .EXLSearchFieldRibbonAdvancedSearchLink {
+    right: 0;
+    top: 0; }
+  #exlidHeaderSearchLimits {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 100%;
+    padding: 0 20px 0 20px;
+    border-bottom: 0;
+    margin-bottom: 0; }
+    #exlidHeaderSearchLimits:last-child {
+      margin-right: 0; }
+    #exlidHeaderSearchLimits fieldset {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 100%;
+      position: relative;
+      top: -20px; }
+      #exlidHeaderSearchLimits fieldset:last-child {
+        margin-right: 0; }
+  .EXLFacetTile {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 28.78967%; }
+    .EXLFacetTile:last-child {
+      margin-right: 0; }
+  .EXLResultsContainer div.EXLResultsTile {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 67.63167%;
+    margin-right: 0; }
+    .EXLResultsContainer div.EXLResultsTile:last-child {
+      margin-right: 0; } }
+
+#exlidFacetTile .filters-expand-title {
+  display: none; }
+
+@media screen and (max-width: 800px) {
+  #exlidMainMenuRibbon li {
+    border-left-width: 0; }
+    #exlidMainMenuRibbon li a {
+      margin-left: 0;
+      margin-right: 15px;
+      font-weight: bold; }
+    #exlidMainMenuRibbon li .EXLMainMenuITEMcitationlinker,
+    #exlidMainMenuRibbon li .EXLMainMenuITEMlibrary_home {
+      display: none; }
+  #resultsNavNoId,
+  #resultsNavNoIdBottom {
+    text-align: right; }
+    #resultsNavNoId span,
+    #resultsNavNoId a,
+    #resultsNavNoIdBottom span,
+    #resultsNavNoIdBottom a {
+      display: none; }
+    #resultsNavNoId a[title*="Previous"],
+    #resultsNavNoId a.EXLNext,
+    #resultsNavNoIdBottom a[title*="Previous"],
+    #resultsNavNoIdBottom a.EXLNext {
+      display: inline-block;
+      float: none; }
+      #resultsNavNoId a[title*="Previous"] img,
+      #resultsNavNoId a.EXLNext img,
+      #resultsNavNoIdBottom a[title*="Previous"] img,
+      #resultsNavNoIdBottom a.EXLNext img {
+        margin-left: 0; }
+  #exlidFacetTile,
+  .EXLFacetTile {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 100%;
+    margin-bottom: 20px; }
+    #exlidFacetTile:last-child,
+    .EXLFacetTile:last-child {
+      margin-right: 0; }
+  .EXLFacetActionsV2 {
+    display: none; }
+  .EXLResultsContainer div.EXLResultsTile {
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 100%;
+    margin-right: 0; }
+    .EXLResultsContainer div.EXLResultsTile:last-child {
+      margin-right: 0; }
+  /* Expandable Filters */
+  #exlidFacetTile {
+    max-height: 40px;
+    overflow: hidden;
+    transition: max-height 0.5s; }
+    #exlidFacetTile.expanded-for-mobile {
+      max-height: 2000px;
+      transition: max-height 1s; }
+      #exlidFacetTile.expanded-for-mobile .filters-expand-title h2:after,
+      #exlidFacetTile.expanded-for-mobile .filters-expand-title h2.filters-title:after {
+        content: ""; }
+    #exlidFacetTile .filters-expand-title {
+      width: 100%;
+      display: block;
+      float: none;
+      clear: both;
+      cursor: pointer; }
+      #exlidFacetTile .filters-expand-title h2,
+      #exlidFacetTile .filters-expand-title h2.filters-title {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        font-weight: bold;
+        display: block;
+        height: 40px;
+        line-height: 40px; }
+        #exlidFacetTile .filters-expand-title h2:after,
+        #exlidFacetTile .filters-expand-title h2.filters-title:after {
+          content: "";
+          position: relative;
+          top: 1px;
+          display: inline-block;
+          font-family: 'unist-icons';
+          font-style: normal;
+          font-weight: normal;
+          line-height: 1;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale; }
+        #exlidFacetTile .filters-expand-title h2:after,
+        #exlidFacetTile .filters-expand-title h2.filters-title:after {
+          font-size: 13px;
+          margin-left: 10px; } }
+
+@media screen and (max-width: 640px) {
+  #exlidSearchRibbon div.EXLSearchFieldRibbon {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 90.93687%;
+    position: relative;
+    float: left; }
+    #exlidSearchRibbon div.EXLSearchFieldRibbon:last-child {
+      margin-right: 0; }
+  #EXLFacetsMobile {
+    display: none; }
+  .EXLResultsHeader #resultsNumbersTile {
+    width: 100%; }
+    .EXLResultsHeader #resultsNumbersTile h1 {
+      display: none; }
+  #resultsNavNoId {
+    height: 30px;
+    width: 100%;
+    float: none; }
+  .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    height: 40px;
+    margin-top: 0px;
+    max-width: none; }
+    .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLSortMobile {
+      float: right;
+      margin-top: -9px; }
+      .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLSortMobile select {
+        margin-right: 0; }
+  body.mobile-device .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLResultsSortByMenu,
+  body.mobile-device .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy .EXLResultsSortBySelected {
+    display: none; } }
+
 header#responsive-header {
   margin: 0;
   padding: 0;
@@ -15515,6 +15723,60 @@ header#responsive-header.open {
   transition: -webkit-transform 0.4s, opacity 0.4s;
   transition: transform 0.4s, opacity 0.4s; }
 
+.EXLResultTabContainer div.EXLTabHeader {
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  background-image: none;
+  background-repeat: repeat-x;
+  border-bottom: 1px solid #e1e1e1;
+  min-height: 45px;
+  height: auto;
+  border-left: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+  display: block; }
+
+* html .EXLResultTabContainer div.EXLTabHeader {
+  height: auto;
+  min-height: 45px; }
+  * html .EXLResultTabContainer div.EXLTabHeader::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.EXLTabHeader div.EXLTabHeaderContent {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%;
+  color: #333333;
+  padding: 10px 20px;
+  white-space: nowrap;
+  overflow: hidden; }
+  .EXLTabHeader div.EXLTabHeaderContent:last-child {
+    margin-right: 0; }
+
+.EXLTabHeader div.EXLTabHeaderContent em {
+  color: #333333;
+  font-weight: normal;
+  padding-right: 20px; }
+
+.EXLTabHeader div.EXLTabHeaderContent span {
+  padding: 0.3em;
+  width: auto; }
+
+.EXLTabHeader div.EXLTabHeaderContent span a {
+  color: #333333; }
+
+.EXLTabHeader div.EXLTabHeaderContent span.selected {
+  background-color: #FFFFFF;
+  border: 1px solid #8fb9d0;
+  display: inline;
+  height: 20px;
+  padding: 0px 5px 0px 5px; }
+
 /* Footer responsive rules */
 @media screen and (max-width: 960px) {
   #footer-sitemap {
@@ -15853,57 +16115,3 @@ header#responsive-header.open {
               -moz-osx-font-smoothing: grayscale; }
             #footer #block-menu-menu-footer-social-links ul.menu li a[href*='facebook']:before {
               display: none; } }
-
-.EXLResultTabContainer div.EXLTabHeader {
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7;
-  background-image: none;
-  background-repeat: repeat-x;
-  border-bottom: 1px solid #e1e1e1;
-  min-height: 45px;
-  height: auto;
-  border-left: 1px solid #cfcfcf;
-  border-right: 1px solid #cfcfcf;
-  display: block; }
-
-* html .EXLResultTabContainer div.EXLTabHeader {
-  height: auto;
-  min-height: 45px; }
-  * html .EXLResultTabContainer div.EXLTabHeader::after {
-    clear: both;
-    content: "";
-    display: table; }
-
-.EXLTabHeader div.EXLTabHeaderContent {
-  margin: 0;
-  padding: 0;
-  float: left;
-  display: block;
-  margin-right: 3.57866%;
-  width: 48.21067%;
-  color: #333333;
-  padding: 10px 20px;
-  white-space: nowrap;
-  overflow: hidden; }
-  .EXLTabHeader div.EXLTabHeaderContent:last-child {
-    margin-right: 0; }
-
-.EXLTabHeader div.EXLTabHeaderContent em {
-  color: #333333;
-  font-weight: normal;
-  padding-right: 20px; }
-
-.EXLTabHeader div.EXLTabHeaderContent span {
-  padding: 0.3em;
-  width: auto; }
-
-.EXLTabHeader div.EXLTabHeaderContent span a {
-  color: #333333; }
-
-.EXLTabHeader div.EXLTabHeaderContent span.selected {
-  background-color: #FFFFFF;
-  border: 1px solid #8fb9d0;
-  display: inline;
-  height: 20px;
-  padding: 0px 5px 0px 5px; }

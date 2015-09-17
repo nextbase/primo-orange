@@ -1,29 +1,31 @@
 /* Responsive Layout Related Styles */
-
-$tabs-width: 250px;
 @include media($tablets-down) {
   #exlidUserAreaTile ul,
   #exlidUserAreaRibbon {
     display: none !important;
   }
+
   #exlidMainMenuTile,
   #exlidSearchTileWrapper,
   #exlidResultsContainer {
     @include add-side-paddings;
   }
+
   #exlidHeaderSystemFeedback {
     @include add-side-margins;
   }
+
   #exlidSearchRibbon {
     padding-bottom: 10px;
   }
+
   #exlidSearchRibbon div.EXLSearchFieldRibbon {
     @include reset-margins;
     @include span-columns(8 of 8);
     position: relative;
     float: left;
-    padding-left: $tabs-width + 20px;
   }
+
   .EXLSearchFieldRibbonBrowseSearchLink,
   .EXLSearchFieldRibbonAdvancedSearchLink {
     position: static;
@@ -120,7 +122,7 @@ $tabs-width: 250px;
       .filters-expand-title h2,
       .filters-expand-title h2.filters-title {
         &:after {
-          content: $icon-minus;
+          content: $icon-triangle-up;
         }
       }
     }
@@ -138,7 +140,7 @@ $tabs-width: 250px;
         display: block;
         height: 40px;
         line-height: 40px;
-        @include glyphicon($icon-plus, 'after');
+        @include unist-icon($icon-triangle-down, 'after');
         &:after {
           font-size: $base-font-size - 3px;
           margin-left: 10px;
@@ -154,7 +156,6 @@ $tabs-width: 250px;
     @include span-columns(7.3 of 8);
     position: relative;
     float: left;
-    padding-left: $tabs-width + 20px;
   }
   #EXLFacetsMobile {
     display: none;
