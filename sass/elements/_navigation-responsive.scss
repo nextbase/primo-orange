@@ -4,3 +4,232 @@
     opacity: 0;
     display: none;
 }
+
+/* Mobile Navigation */
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 56px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: $base-color; // rgba($base-color, 1);
+  z-index: 1200;
+}
+
+@include media($tablets-up) {
+  .overlay {
+    display: none;
+  }
+}
+
+/* Overlay closing cross */
+.overlay .overlay-close {
+  color: $white;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 2px 5px;
+  border: none;
+  outline: none;
+}
+
+/* Menu style */
+
+.overlay nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 56px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  
+  header {
+    display: none; // Drupal fixes
+  }
+}
+
+.overlay .search-container {
+  width: 100%;
+  padding: 20px;
+
+  #searchFormResponsive,
+  form {
+    width: 360px;
+    padding: 20px;
+    margin: 0 auto;
+    display: block;
+    float: none;
+    position: relative;
+
+    input {
+      width: 100%;
+      height: 40px;
+      padding-right: 40px;
+  }
+    input[type=submit],
+    input[type=button] {
+      position: absolute;
+      margin: 0;
+      padding: 0;
+      top: 20px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      text-indent: 80px;
+      overflow: hidden;
+      white-space: nowrap;
+      background: transparent;
+      border: 0;
+
+      @include retina-image("../img/responsive_search_icon", 40px 40px);
+      background-position: center center;
+      background-repeat: no-repeat;
+
+      &:hover,
+      &:focus,
+      &:active {
+        @include prefixer(box-shadow, none, webkit moz spec);
+      }
+    }
+  }
+}
+
+@include media($mobile-small) {
+  .overlay .search-container #searchFormResponsive,
+  .overlay .search-container form {
+    width: 100%;
+  }
+}
+
+.overlay ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: block;
+  height: auto;
+  position: static;
+}
+
+.overlay ul li ul {
+  // Second level menu ul settings
+  margin-bottom: 30px;
+}
+
+.overlay ul li {
+  display: block;
+  height: auto;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+
+.overlay ul li.is-expandable {
+  max-height: 50px;
+  overflow: hidden;
+  @include transition(max-height .5s ease);
+
+  & > a:after {
+    content: $icon-chevron-down;
+  }
+}
+
+@include media($mobile-down) {
+  .overlay ul li.is-expandable {
+    max-height: 40px;
+  }
+}
+
+.overlay ul li.is-expandable.expanded {
+  padding: 0;
+  max-height: 800px;
+  overflow: auto;
+
+  & > a {
+    font-weight: bold;
+  }
+
+  & > a:after {
+    content: $icon-chevron-up;
+  }
+}
+
+.overlay ul li a {
+  font-size: 22px;
+  font-weight: normal;
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: #fff;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+
+  &:hover,
+  &:focus {
+    color: lighten($base-color-light-hover, 10%);
+  }
+}
+
+.overlay ul li ul li a {
+  color: lighten($base-color-light-hover, 10%);
+  font-size: 18px;
+  margin-bottom: 12px;
+
+  &:hover,
+  &:focus {
+    color: $white;
+  }
+}
+
+@include media($mobile-down) {
+  .overlay ul li ul li a {
+    font-size: 15px;
+  }
+}
+
+.overlay nav div > ul > li > a,
+.overlay nav > ul > li > a {
+  // Only first level menu
+  @include glyphicon($icon-chevron-down, 'after');
+  padding-left: 15px; // Compensate for the chevron space
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  margin-bottom: 20px;
+
+  &:after {
+    margin-left: 5px;
+    font-size: $small-font-size;
+    top: -2px;
+  }
+}
+
+@include media($mobile-down) {
+  .overlay nav div > ul > li > a,
+  .overlay nav > ul > li > a {
+    font-size: 18px;
+  }
+}
+
+/* Effects */
+.overlay-scale {
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
+  transition: transform 0.2s, opacity 0.2s, visibility 0s 0.2s;
+}
+
+.overlay-scale.open {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s;
+  transition: transform 0.4s, opacity 0.4s;
+}
+

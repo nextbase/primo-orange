@@ -3,5 +3,11 @@
 }
 
 @include media($tablets-down) {
-	
+	#responsive-header {
+		display: block;
+	}
+
+	#header {
+		display: none;
+	}
 }
