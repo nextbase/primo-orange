@@ -70,11 +70,19 @@ div.EXLResultsHeader:focus {
   float: left;
   margin-left: 20px;
   height: 20px;
-  margin-top: 8px;
+  margin-top: 4px;
+  max-width: 180px;
 }
 
 #resultsNumbersTileBottom div.EXLResultsSortBy {
   display: none;
+}
+
+.EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortByLabel {
+  font-size: ($base-font-size - 2px);
+  float: left;
+  width: auto;
+  text-align: right;
 }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortByLabel {
@@ -84,6 +92,7 @@ div.EXLResultsHeader:focus {
 }
 
 .EXLResultsHeader div.EXLResultsNumbers div.EXLResultsSortBy span.EXLResultsSortBySelected a {
+  font-size: ($base-font-size - 2px);
   margin-left: 0.5em;
   padding-right: 1em;
   background-image: url(../images/icon_arrow_sendTo.png);
