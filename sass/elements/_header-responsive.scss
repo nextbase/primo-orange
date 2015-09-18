@@ -26,7 +26,7 @@ header#responsive-header {
     }
   }
 
-  @include media($mobile-small) {
+  @include media($mobile-down) {
     .logo-container {
       @include span-columns(2.1 of 4);
     }

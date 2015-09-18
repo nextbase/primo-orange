@@ -15326,7 +15326,7 @@ header#responsive-header {
       margin-right: 0; }
       header#responsive-header .menu-container:last-child {
         margin-right: 0; } }
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 640px) {
     header#responsive-header .logo-container {
       float: left;
       display: block;
