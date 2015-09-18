@@ -16,12 +16,22 @@ header#responsive-header {
       width: 56px;
     }
   }
-  @include media($mobile-small) {
+  @include media($tablets-down) {
     .logo-container {
-      @include span-columns(2.2 of 4);
+      @include span-columns(4 of 8);
     }
     .menu-container {
-      @include span-columns(1.8 of 4);
+      @include span-columns(4 of 8);
+      @include omega();
+    }
+  }
+
+  @include media($mobile-small) {
+    .logo-container {
+      @include span-columns(2.1 of 4);
+    }
+    .menu-container {
+      @include span-columns(1.9 of 4);
       @include omega();
     }
   }

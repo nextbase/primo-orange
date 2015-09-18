@@ -15310,19 +15310,35 @@ header#responsive-header {
       float: right;
       height: 56px;
       width: 56px; }
+  @media screen and (max-width: 960px) {
+    header#responsive-header .logo-container {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%; }
+      header#responsive-header .logo-container:last-child {
+        margin-right: 0; }
+    header#responsive-header .menu-container {
+      float: left;
+      display: block;
+      margin-right: 3.57866%;
+      width: 48.21067%;
+      margin-right: 0; }
+      header#responsive-header .menu-container:last-child {
+        margin-right: 0; } }
   @media screen and (max-width: 500px) {
     header#responsive-header .logo-container {
       float: left;
       display: block;
       margin-right: 7.42297%;
-      width: 51.65966%; }
+      width: 48.97409%; }
       header#responsive-header .logo-container:last-child {
         margin-right: 0; }
     header#responsive-header .menu-container {
       float: left;
       display: block;
       margin-right: 7.42297%;
-      width: 40.91737%;
+      width: 43.60294%;
       margin-right: 0; }
       header#responsive-header .menu-container:last-child {
         margin-right: 0; } }
