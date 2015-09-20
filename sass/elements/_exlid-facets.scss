@@ -11,6 +11,29 @@
 
 }
 
+#exlidToplevelFacetsRibbon {
+  li {
+    float: left;
+  }
+}
+
+#exlidTopLevelFacetsTile {
+  @include reset-margins;
+  @include span-columns(12);
+  @include omega();
+  padding: ($facets-vertical-padding / 2) $facets-horizontal-padding;
+  height: auto;
+  background: $gray-light;
+}
+
+#exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer {
+  @include reset-margins;
+  @include span-columns(9);
+  @include shift(3);
+  @include omega();
+  text-align: right;
+}
+
 li.EXLFacet {
   input[type="checkbox"] {
     float: left;

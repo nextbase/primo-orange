@@ -6428,6 +6428,36 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     .EXLFacetTile:last-child {
       margin-right: 0; } }
 
+#exlidToplevelFacetsRibbon li {
+  float: left; }
+
+#exlidTopLevelFacetsTile {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  margin-right: 0;
+  padding: 5px 10px;
+  height: auto;
+  background: #f7f7f7; }
+  #exlidTopLevelFacetsTile:last-child {
+    margin-right: 0; }
+
+#exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  margin-left: 25.58941%;
+  margin-right: 0;
+  text-align: right; }
+  #exlidTopLevelFacetsTile div.EXLToplevelFacetsContainer:last-child {
+    margin-right: 0; }
+
 li.EXLFacet input[type="checkbox"] {
   float: left;
   margin-right: 10px;
