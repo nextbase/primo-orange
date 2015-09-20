@@ -15984,7 +15984,8 @@ header#responsive-header.open {
     margin: 0; }
     #LoansTable table,
     .EXLMyShelfContainer div.EXLMyAccountMainContainer table {
-      width: 100%; } }
+      width: 800px;
+      font-weight: #333333; } }
 
 @media screen and (max-width: 640px) {
   .eShelf_print,
