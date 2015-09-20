@@ -16,11 +16,12 @@
   }
 
   .EXLMyShelfContainer div.EXLMyAccountMainContainer {
-    width: 800px;
+    width: 100%;
     padding: 15px;
     margin: 0;
+    overflow-x: scroll;
 
-  #LoansTable,
+    #LoansTable,
     table {
       width: 800px;
       font-weight: $black;
@@ -29,8 +30,6 @@
 }
 
 @include media($mobile-down) {
-
-
 
   .eShelf_print,
   #EXLEShelfFolderContentsPushTo {
