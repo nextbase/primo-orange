@@ -1,6 +1,6 @@
 .EXLMyAccountMainContainer div.EXLMyAccountTips {
     float: right;
-    width: 35%;
+    width: 40%;
     border: 1px solid $secondary-color-secondary;
     margin: 0;
     background-image: none;
@@ -24,16 +24,16 @@
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li {
     list-style: none;
-    padding-top: 0px;
-    padding-right: 0px;
+    padding-top: 0;
+    padding-right: 0;
     font-size: 90%;
     margin-bottom: 1em;
     float: left;
 }
 
 .EXLMyAccountMainContainer div.EXLMyAccountTips li span.EXLMyAccountTipsBullet {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
     background-image: url(../images/bullet_arrow_orange_tip.png);
     background-repeat: no-repeat;
     width: 15px;
