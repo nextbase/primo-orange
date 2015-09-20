@@ -10,9 +10,14 @@
   .folders_new {
     width: 25%;
   }
+
+  td.selectWidth.EXLEShelfFolderContentsPushTo select {
+    width: 120px;
+  }
 }
 
 @include media($mobile-down) {
+
 
   .eShelf_print,
   #EXLEShelfFolderContentsPushTo {
