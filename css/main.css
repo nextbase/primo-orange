@@ -7150,8 +7150,9 @@ li.EXLFacet label {
 @media screen and (max-width: 640px) {
   #exlidAdvancedSearchTile #exlidSearchTabs li a {
     border-radius: 2px;
-    padding: 2px 8px;
-    font-size: 11px; }
+    padding: 4px 8px;
+    font-size: 12px;
+    margin-bottom: 5px; }
   #exlidAdvancedSearchTile #exlidSearchTabs li:first-child {
     margin-left: 0; }
     #exlidAdvancedSearchTile #exlidSearchTabs li:first-child a {
@@ -7282,7 +7283,8 @@ li.EXLFacet label {
 @media screen and (max-width: 960px) {
   #exlidAdvancedSearchRibbon input,
   #exlidAdvancedSearchRibbon select {
-    width: 120px; } }
+    width: 120px;
+    margin-bottom: 5px; } }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1 {
   float: left;

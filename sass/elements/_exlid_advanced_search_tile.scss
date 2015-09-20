@@ -51,8 +51,9 @@
 
       a {
         @include prefixer(border-radius, 2px, webkit moz spec);
-        padding: 2px 8px;
-        font-size: 11px;
+        padding: 4px 8px;
+        font-size: 12px;
+        margin-bottom: 5px;
       }
 
       &:first-child {
@@ -132,6 +133,7 @@
   #exlidAdvancedSearchRibbon input,
   #exlidAdvancedSearchRibbon select {
     width: 120px;
+    margin-bottom: 5px;
   }
 }
 
