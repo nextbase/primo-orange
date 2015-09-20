@@ -1,9 +1,9 @@
-.EXLMyAccountTabsRibbon,
-.EXLMyAccountContainer {
-  @include add-side-margins();
-}
-
 @include media($tablets-down) {
+
+  .EXLMyAccountTabsRibbon,
+  .EXLMyAccountContainer {
+    @include add-side-margins();
+  }
 
   .EXLMyAccountContainer {
     @include reset-margins;

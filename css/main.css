@@ -15801,12 +15801,11 @@ header#responsive-header.open {
   height: 20px;
   padding: 0px 5px 0px 5px; }
 
-.EXLMyAccountTabsRibbon,
-.EXLMyAccountContainer {
-  margin-left: 20px;
-  margin-right: 20px; }
-
 @media screen and (max-width: 960px) {
+  .EXLMyAccountTabsRibbon,
+  .EXLMyAccountContainer {
+    margin-left: 20px;
+    margin-right: 20px; }
   .EXLMyAccountContainer {
     margin: 0;
     padding: 0;

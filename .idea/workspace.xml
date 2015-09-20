@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b6805e-1c0b-4afd-ae34-6c5f955bbb08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_exl-my-account-tips.scss" afterPath="$PROJECT_DIR$/sass/elements/_exl-my-account-tips.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss" afterPath="$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss" />
     </list>
     <ignored path="primo-orange.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,21 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_exl-my-account-responsive.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_exl-my-account-responsive.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.571428">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_exl-my-account-tips.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_exl-my-account-tips.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-tips.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25675675">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state vertical-scroll-proportion="-2.7142856">
+              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -87,8 +87,8 @@
       <file leaf-file-name="_exl-my-account-tips-responsive.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-tips-responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-56.32143">
-              <caret line="83" column="3" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+            <state vertical-scroll-proportion="-0.6785714">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -155,10 +155,10 @@
         <option value="$PROJECT_DIR$/sass/elements/_exlid-search-ribbon-responsive.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-result-tab-content.scss" />
         <option value="$PROJECT_DIR$/sass/base/_layout-responsive.scss" />
-        <option value="$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss" />
         <option value="$PROJECT_DIR$/sass/main.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-my-account-tips-responsive.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-my-account-tips.scss" />
+        <option value="$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss" />
       </list>
     </option>
   </component>
@@ -731,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.571428">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.28022">
@@ -755,18 +747,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-tips-responsive.scss">
+    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-tips.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-56.32143">
-          <caret line="83" column="3" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+        <state vertical-scroll-proportion="-2.7142856">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-tips.scss">
+    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-tips-responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25675675">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state vertical-scroll-proportion="-0.6785714">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
