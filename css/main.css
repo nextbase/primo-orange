@@ -15730,20 +15730,20 @@ header#responsive-header.open {
   .overlay nav > ul > li > a {
     font-size: 18px; } }
 
-.overlay ul#exlidUserAreaRibbonResponsive li#exlidUserNameResponsive {
+.overlay ul#exlidUserAreaRibbonResponsive > li#exlidUserNameResponsive {
   display: none; }
 
-.overlay ul#exlidUserAreaRibbonResponsive li.EXLHidden {
+.overlay ul#exlidUserAreaRibbonResponsive > li.EXLHidden {
   display: none; }
 
-.overlay ul#exlidUserAreaRibbonResponsive li a,
-.overlay ul#exlidUserAreaRibbonResponsive li a:link,
-.overlay ul#exlidUserAreaRibbonResponsive li a:visited {
+.overlay ul#exlidUserAreaRibbonResponsive > li a,
+.overlay ul#exlidUserAreaRibbonResponsive > li a:link,
+.overlay ul#exlidUserAreaRibbonResponsive > li a:visited {
   font-size: 18px;
   line-height: 1.4; }
-  .overlay ul#exlidUserAreaRibbonResponsive li a:after,
-  .overlay ul#exlidUserAreaRibbonResponsive li a:link:after,
-  .overlay ul#exlidUserAreaRibbonResponsive li a:visited:after {
+  .overlay ul#exlidUserAreaRibbonResponsive > li a:after,
+  .overlay ul#exlidUserAreaRibbonResponsive > li a:link:after,
+  .overlay ul#exlidUserAreaRibbonResponsive > li a:visited:after {
     content: ""; }
 
 /* Effects */
