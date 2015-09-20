@@ -15801,6 +15801,89 @@ header#responsive-header.open {
   height: 20px;
   padding: 0px 5px 0px 5px; }
 
+.EXLMyAccountTabsRibbon,
+.EXLMyAccountContainer {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+@media screen and (max-width: 960px) {
+  .EXLMyAccountContainer {
+    margin: 0;
+    padding: 0;
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 40px;
+    min-height: 300px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #ffffff;
+    margin-bottom: 20px; }
+    .EXLMyAccountContainer::after {
+      clear: both;
+      content: "";
+      display: table; }
+    .EXLMyAccountContainer::after {
+      clear: both;
+      content: "";
+      display: table; }
+  /* Left Hand */
+  #exlidMyAccountMainMenuTile,
+  .EXLMyAccountMainMenuTile {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 22.316%;
+    margin-bottom: 20px; }
+    #exlidMyAccountMainMenuTile:last-child,
+    .EXLMyAccountMainMenuTile:last-child {
+      margin-right: 0; }
+  /* Right Hand */
+  #exlidMyAccountMainContainer1,
+  .EXLMyAccountMainContainer {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 74.10533%;
+    font-size: 100%;
+    vertical-align: text-top;
+    margin-bottom: 20px; }
+    #exlidMyAccountMainContainer1:last-child,
+    .EXLMyAccountMainContainer:last-child {
+      margin-right: 0; } }
+
+@media screen and (max-width: 640px) {
+  /* Left Hand */
+  #exlidMyAccountMainMenuTile,
+  .EXLMyAccountMainMenuTile {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    margin-bottom: 20px; }
+    #exlidMyAccountMainMenuTile:last-child,
+    .EXLMyAccountMainMenuTile:last-child {
+      margin-right: 0; }
+  /* Right Hand */
+  #exlidMyAccountMainContainer1,
+  .EXLMyAccountMainContainer {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    margin-bottom: 20px; }
+    #exlidMyAccountMainContainer1:last-child,
+    .EXLMyAccountMainContainer:last-child {
+      margin-right: 0; } }
+
 /* Footer responsive rules */
 @media screen and (max-width: 960px) {
   #footer-sitemap {
