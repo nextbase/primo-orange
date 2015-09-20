@@ -7204,8 +7204,7 @@ li.EXLFacet label {
   padding-right: 20px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
-  background-position: right center;
-  width: 120px; }
+  background-position: right center; }
   #exlidAdvancedSearchRibbon select:focus {
     border-color: #888888;
     border-left-width: 1px;
@@ -7255,8 +7254,7 @@ li.EXLFacet label {
   padding: 3px 10px;
   box-shadow: inset 0px 2px 4px 0px rgba(187, 187, 187, 0.25);
   border-color: #d8d8d8;
-  width: 160px;
-  width: 120px; }
+  width: 160px; }
   #exlidAdvancedSearchRibbon input:focus {
     border-color: #888888;
     border-left-width: 1px;
@@ -7268,6 +7266,11 @@ li.EXLFacet label {
     -moz-border-bottom-left-radius: 0;
     border-bottom-left-radius: 0;
     transition: box-shadow 0.2s ease-in-out; }
+
+@media screen and (max-width: 960px) {
+  #exlidAdvancedSearchRibbon input,
+  #exlidAdvancedSearchRibbon select {
+    width: 120px; } }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1 {
   float: left;
