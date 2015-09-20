@@ -57,11 +57,7 @@ function accountLinks() {
     menuEntity = $('#exlidUserAreaRibbon').clone();
     menuEntity.attr('id', "exlidUserAreaRibbonResponsive");
     menuEntity.find('li').each(function(index) {
-        if ($(this).attr('id') == 'exlidUserName' ) {
-            $(this).remove();
-        } else {
-            $(this).attr('id', $(this).attr('id') + 'Responsive');
-        }
+        $(this).attr('id', $(this).attr('id') + 'Responsive');
     });
     menuList = $("#responsive-menu-overlay .menu-block-wrapper");
     menuList.append(menuEntity);
