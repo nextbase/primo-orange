@@ -9567,6 +9567,10 @@ body.EXLFullView div.EXLBackToResults {
   .EXLTabsRibbon div ul.EXLResultTabs {
     height: 33px; }
 
+@media screen and (max-width: 640px) {
+  .EXLSummary .EXLTabsRibbon {
+    display: none; } }
+
 .EXLTabsRibbon div li {
   margin: 0;
   padding: 0;

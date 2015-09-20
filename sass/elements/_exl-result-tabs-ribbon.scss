@@ -21,6 +21,12 @@
   }
 }
 
+@include media($mobile-down) {
+  .EXLSummary .EXLTabsRibbon {
+    display: none;
+  }
+}
+
 .EXLTabsRibbon div li {
   @include reset-margins;
   display: inline;
