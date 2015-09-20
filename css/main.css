@@ -15848,7 +15848,21 @@ header#responsive-header.open {
     margin-bottom: 20px; }
     #exlidMyAccountMainContainer1:last-child,
     .EXLMyAccountMainContainer:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+  table th, table td {
+    vertical-align: middle; }
+  table th.EXLMyAccountTableCounter,
+  table td.MyAccount_Loans_0 {
+    width: 30px;
+    height: 40px; }
+  table th.EXLMyAccountTable,
+  table td.MyAccount_Loans_select {
+    width: 20px; }
+  table th.EXLMyAccountTableTitle,
+  table td.MyAccount_Loans_title {
+    width: 180px; }
+  table td.MyAccount_Loans_author {
+    width: 100px; } }
 
 @media screen and (max-width: 640px) {
   /* Left Hand */

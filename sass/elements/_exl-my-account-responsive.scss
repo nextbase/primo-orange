@@ -32,6 +32,34 @@
     margin-bottom: 20px;
   }
 
+  table {
+    th, td {
+      vertical-align: middle;
+    }
+  }
+
+  table {
+    th.EXLMyAccountTableCounter,
+    td.MyAccount_Loans_0 {
+      width: 30px;
+      height: 40px;
+    }
+
+    th.EXLMyAccountTable,
+    td.MyAccount_Loans_select {
+      width: 20px;
+    }
+
+    th.EXLMyAccountTableTitle,
+    td.MyAccount_Loans_title {
+      width: 180px;
+    }
+
+    td.MyAccount_Loans_author {
+      width: 100px;
+    }
+  }
+
 }
 
 @include media($mobile-down) {
