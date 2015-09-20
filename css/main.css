@@ -7152,7 +7152,9 @@ li.EXLFacet label {
     border-radius: 2px;
     padding: 4px 8px;
     font-size: 12px;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    margin-left: 0;
+    margin-right: 5px; }
   #exlidAdvancedSearchTile #exlidSearchTabs li:first-child {
     margin-left: 0; }
     #exlidAdvancedSearchTile #exlidSearchTabs li:first-child a {
