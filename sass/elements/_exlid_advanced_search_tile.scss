@@ -84,6 +84,7 @@
   @include input-size("default");
   @include set-input-style("inset");
   @include input-select;
+  width: 120px;
 }
 
 #exlidAdvancedSearchRibbon .EXLSelectedDatabasesHighlight {
@@ -95,6 +96,7 @@
   @include input-size("default");
   @include set-input-style("inset");
   @include form-element-width("default");
+  width: 120px;
 }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1 {
@@ -113,6 +115,11 @@
   #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
     @include span-columns(8 of 8);
     @include omega();
+  }
+
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
+    border-left: none;
+    padding-left: 0;
   }
 }
 

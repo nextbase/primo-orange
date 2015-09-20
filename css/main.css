@@ -7204,7 +7204,8 @@ li.EXLFacet label {
   padding-right: 20px;
   background-image: url("../images/form_select_arrow_down.png");
   background-repeat: no-repeat;
-  background-position: right center; }
+  background-position: right center;
+  width: 120px; }
   #exlidAdvancedSearchRibbon select:focus {
     border-color: #888888;
     border-left-width: 1px;
@@ -7254,7 +7255,8 @@ li.EXLFacet label {
   padding: 3px 10px;
   box-shadow: inset 0px 2px 4px 0px rgba(187, 187, 187, 0.25);
   border-color: #d8d8d8;
-  width: 160px; }
+  width: 160px;
+  width: 120px; }
   #exlidAdvancedSearchRibbon input:focus {
     border-color: #888888;
     border-left-width: 1px;
@@ -7296,7 +7298,10 @@ li.EXLFacet label {
     margin-right: 0; }
     #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup1:last-child,
     #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2:last-child {
-      margin-right: 0; } }
+      margin-right: 0; }
+  #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 {
+    border-left: none;
+    padding-left: 0; } }
 
 #exlidAdvancedSearchRibbon div.EXLSearchFieldRibbonFormFieldsGroup2 select {
   font-size: 14px;
