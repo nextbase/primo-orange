@@ -15984,7 +15984,8 @@ header#responsive-header.open {
     display: block;
     margin-right: 7.42297%;
     width: 100%;
-    margin-right: 0; }
+    margin-right: 0;
+    margin-bottom: 20px; }
     .folders_new:last-child,
     #foldersDiv.folders_new:last-child {
       margin-right: 0; }
@@ -15996,7 +15997,8 @@ header#responsive-header.open {
     display: block;
     margin-right: 7.42297%;
     width: 100%;
-    margin-right: 0; }
+    margin-right: 0;
+    margin-bottom: 20px; }
     .folder_details:last-child,
     .EXLEShelfFolderContents.folder_details:last-child {
       margin-right: 0; } }
