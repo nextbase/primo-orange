@@ -15,21 +15,6 @@
     width: 120px;
   }
 
-  #LoansTable {
-    .MyAccount_Loans_ {
-      display: none;
-    }
-
-    thead {
-
-    }
-
-
-  }
-}
-
-@include media($mobile-down) {
-
   #LoansTable,
   .EXLMyShelfContainer div.EXLMyAccountMainContainer {
     overflow-x: scroll;
@@ -40,6 +25,11 @@
       width: 100%;
     }
   }
+}
+
+@include media($mobile-down) {
+
+
 
   .eShelf_print,
   #EXLEShelfFolderContentsPushTo {
