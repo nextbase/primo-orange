@@ -15088,7 +15088,7 @@ table.main {
   #exlidResultsContainer {
     padding-left: 20px;
     padding-right: 20px; }
-  .EXLSystemFeedback.EXLCustomLayoutTile {
+  #exlidHeaderSystemFeedback.EXLCustomLayoutTile {
     margin-left: 20px;
     margin-right: 20px; }
   #exlidSearchRibbon {
