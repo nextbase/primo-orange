@@ -15740,8 +15740,7 @@ header#responsive-header.open {
 .overlay ul#exlidUserAreaRibbonResponsive > li a:link,
 .overlay ul#exlidUserAreaRibbonResponsive > li a:visited {
   font-size: 16px;
-  font-weight: bold;
-  line-height: 1.2; }
+  font-weight: bold; }
   .overlay ul#exlidUserAreaRibbonResponsive > li a:after,
   .overlay ul#exlidUserAreaRibbonResponsive > li a:link:after,
   .overlay ul#exlidUserAreaRibbonResponsive > li a:visited:after {
