@@ -9558,6 +9558,8 @@ body.EXLFullView div.EXLBackToResults {
     top: 0px;
     left: 0px; }
     .coverImageDiv img {
+      width: 50px;
+      height: 80px;
       margin-top: -1px;
       margin-left: -1px; }
   .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
