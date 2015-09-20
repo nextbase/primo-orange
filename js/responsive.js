@@ -53,6 +53,13 @@ function expandableMobileFacet(trigger_query, parent_query) {
     });
 };
 
+function accountLinks() {
+    menuEntity = $('#exlidUserAreaRibbon').clone();
+    menuEntity.attr('id', "exlidUserAreaRibbonResponsive");
+    menuList = $("#responsive-menu-overlay .menu-block-wrapper");
+    menuList.appendChild(menuEntity);
+}
+
 function initFilterExpand() {
     $("#exlidFacetTile").exists(function() {
         $(this).prepend('<div class="filters-expand-title"><h2 class="filters-title">Search Filters</h2></div>');
