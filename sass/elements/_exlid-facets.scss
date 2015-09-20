@@ -12,7 +12,13 @@
 }
 
 #exlidToplevelFacetsRibbon {
+  
+  > strong {
+    display: none;
+  }
+  
   li {
+    font-size: 13px;
     float: left;
     list-style: none;
 

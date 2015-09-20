@@ -6428,7 +6428,11 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     .EXLFacetTile:last-child {
       margin-right: 0; } }
 
+#exlidToplevelFacetsRibbon > strong {
+  display: none; }
+
 #exlidToplevelFacetsRibbon li {
+  font-size: 13px;
   float: left;
   list-style: none; }
   #exlidToplevelFacetsRibbon li .EXLParenthesis {
