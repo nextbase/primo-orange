@@ -110,6 +110,9 @@ $(document).ready(function() {
         toggleOverlay();
     });
 
+    // Account Buttons
+    accountLinks();
+
     // Menu Expands
     function ensureMenusAreClosed() {
         var firstLevelItems = $('#responsive-menu-overlay nav > ul > li, #responsive-menu-overlay nav > div > ul > li');
