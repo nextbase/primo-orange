@@ -6428,6 +6428,9 @@ div.EXLBrowsResultsTileNoFacets td.EXLThumbnail {
     .EXLFacetTile:last-child {
       margin-right: 0; } }
 
+.EXLToplevelFacetsContainer > strong {
+  display: none; }
+
 #exlidToplevelFacetsRibbon > strong {
   display: none; }
 
@@ -8276,7 +8279,8 @@ div.EXLResultsHeader:focus {
   margin-right: 2.35765%;
   width: 31.76157%;
   margin-right: 0;
-  font-size: 14px; }
+  font-size: 14px;
+  text-align: right; }
   .EXLResultsHeader div.EXLResultsNavigation:last-child {
     margin-right: 0; }
 

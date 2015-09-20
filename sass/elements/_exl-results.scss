@@ -163,6 +163,7 @@ div.EXLResultsHeader:focus {
   @include span-columns(4);
   @include omega();
   font-size: $small-font-size;
+  text-align: right;
 }
 
 .EXLResultsNavigation .EXLBriefResultsPaginationPageCount,
