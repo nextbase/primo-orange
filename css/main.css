@@ -9553,6 +9553,9 @@ body.EXLFullView div.EXLBackToResults {
       background-size: 50px 80px; } }
 
 @media screen and (max-width: 960px) {
+  #EXLResultsList td.EXLThumbnail img {
+    width: 50px;
+    height: 80px; }
   .coverImageDiv {
     position: absolute;
     top: 0px;

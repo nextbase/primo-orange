@@ -121,6 +121,11 @@
     position: relative;
   }
 
+  #EXLResultsList td.EXLThumbnail img {
+    width: $thumbnail-width;
+    height: $thumbnail-height;
+  }
+
   .coverImageDiv {
     position: absolute;
     top: 0px;
