@@ -204,6 +204,8 @@
 
 .overlay ul#exlidUserAreaRibbonResponsive {
 
+
+
   & > li {
     &#exlidUserNameResponsive {
       display: none;
@@ -216,8 +218,9 @@
     a,
     a:link,
     a:visited {
-      font-size: 18px;
-      line-height: 1.4;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.2;
 
       &:after {
         content: "";
