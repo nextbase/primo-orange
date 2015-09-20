@@ -15,12 +15,12 @@
     width: 120px;
   }
 
-  #LoansTable,
   .EXLMyShelfContainer div.EXLMyAccountMainContainer {
-    overflow-x: scroll;
+    width: 800px;
     padding: 15px;
     margin: 0;
 
+  #LoansTable,
     table {
       width: 800px;
       font-weight: $black;

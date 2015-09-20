@@ -15977,12 +15977,11 @@ header#responsive-header.open {
     width: 25%; }
   td.selectWidth.EXLEShelfFolderContentsPushTo select {
     width: 120px; }
-  #LoansTable,
   .EXLMyShelfContainer div.EXLMyAccountMainContainer {
-    overflow-x: scroll;
+    width: 800px;
     padding: 15px;
     margin: 0; }
-    #LoansTable table,
+    .EXLMyShelfContainer div.EXLMyAccountMainContainer #LoansTable,
     .EXLMyShelfContainer div.EXLMyAccountMainContainer table {
       width: 800px;
       font-weight: #333333; } }
