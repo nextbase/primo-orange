@@ -164,6 +164,25 @@
   }
 }
 
+.overlay #exlidUserAreaRibbonResponsive {
+
+  li {
+    &#exlidUserNameResponsive {
+      display: none;
+    }
+
+    &.EXLHidden {
+      display: none;
+    }
+    
+    a {
+      font-size: 18px;
+      line-height: 1.4;
+    }
+  }
+
+}
+
 .overlay ul li ul li a {
   color: lighten($base-color-light-hover, 10%);
   font-size: 18px;

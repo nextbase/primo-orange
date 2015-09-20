@@ -15689,6 +15689,16 @@ header#responsive-header.open {
   .overlay ul li a:focus {
     color: #fde0d5; }
 
+.overlay #exlidUserAreaRibbonResponsive li#exlidUserNameResponsive {
+  display: none; }
+
+.overlay #exlidUserAreaRibbonResponsive li.EXLHidden {
+  display: none; }
+
+.overlay #exlidUserAreaRibbonResponsive li a {
+  font-size: 18px;
+  line-height: 1.4; }
+
 .overlay ul li ul li a {
   color: #fde0d5;
   font-size: 18px;
