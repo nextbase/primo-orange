@@ -1,0 +1,15 @@
+@include media($tablets-down) {
+
+  #exlidSearchRibbon fieldset {
+    width: 70%;
+  }
+
+}
+
+@include media($mobile-down) {
+
+  #exlidSearchRibbon fieldset {
+    width: 100%;
+  }
+
+}
