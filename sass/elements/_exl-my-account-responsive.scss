@@ -21,7 +21,7 @@
   #exlidMyAccountMainMenuTile,
   .EXLMyAccountMainMenuTile {
     @include reset-margins;
-    @include span-columns(2 of 8);
+    @include span-columns(3 of 8);
     margin-bottom: 20px;
   }
 
@@ -29,8 +29,8 @@
   #exlidMyAccountMainContainer1,
   .EXLMyAccountMainContainer {
     @include reset-margins;
-    @include span-columns(6 of 8);
-    font-size: 100%;
+    @include span-columns(5 of 8);
+    @include omega();
     vertical-align: text-top;
     margin-bottom: 20px;
   }
@@ -43,6 +43,7 @@
   .EXLMyAccountMainMenuTile {
     @include reset-margins;
     @include span-columns(4 of 4);
+    @include omega();
     margin-bottom: 20px;
   }
 
@@ -51,6 +52,7 @@
   .EXLMyAccountMainContainer {
     @include reset-margins;
     @include span-columns(4 of 4);
+    @include omega();
     margin-bottom: 20px;
   }
 }

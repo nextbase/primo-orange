@@ -15835,7 +15835,7 @@ header#responsive-header.open {
     float: left;
     display: block;
     margin-right: 3.57866%;
-    width: 22.316%;
+    width: 35.26334%;
     margin-bottom: 20px; }
     #exlidMyAccountMainMenuTile:last-child,
     .EXLMyAccountMainMenuTile:last-child {
@@ -15848,8 +15848,8 @@ header#responsive-header.open {
     float: left;
     display: block;
     margin-right: 3.57866%;
-    width: 74.10533%;
-    font-size: 100%;
+    width: 61.158%;
+    margin-right: 0;
     vertical-align: text-top;
     margin-bottom: 20px; }
     #exlidMyAccountMainContainer1:last-child,
@@ -15866,6 +15866,7 @@ header#responsive-header.open {
     display: block;
     margin-right: 7.42297%;
     width: 100%;
+    margin-right: 0;
     margin-bottom: 20px; }
     #exlidMyAccountMainMenuTile:last-child,
     .EXLMyAccountMainMenuTile:last-child {
@@ -15879,6 +15880,7 @@ header#responsive-header.open {
     display: block;
     margin-right: 7.42297%;
     width: 100%;
+    margin-right: 0;
     margin-bottom: 20px; }
     #exlidMyAccountMainContainer1:last-child,
     .EXLMyAccountMainContainer:last-child {
