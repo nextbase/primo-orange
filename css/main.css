@@ -15981,8 +15981,12 @@ header#responsive-header.open {
     display: none; } }
 
 @media screen and (max-width: 640px) {
+  #LoansTable,
   .EXLMyShelfContainer div.EXLMyAccountMainContainer {
-    overflow-x: scroll; }
+    overflow-x: scroll;
+    padding: 15px;
+    margin: 0; }
+    #LoansTable table,
     .EXLMyShelfContainer div.EXLMyAccountMainContainer table {
       width: 100%; }
   .eShelf_print,

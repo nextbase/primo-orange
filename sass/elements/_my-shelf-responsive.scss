@@ -30,8 +30,12 @@
 
 @include media($mobile-down) {
 
+  #LoansTable,
   .EXLMyShelfContainer div.EXLMyAccountMainContainer {
     overflow-x: scroll;
+    padding: 15px;
+    margin: 0;
+
     table {
       width: 100%;
     }
