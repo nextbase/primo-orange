@@ -15736,9 +15736,15 @@ header#responsive-header.open {
 .overlay #exlidUserAreaRibbonResponsive li.EXLHidden {
   display: none; }
 
-.overlay #exlidUserAreaRibbonResponsive li a {
+.overlay #exlidUserAreaRibbonResponsive li a,
+.overlay #exlidUserAreaRibbonResponsive li a:link,
+.overlay #exlidUserAreaRibbonResponsive li a:visited {
   font-size: 18px;
   line-height: 1.4; }
+  .overlay #exlidUserAreaRibbonResponsive li a:after,
+  .overlay #exlidUserAreaRibbonResponsive li a:link:after,
+  .overlay #exlidUserAreaRibbonResponsive li a:visited:after {
+    content: ""; }
 
 /* Effects */
 .overlay-scale {

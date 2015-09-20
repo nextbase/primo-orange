@@ -213,9 +213,20 @@
       display: none;
     }
 
-    a {
+    a,
+    a:link,
+    a:visited {
       font-size: 18px;
       line-height: 1.4;
+
+      &:after {
+        content: "";
+      }
+    }
+
+    a:hover,
+    a:focus {
+
     }
   }
 
