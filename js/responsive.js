@@ -57,7 +57,7 @@ function accountLinks() {
     menuEntity = $('#exlidUserAreaRibbon').clone();
     menuEntity.attr('id', "exlidUserAreaRibbonResponsive");
     menuList = $("#responsive-menu-overlay .menu-block-wrapper");
-    menuList.appendChild(menuEntity);
+    menuList.append(menuEntity);
 }
 
 function initFilterExpand() {
