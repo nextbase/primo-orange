@@ -15747,6 +15747,14 @@ header#responsive-header.open {
   transition: -webkit-transform 0.4s, opacity 0.4s;
   transition: transform 0.4s, opacity 0.4s; }
 
+@media screen and (max-width: 960px) {
+  #exlidSearchTile #exlidSearchRibbon fieldset {
+    width: 80%; } }
+
+@media screen and (max-width: 640px) {
+  #exlidSearchTile #exlidSearchRibbon fieldset {
+    width: 100%; } }
+
 .EXLResultTabContainer div.EXLTabHeader {
   margin: 0;
   padding: 0;
