@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0b6805e-1c0b-4afd-ae34-6c5f955bbb08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss" afterPath="$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss" />
-    </list>
+    <list default="true" id="c0b6805e-1c0b-4afd-ae34-6c5f955bbb08" name="Default" comment="" />
     <ignored path="primo-orange.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -87,8 +85,8 @@
       <file leaf-file-name="_exl-my-account-responsive.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.70246476">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -742,8 +740,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sass/elements/_exl-my-account-responsive.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="24" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.70246476">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
           <folding />
         </state>
       </provider>
