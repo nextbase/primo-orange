@@ -14,10 +14,28 @@
   td.selectWidth.EXLEShelfFolderContentsPushTo select {
     width: 120px;
   }
+
+  #LoansTable {
+    .MyAccount_Loans_ {
+      display: none;
+    }
+
+    thead {
+
+    }
+
+
+  }
 }
 
 @include media($mobile-down) {
 
+  .EXLMyShelfContainer div.EXLMyAccountMainContainer {
+    overflow-x: scroll;
+    table {
+      width: 100%;
+    }
+  }
 
   .eShelf_print,
   #EXLEShelfFolderContentsPushTo {

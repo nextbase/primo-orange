@@ -15976,9 +15976,15 @@ header#responsive-header.open {
   .folders_new {
     width: 25%; }
   td.selectWidth.EXLEShelfFolderContentsPushTo select {
-    width: 120px; } }
+    width: 120px; }
+  #LoansTable .MyAccount_Loans_ {
+    display: none; } }
 
 @media screen and (max-width: 640px) {
+  .EXLMyShelfContainer div.EXLMyAccountMainContainer {
+    overflow-x: scroll; }
+    .EXLMyShelfContainer div.EXLMyAccountMainContainer table {
+      width: 100%; }
   .eShelf_print,
   #EXLEShelfFolderContentsPushTo {
     display: none; }

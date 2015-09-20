@@ -20,20 +20,6 @@ function oldStyles() {
     }, 800);
 }
 
-function makeResponsiveTable(tableObject) {
-    tableHeaderItems = tableObject.find('thead th');
-    tableBodyRows    = tableObject.find('tbody tr');
-
-    tableBodyRows.each(function(index) {
-        $(this).find('td').each(function(index_) {
-            currentTitle = tableHeaderItems[index_];
-            console.log(index_);
-            console.log(currentTitle);
-            $(this).attr('data-title', currentTitle);
-        });
-    })
-}
-
 $(document).ready(function() {
     // Let's replace the CSS with the one we want
     smoothReplaceCSS();
