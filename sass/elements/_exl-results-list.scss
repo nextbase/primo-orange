@@ -275,3 +275,15 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList td.EXLThumbnail .EXLAdditionalBarContentMultipleEnteries span.EXLThumbnailCaption {
     width: auto;
 }
+
+
+@include media($tablets-down) {
+  $thumbnail-width: 50px;
+  $thumbnail-height: 80px;
+
+  .EXLResultsList td.EXLThumbnail {
+    width: $thumbnail-width + 20px;
+    padding: $result-padding-vertical 0 $result-padding-horizontal;
+  }
+
+}

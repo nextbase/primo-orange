@@ -8643,6 +8643,11 @@ body.EXLFullView div.EXLResultsList h2.EXLResultAuthor {
 .EXLResultsList td.EXLThumbnail .EXLAdditionalBarContentMultipleEnteries span.EXLThumbnailCaption {
   width: auto; }
 
+@media screen and (max-width: 960px) {
+  .EXLResultsList td.EXLThumbnail {
+    width: 70px;
+    padding: 20px 0 0; } }
+
 #exlidBrowseResultsEnteries {
   width: 100%;
   line-height: 2em;
