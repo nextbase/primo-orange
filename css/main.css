@@ -15988,7 +15988,16 @@ header#responsive-header.open {
     div.EXLMyAccountMainContainer #LoansTable,
     div.EXLMyAccountMainContainer table {
       width: 800px;
-      font-weight: #333333; } }
+      font-weight: #333333; }
+      #exlidMyAccountMainContainer1 #LoansTable th,
+      #exlidMyAccountMainContainer1 #LoansTable td,
+      #exlidMyAccountMainContainer1 table th,
+      #exlidMyAccountMainContainer1 table td,
+      div.EXLMyAccountMainContainer #LoansTable th,
+      div.EXLMyAccountMainContainer #LoansTable td,
+      div.EXLMyAccountMainContainer table th,
+      div.EXLMyAccountMainContainer table td {
+        padding: 4px 10px; } }
 
 @media screen and (max-width: 640px) {
   .eShelf_print,

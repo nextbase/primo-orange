@@ -26,6 +26,11 @@
     table {
       width: 800px;
       font-weight: $black;
+
+      th,
+      td {
+        padding: 4px 10px;
+      }
     }
   }
 }
