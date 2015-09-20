@@ -15977,13 +15977,16 @@ header#responsive-header.open {
     width: 25%; }
   td.selectWidth.EXLEShelfFolderContentsPushTo select {
     width: 120px; }
-  .EXLMyShelfContainer div.EXLMyAccountMainContainer {
+  #exlidMyAccountMainContainer1,
+  div.EXLMyAccountMainContainer {
     width: 100%;
     padding: 15px;
     margin: 0;
     overflow-x: scroll; }
-    .EXLMyShelfContainer div.EXLMyAccountMainContainer #LoansTable,
-    .EXLMyShelfContainer div.EXLMyAccountMainContainer table {
+    #exlidMyAccountMainContainer1 #LoansTable,
+    #exlidMyAccountMainContainer1 table,
+    div.EXLMyAccountMainContainer #LoansTable,
+    div.EXLMyAccountMainContainer table {
       width: 800px;
       font-weight: #333333; } }
 
