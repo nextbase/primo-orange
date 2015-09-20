@@ -15966,7 +15966,8 @@ header#responsive-header.open {
     line-height: normal; } }
 
 .folders_new {
-  padding-right: 0px;
+  padding-top: 10px;
+  padding-right: 0;
   background: none #ffffff no-repeat left bottom;
   width: 15%;
   border: 1px solid #faae92; }
