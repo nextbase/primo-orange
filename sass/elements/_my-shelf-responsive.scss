@@ -39,7 +39,15 @@ ul {
 }
 
 @include media($mobile-down) {
-  .folders_new {
+
+  .folders_new,
+  #foldersDiv.folders_new {
+    display: block;
+    width: 100%;
+  }
+
+  .folder_details,
+  .EXLEShelfFolderContents.folder_details {
     display: block;
     width: 100%;
   }
