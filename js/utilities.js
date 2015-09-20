@@ -25,8 +25,8 @@ function makeResponsiveTable(tableObject) {
     tableBodyRows    = tableObject.find('tbody tr');
 
     tableBodyRows.each(function(index) {
-        $(this).find('td').each(function(index) {
-            $(this).attr('data-title', tableHeaderItems[index].html());
+        $(this).find('td').each(function(index_) {
+            $(this).attr('data-title', tableHeaderItems[index_].html());
         });
     })
 }
