@@ -7147,6 +7147,18 @@ li.EXLFacet label {
       border-top-right-radius: 4px;
       border-bottom-right-radius: 0; }
 
+@media screen and (max-width: 640px) {
+  #exlidAdvancedSearchTile #exlidSearchTabs li a {
+    border-radius: 2px;
+    padding: 2px 8px;
+    font-size: 11px; }
+  #exlidAdvancedSearchTile #exlidSearchTabs li:first-child {
+    margin-left: 0; }
+    #exlidAdvancedSearchTile #exlidSearchTabs li:first-child a {
+      border-radius: 2px; }
+  #exlidAdvancedSearchTile #exlidSearchTabs li:last-child a {
+    border-radius: 2px; } }
+
 #exlidAdvancedSearchRibbon {
   margin: 0;
   padding: 0;

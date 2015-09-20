@@ -44,6 +44,36 @@
   }
 }
 
+@include media($mobile-down) {
+  #exlidAdvancedSearchTile {
+
+    #exlidSearchTabs li {
+
+      a {
+        @include prefixer(border-radius, 2px, webkit moz spec);
+        padding: 2px 8px;
+        font-size: 11px;
+      }
+
+      &:first-child {
+        margin-left: 0;
+
+        a {
+          @include prefixer(border-radius, 2px, webkit moz spec);
+        }
+      }
+
+      &:last-child {
+        a {
+          @include prefixer(border-radius, 2px, webkit moz spec);
+        }
+      }
+
+    }
+
+  }
+}
+
 #exlidAdvancedSearchRibbon {
   @include reset-margins;
   width: 100%;
