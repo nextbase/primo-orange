@@ -15991,6 +15991,7 @@ header#responsive-header.open {
       margin-right: 0; }
   .folder_details,
   .EXLEShelfFolderContents.folder_details {
+    margin-left: 0;
     display: block;
     float: left;
     float: left;
