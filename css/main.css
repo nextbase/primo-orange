@@ -15977,6 +15977,9 @@ header#responsive-header.open {
     width: 25%; } }
 
 @media screen and (max-width: 640px) {
+  .eShelf_print,
+  #EXLEShelfFolderContentsPushTo {
+    display: none; }
   .folders_new,
   #foldersDiv.folders_new {
     display: block;
