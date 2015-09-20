@@ -26,7 +26,7 @@ function makeResponsiveTable(tableObject) {
 
     tableBodyRows.each(function(index) {
         $(this).find('td').each(function(index) {
-            $(this).attr('data-title', tableHeaderItems[index]);
+            $(this).attr('data-title', tableHeaderItems[index].html());
         });
     })
 }
