@@ -16,12 +16,16 @@
   .folders_new,
   #foldersDiv.folders_new {
     display: block;
-    width: 100%;
+    float: left;
+    @include span-columns(4 of 4);
+    @include omega();
   }
 
   .folder_details,
   .EXLEShelfFolderContents.folder_details {
     display: block;
-    width: 100%;
+    float: left;
+    @include span-columns(4 of 4);
+    @include omega();
   }
 }

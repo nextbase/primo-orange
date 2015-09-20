@@ -15979,11 +15979,27 @@ header#responsive-header.open {
   .folders_new,
   #foldersDiv.folders_new {
     display: block;
-    width: 100%; }
+    float: left;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    margin-right: 0; }
+    .folders_new:last-child,
+    #foldersDiv.folders_new:last-child {
+      margin-right: 0; }
   .folder_details,
   .EXLEShelfFolderContents.folder_details {
     display: block;
-    width: 100%; } }
+    float: left;
+    float: left;
+    display: block;
+    margin-right: 7.42297%;
+    width: 100%;
+    margin-right: 0; }
+    .folder_details:last-child,
+    .EXLEShelfFolderContents.folder_details:last-child {
+      margin-right: 0; } }
 
 /* Footer responsive rules */
 @media screen and (max-width: 960px) {
