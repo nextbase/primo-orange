@@ -1,26 +1,27 @@
 .multipleCoverImageContainer {
-    @include reset-margins;
-    width: $thumbnail-width;
-    height: $thumbnail-height;
-    @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
-    background-repeat: no-repeat;
-    border: 1px solid darken($base-color, 10%);
-    position: relative;
+  @include reset-margins;
+  width: $thumbnail-width;
+  height: $thumbnail-height;
+  @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
+  background-repeat: no-repeat;
+  background-position: center center;
+  border: 1px solid darken($base-color, 10%);
+  position: relative;
 }
 
 .coverImageDiv {
-    position: absolute;
-    top: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
 
-    img {
-      margin-top: -1px;
-      margin-left: -1px;
-    }
+  img {
+    margin-top: -1px;
+    margin-left: -1px;
+  }
 }
 
 .EXLResultMediaTYPEarticle .multipleCoverImageContainer {
-    @include retina-image("../images/icon_article", $thumbnail-width $thumbnail-height);
+  @include retina-image("../images/icon_article", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEaudio .multipleCoverImageContainer {
@@ -28,7 +29,7 @@
 }
 
 .EXLResultMediaTYPEbook .multipleCoverImageContainer {
-    @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
+  @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
 }
 
 .EXLResultMediaTYPEresearch_dataset .multipleCoverImageContainer {
@@ -106,7 +107,6 @@
 .EXLResultMediaTYPErare_book .multipleCoverImageContainer {
   @include retina-image("../images/icon_book", $thumbnail-width $thumbnail-height);
 }
-
 
 @include media($tablets-down) {
   $thumbnail-width: 50px;
