@@ -134,7 +134,7 @@
         width: 240px;
         height: 43px;
         text-indent: -500px;
-        @include retina-image('../img/logo_footer_mobile', 240px 43px);
+        @include retina-image('../images/logo_footer_mobile', 240px 43px);
         background-repeat: no-repeat;
         background-position: left center;
       }

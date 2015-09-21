@@ -111,6 +111,7 @@
 @include media($tablets-down) {
   $thumbnail-width: 50px;
   $thumbnail-height: 80px;
+
   .multipleCoverImageContainer {
     @include reset-margins;
     width: $thumbnail-width;
