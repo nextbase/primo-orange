@@ -32,7 +32,7 @@ $.fn.isMissing = function(callback) {
 function updateLoginButton() {
     responsiveLoginButton = $('#responsive-login-trigger');
     loginButton = $('#exlidSignIn a');
-    logoutButton = $('#exlidSignOut a');
+    logoutButton = $('#exlidMyAccount a');
     logoutText = logoutButton.html();
 
     if ($('#exlidSignOut').hasClass('EXLHidden')) {
