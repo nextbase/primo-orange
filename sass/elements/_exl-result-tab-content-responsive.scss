@@ -1,3 +1,17 @@
+@include media($tablets-down) {
+
+  .EXLTabHeader div.EXLTabHeaderButtons {
+    @include reset-margins;
+    @include span-columns(4 of 8);
+  }
+
+  .EXLTabHeader div.EXLTabHeaderContent {
+    @include reset-margins;
+    @include span-columns(4 of 8);
+  }
+
+}
+
 .EXLResultTabContainer div.EXLTabHeader {
   @include reset-margins;
   background-color: $gray-light;
@@ -17,14 +31,7 @@
   @include clearfix;
 }
 
-.EXLTabHeader div.EXLTabHeaderContent {
-  @include reset-margins;
-  @include span-columns(4 of 8);
-  color: $black;
-  padding: ($tabs-content-padding / 2) $tabs-content-padding;
-  white-space: nowrap;
-  overflow: hidden;
-}
+
 
 .EXLTabHeader div.EXLTabHeaderContent em {
   color: $black;
@@ -35,6 +42,13 @@
 .EXLTabHeader div.EXLTabHeaderContent span {
   padding: 0.3em;
   width: auto
+}
+
+.EXLTabHeader div.EXLTabHeaderContent {
+  color: $black;
+  padding: ($tabs-content-padding / 2) $tabs-content-padding;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .EXLTabHeader div.EXLTabHeaderContent span a {
@@ -49,7 +63,3 @@
   padding: 0px 5px 0px 5px;
 }
 
-.EXLTabHeader div.EXLTabHeaderButtons {
-  @include reset-margins;
-  @include span-columns(4 of 8);
-}

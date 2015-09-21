@@ -10057,7 +10057,7 @@ body.EXLFullView div.EXLBackToResults {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%;
+  width: 48.82117%;
   margin-right: 0;
   text-align: right;
   height: auto;
@@ -16060,6 +16060,26 @@ header#responsive-header.open {
   #exlidSearchTile #exlidSearchRibbon fieldset {
     width: 100%; } }
 
+@media screen and (max-width: 960px) {
+  .EXLTabHeader div.EXLTabHeaderButtons {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 48.21067%; }
+    .EXLTabHeader div.EXLTabHeaderButtons:last-child {
+      margin-right: 0; }
+  .EXLTabHeader div.EXLTabHeaderContent {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    margin-right: 3.57866%;
+    width: 48.21067%; }
+    .EXLTabHeader div.EXLTabHeaderContent:last-child {
+      margin-right: 0; } }
+
 .EXLResultTabContainer div.EXLTabHeader {
   margin: 0;
   padding: 0;
@@ -16081,20 +16101,6 @@ header#responsive-header.open {
     content: "";
     display: table; }
 
-.EXLTabHeader div.EXLTabHeaderContent {
-  margin: 0;
-  padding: 0;
-  float: left;
-  display: block;
-  margin-right: 3.57866%;
-  width: 48.21067%;
-  color: #333333;
-  padding: 10px 20px;
-  white-space: nowrap;
-  overflow: hidden; }
-  .EXLTabHeader div.EXLTabHeaderContent:last-child {
-    margin-right: 0; }
-
 .EXLTabHeader div.EXLTabHeaderContent em {
   color: #333333;
   font-weight: normal;
@@ -16103,6 +16109,12 @@ header#responsive-header.open {
 .EXLTabHeader div.EXLTabHeaderContent span {
   padding: 0.3em;
   width: auto; }
+
+.EXLTabHeader div.EXLTabHeaderContent {
+  color: #333333;
+  padding: 10px 20px;
+  white-space: nowrap;
+  overflow: hidden; }
 
 .EXLTabHeader div.EXLTabHeaderContent span a {
   color: #333333; }
@@ -16113,16 +16125,6 @@ header#responsive-header.open {
   display: inline;
   height: 20px;
   padding: 0px 5px 0px 5px; }
-
-.EXLTabHeader div.EXLTabHeaderButtons {
-  margin: 0;
-  padding: 0;
-  float: left;
-  display: block;
-  margin-right: 3.57866%;
-  width: 48.21067%; }
-  .EXLTabHeader div.EXLTabHeaderButtons:last-child {
-    margin-right: 0; }
 
 @media screen and (max-width: 960px) {
   .EXLMyAccountTabsRibbon,

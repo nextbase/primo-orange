@@ -161,7 +161,7 @@
 
 .EXLTabHeader div.EXLTabHeaderButtons {
     @include reset-margins;
-    @include span-columns(4);
+    @include span-columns(6);
     @include omega();
     text-align: right;
     height: auto;
