@@ -108,11 +108,35 @@ header#responsive-header.open {
     color: $white;
   }
 
-  @include unist-icon($icon-lock, 'before');
-
   &:before {
     margin-right: 4px;
     font-size: ($small-font-size - 2px);
+  }
+}
+
+@include media($mobile-down) {
+  #responsive-logout-trigger {
+    width: auto;
+    height: 56px;
+    line-height: 20px;
+    padding: 18px 0px;
+    border: 0;
+    font-size: 11px;
+
+    &:link,
+    &:visited {
+      color: $white;
+    }
+
+    &:hover,
+    &:active {
+      color: $white;
+    }
+
+    &:before {
+      margin-right: 4px;
+      font-size: ($small-font-size - 2px);
+    }
   }
 }
 

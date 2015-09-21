@@ -11773,6 +11773,9 @@ table.EXLLocationsTabSummaryHoldingsMoreLightBox tr:nth-child(odd) {
 .EXLMyAccountTabsRibbon div li.EXLMyAccountFirstSelectedTab {
   padding-left: 0.5em; }
 
+body.MyAccount #exlidSearchTileWrapper {
+  display: none; }
+
 .EXLMyAccountContainer {
   margin: 0;
   padding: 0;
@@ -15725,8 +15728,7 @@ header#responsive-header.open {
   padding: 18px 15px;
   white-space: nowrap;
   color: #ffffff;
-  float: left;
-  margin-right: 5px; }
+  float: left; }
   #responsive-logout-trigger:link,
   #responsive-logout-trigger:visited {
     color: #ffffff; }
@@ -15734,19 +15736,26 @@ header#responsive-header.open {
   #responsive-logout-trigger:active {
     color: #ffffff; }
   #responsive-logout-trigger:before {
-    content: "";
-    position: relative;
-    top: 1px;
-    display: inline-block;
-    font-family: 'unist-icons';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale; }
-  #responsive-logout-trigger:before {
     margin-right: 4px;
     font-size: 12px; }
+
+@media screen and (max-width: 640px) {
+  #responsive-logout-trigger {
+    width: auto;
+    height: 56px;
+    line-height: 20px;
+    padding: 18px 0px;
+    border: 0;
+    font-size: 11px; }
+    #responsive-logout-trigger:link,
+    #responsive-logout-trigger:visited {
+      color: #ffffff; }
+    #responsive-logout-trigger:hover,
+    #responsive-logout-trigger:active {
+      color: #ffffff; }
+    #responsive-logout-trigger:before {
+      margin-right: 4px;
+      font-size: 12px; } }
 
 #mobile-logo {
   padding: 12px 15px 13px 15px;

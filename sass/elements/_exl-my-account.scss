@@ -1,3 +1,9 @@
+body.MyAccount {
+  #exlidSearchTileWrapper {
+    display: none;
+  }
+}
+
 .EXLMyAccountContainer {
   @include reset-margins;
   @include outer-container;
