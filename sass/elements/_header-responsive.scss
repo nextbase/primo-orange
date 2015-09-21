@@ -98,6 +98,8 @@ header#responsive-header.open {
   color: $white;
   float: left;
 
+  @include unist-icon($icon-lock, "before");
+
   &:link,
   &:visited {
     color: $white;
@@ -122,16 +124,6 @@ header#responsive-header.open {
     padding: 18px 0px;
     border: 0;
     font-size: 11px;
-
-    &:link,
-    &:visited {
-      color: $white;
-    }
-
-    &:hover,
-    &:active {
-      color: $white;
-    }
 
     &:before {
       display: none;

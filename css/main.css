@@ -15728,7 +15728,19 @@ header#responsive-header.open {
   padding: 18px 15px;
   white-space: nowrap;
   color: #ffffff;
-  float: left; }
+  float: left;
+  margin-right: 5px; }
+  #responsive-logout-trigger:before {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'unist-icons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
   #responsive-logout-trigger:link,
   #responsive-logout-trigger:visited {
     color: #ffffff; }
@@ -15747,12 +15759,6 @@ header#responsive-header.open {
     padding: 18px 0px;
     border: 0;
     font-size: 11px; }
-    #responsive-logout-trigger:link,
-    #responsive-logout-trigger:visited {
-      color: #ffffff; }
-    #responsive-logout-trigger:hover,
-    #responsive-logout-trigger:active {
-      color: #ffffff; }
     #responsive-logout-trigger:before {
       display: none; } }
 
