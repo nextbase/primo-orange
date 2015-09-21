@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b6805e-1c0b-4afd-ae34-6c5f955bbb08" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_exl-result-media-types.scss" afterPath="$PROJECT_DIR$/sass/elements/_exl-result-media-types.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/elements/_exlid-facets.scss" afterPath="$PROJECT_DIR$/sass/elements/_exlid-facets.scss" />
     </list>
     <ignored path="primo-orange.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,31 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_exlid-facets.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_exlid-facets.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-facets.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.285714">
-              <caret line="441" column="12" selection-start-line="441" selection-start-column="12" selection-end-line="441" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.523166">
+              <caret line="424" column="0" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_exl-result-media-types.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_exl-result-media-types.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sass/elements/_exl-result-media-types.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22007722">
-              <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_fonts.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/base/_fonts.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.75">
-              <caret line="74" column="20" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="20" />
+            <state vertical-scroll-proportion="-4.071429">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -123,8 +112,8 @@
         <option value="$PROJECT_DIR$/sass/elements/_exl-results-list.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-result-tab-content-responsive.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-result-tab-content.scss" />
-        <option value="$PROJECT_DIR$/sass/elements/_exlid-facets.scss" />
         <option value="$PROJECT_DIR$/sass/elements/_exl-result-media-types.scss" />
+        <option value="$PROJECT_DIR$/sass/elements/_exlid-facets.scss" />
       </list>
     </option>
   </component>
@@ -735,18 +724,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-facets.scss">
+    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-result-media-types.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.285714">
-          <caret line="441" column="12" selection-start-line="441" selection-start-column="12" selection-end-line="441" selection-end-column="12" />
+        <state vertical-scroll-proportion="-4.071429">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/elements/_exl-result-media-types.scss">
+    <entry file="file://$PROJECT_DIR$/sass/elements/_exlid-facets.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22007722">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.523166">
+          <caret line="424" column="0" selection-start-line="424" selection-start-column="0" selection-end-line="424" selection-end-column="0" />
           <folding />
         </state>
       </provider>

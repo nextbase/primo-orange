@@ -6809,13 +6809,9 @@ li.EXLFacet label {
   font-family: Arial; }
 
 .EXLSliderRefine {
-  width: 100%;
+  width: auto;
   float: left;
   margin-bottom: 20px; }
-  .EXLSliderRefine::after {
-    clear: both;
-    content: "";
-    display: table; }
 
 .EXLSliderRefine a,
 .EXLSliderRefine a:hover {

@@ -418,9 +418,8 @@ li.EXLFacet {
 }
 
 .EXLSliderRefine {
-  width: 100%;
+  width: auto;
   float: left;
-  @include clearfix;
   margin-bottom: $spacing-small;
 }
 
