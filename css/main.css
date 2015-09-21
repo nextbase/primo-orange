@@ -6843,7 +6843,15 @@ li.EXLFacet label {
   font-size: 14px;
   font-weight: bold;
   line-height: 20px;
-  padding: 1.5px 10px; }
+  padding: 1.5px 10px;
+  width: 40px;
+  height: 25px;
+  margin-top: -2px;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden !important;
+  margin-right: 0;
+  margin-right: 5px; }
   .EXLSliderRefine a::-moz-focus-inner,
   .EXLSliderRefine a:hover::-moz-focus-inner {
     border: 0;
@@ -6861,6 +6869,26 @@ li.EXLFacet label {
     background-color: #d46b00;
     border-color: #c06100;
     box-shadow: inset 2px 2px 2px 1px rgba(192, 97, 0, 0.5); }
+  .EXLSliderRefine a:before,
+  .EXLSliderRefine a:hover:before {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'unist-icons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  .EXLSliderRefine a:before,
+  .EXLSliderRefine a:hover:before {
+    display: block;
+    height: 25px;
+    width: 40px !important;
+    margin-right: 20px;
+    text-align: center;
+    left: -2px; }
 
 .EXLSliderContainer {
   width: 90%; }
@@ -6946,9 +6974,11 @@ li.EXLFacet label {
 .EXLSliderToText {
   color: #888888;
   font-size: 14px;
-  width: 32%;
+  line-height: 1.8;
+  width: auto;
   float: left;
-  margin-bottom: 10px; }
+  margin-bottom: 5px;
+  margin-right: 5px; }
 
 #slider-range {
   margin: 0 10px 30px 10px; }
@@ -7038,7 +7068,8 @@ li.EXLFacet label {
 .datebox {
   border: solid 1px #f67849;
   padding: 2px 3px 1px 3px;
-  font-size: 14px; }
+  font-size: 14px;
+  width: 55px !important; }
 
 @media screen and (min-color-index: 0) and (-webkit-min-device-pixel-ratio: 0) {
   .datebox {
