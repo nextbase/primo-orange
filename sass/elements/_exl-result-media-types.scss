@@ -10,8 +10,8 @@
 
 .coverImageDiv {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 
     img {
       margin-top: -1px;
@@ -128,8 +128,8 @@
 
   .coverImageDiv {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 
     img {
       width: $thumbnail-width;

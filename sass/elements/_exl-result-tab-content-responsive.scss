@@ -48,3 +48,8 @@
   height: 20px;
   padding: 0px 5px 0px 5px;
 }
+
+.EXLTabHeader div.EXLTabHeaderButtons {
+  @include reset-margins;
+  @include span-columns(4 of 8);
+}

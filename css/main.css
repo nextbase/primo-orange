@@ -9382,8 +9382,8 @@ body.EXLFullView div.EXLBackToResults {
 
 .coverImageDiv {
   position: absolute;
-  top: 0px;
-  left: 0px; }
+  top: 0;
+  left: 0; }
   .coverImageDiv img {
     margin-top: -1px;
     margin-left: -1px; }
@@ -9563,8 +9563,8 @@ body.EXLFullView div.EXLBackToResults {
     height: 80px; }
   .coverImageDiv {
     position: absolute;
-    top: 0px;
-    left: 0px; }
+    top: 0;
+    left: 0; }
     .coverImageDiv img {
       width: 50px;
       height: 80px;
@@ -16113,6 +16113,16 @@ header#responsive-header.open {
   display: inline;
   height: 20px;
   padding: 0px 5px 0px 5px; }
+
+.EXLTabHeader div.EXLTabHeaderButtons {
+  margin: 0;
+  padding: 0;
+  float: left;
+  display: block;
+  margin-right: 3.57866%;
+  width: 48.21067%; }
+  .EXLTabHeader div.EXLTabHeaderButtons:last-child {
+    margin-right: 0; }
 
 @media screen and (max-width: 960px) {
   .EXLMyAccountTabsRibbon,
